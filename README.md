@@ -1,6 +1,8 @@
 # font-packer
 It is a CLI tool used to generate glyph atlases for graphics applications such as GUI, video games and so on to improve performance of these applications.
 
+<img src="docs/atlas.png" alt="Glyph Atlas" width="770" /><br /><br />
+
 ## Table of Contents
 - [For developers reading this in GitHub](https://gitlab.com/ii887522/font-packer#for-developers-reading-this-in-github)
 - [Usage](https://gitlab.com/ii887522/font-packer#usage)
