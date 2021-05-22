@@ -19,8 +19,13 @@ Please go to https://gitlab.com/ii887522/font-packer to start contributing inste
 
 ## Usage
 ```sh
-font-packer ???
+font-packer <ttf-file-path> <font-size> <output-directory-path> <atlas-width> <atlas-height>
 ```
+`<ttf-file-path>`: it must exists and ends with .ttf<br />
+`<font-size>`: it must be a positive integer<br />
+`<output-directory-path>`: it must ends with either '/' or '\\'<br />
+`<atlas-width>`: it must be equal to 2<sup>n</sup> where n is a non-negative integer<br />
+`<atlas-height>`: it must be equal to 2<sup>n</sup> where n is a non-negative integer<br />
 
 ## Coding Style
 This project follows [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html). Please familiarize yourself with the rules provided
