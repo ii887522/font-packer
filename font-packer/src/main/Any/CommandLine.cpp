@@ -5,7 +5,7 @@
 #include <string>
 #include <stdexcept>
 #include <filesystem>
-#include "constants.h"
+#include "constants.h"  // NOLINT(build/include_subdir)
 
 using std::string;
 using std::invalid_argument;

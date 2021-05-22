@@ -17,11 +17,11 @@
 #include <nitro/Functions/util.h>
 #include <viewify/Functions/sdl_ext.h>
 #include <nitro/Functions/string_ext.h>
+#include <viewify/Functions/ttf_ext.h>
 #include <SDL.h>
 #include <SDL_ttf.h>
 #include <string>
 #include <vector>
-#include <viewify/Functions/ttf_ext.h>
 #include "../Struct/Kerning.h"
 #include "../Functions/util.h"
 #include "../Struct/GlyphRow.h"
@@ -75,8 +75,7 @@ void FontPackerViewGroupFactory::addImage(const char ch, const unsigned int inde
         Point{ glyphMetrics.box.xRange.min, TTF_FontAscent(font) - glyphMetrics.box.yRange.max },
         Size{ glyphMetrics.box.xRange.max - glyphMetrics.box.xRange.min, glyphMetrics.box.yRange.max - glyphMetrics.box.yRange.min }
       }, glyphMetrics.advance, ch
-    }
-  );
+    });
   addKernings(ch);
   indices.push_back(index);
 }

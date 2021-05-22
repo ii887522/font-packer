@@ -1,9 +1,9 @@
 // Copyright ii887522
 
-#ifndef TEST
+#ifndef FONT_PACKER_SRC_MAIN_VIEWGROUPFACTORY_FONTPACKERVIEWGROUPFACTORY_H_
+#define FONT_PACKER_SRC_MAIN_VIEWGROUPFACTORY_FONTPACKERVIEWGROUPFACTORY_H_
 
-#ifndef FONT_PACKER_SRC_MAIN_VIEW_GROUP_FACTORY_FONT_PACKER_VIEW_GROUP_FACTORY_H_
-#define FONT_PACKER_SRC_MAIN_VIEW_GROUP_FACTORY_FONT_PACKER_VIEW_GROUP_FACTORY_H_
+#ifndef TEST
 
 #include <viewify/Factory/ViewGroupFactory.h>
 #include <viewify/View/ViewGroup.h>
@@ -54,7 +54,7 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   vector<SDL_Surface*> surfaces;
   vector<unsigned int> indices;
   vector<GlyphRow> glyphRows;  // See also ../Struct/Glyph.h for more details
-  QuadTree glyphImageRects; // See also ../Struct/Glyph.h for more details
+  QuadTree glyphImageRects;  // See also ../Struct/Glyph.h for more details
   vector<unsigned int> lPendingIndices;
   vector<unsigned int> rPendingIndices;
   vector<unsigned int>* currentPendingIndices;
@@ -127,9 +127,9 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   // See also ../Struct/Glyph.h for more details
   Action fillLShape(ViewGroup*const self, SDL_Renderer*const renderer, const Size<int>& atlasSize);
 
-public:
+ public:
   // Atlas is an image that contains multiple glyphs.
-  // 
+  //
   // Param fontFilePath: it must exist and ends with .ttf
   // Param outputDirPath: it must ends with either '/' or '\\'
   // See also viewify/View/ViewGroup.h for more details
@@ -147,4 +147,4 @@ public:
 }  // namespace ii887522::fontPacker
 
 #endif
-#endif  // FONT_PACKER_SRC_MAIN_VIEW_GROUP_FACTORY_FONT_PACKER_VIEW_GROUP_FACTORY_H_
+#endif  // FONT_PACKER_SRC_MAIN_VIEWGROUPFACTORY_FONTPACKERVIEWGROUPFACTORY_H_

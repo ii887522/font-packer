@@ -1,7 +1,7 @@
 // Copyright ii887522
 
-#ifndef FONT_PACKER_SRC_MAIN_STRUCT_GLYPH_ROW_H_
-#define FONT_PACKER_SRC_MAIN_STRUCT_GLYPH_ROW_H_
+#ifndef FONT_PACKER_SRC_MAIN_STRUCT_GLYPHROW_H_
+#define FONT_PACKER_SRC_MAIN_STRUCT_GLYPHROW_H_
 
 #include <nitro/Struct/Range.h>
 
@@ -23,4 +23,4 @@ struct GlyphRow final {
 
 }  // namespace ii887522::fontPacker
 
-#endif  // FONT_PACKER_SRC_MAIN_STRUCT_GLYPH_ROW_H_
+#endif  // FONT_PACKER_SRC_MAIN_STRUCT_GLYPHROW_H_

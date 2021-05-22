@@ -2,11 +2,11 @@
 
 #ifdef TEST
 
-#include "util.test.h"
-#include <cassert>
+#include "util.test.h"  // NOLINT(build/include_subdir)
 #include <viewify/Struct/Rect.h>
 #include <viewify/Struct/Point.h>
 #include <viewify/Struct/Size.h>
+#include <cassert>
 #include "../../main/Functions/util.h"
 
 using ii887522::viewify::Rect;

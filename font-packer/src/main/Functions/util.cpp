@@ -1,8 +1,8 @@
 // Copyright ii887522
 
-#include "util.h"
-#include "../Struct/Glyph.h"
+#include "util.h"  // NOLINT(build/include_subdir)
 #include <nitro/Functions/util.h>
+#include "../Struct/Glyph.h"
 
 using ii887522::nitro::swap;
 

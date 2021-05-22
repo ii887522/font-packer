@@ -1,7 +1,7 @@
 // Copyright ii887522
 
-#ifndef FONT_PACKER_SRC_MAIN_ANY_COMMAND_LINE_H_
-#define FONT_PACKER_SRC_MAIN_ANY_COMMAND_LINE_H_
+#ifndef FONT_PACKER_SRC_MAIN_ANY_COMMANDLINE_H_
+#define FONT_PACKER_SRC_MAIN_ANY_COMMANDLINE_H_
 
 #include <viewify/Struct/Size.h>
 #include <string>
@@ -26,7 +26,7 @@ class CommandLine final {
   string outputDirPath;  // It ends with either '/' or '\\'
   Size<int> atlasSize;  // Atlas is an image that contains multiple glyphs.
 
-public:
+ public:
   explicit CommandLine(int argc, char** argv);
 
   // Return: it ends with .ttf
@@ -49,4 +49,4 @@ public:
 
 }  // namespace ii887522::fontPacker
 
-#endif  // FONT_PACKER_SRC_MAIN_ANY_COMMAND_LINE_H_
+#endif  // FONT_PACKER_SRC_MAIN_ANY_COMMANDLINE_H_
