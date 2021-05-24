@@ -28,26 +28,32 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main\Any\CommandLine.cpp" />
+    <ClCompile Include="src\main\Functions\cli_ext.cpp" />
     <ClCompile Include="src\main\Functions\main.cpp" />
     <ClCompile Include="src\main\Functions\util.cpp" />
     <ClCompile Include="src\main\ViewGroupFactory\FontPackerViewGroupFactory.cpp" />
     <ClCompile Include="src\test\Any\CommandLine.test.cpp" />
+    <ClCompile Include="src\test\Functions\cli_ext.test.cpp" />
     <ClCompile Include="src\test\Functions\test.cpp" />
     <ClCompile Include="src\test\Functions\util.test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\main\Any\CommandLine.h" />
     <ClInclude Include="src\main\Any\constants.h" />
+    <ClInclude Include="src\main\Functions\cli_ext.h" />
     <ClInclude Include="src\main\Functions\util.h" />
     <ClInclude Include="src\main\Struct\Glyph.h" />
     <ClInclude Include="src\main\Struct\GlyphRow.h" />
     <ClInclude Include="src\main\Struct\Kerning.h" />
     <ClInclude Include="src\main\ViewGroupFactory\FontPackerViewGroupFactory.h" />
     <ClInclude Include="src\test\Any\CommandLine.test.h" />
+    <ClInclude Include="src\test\Functions\cli_ext.test.h" />
     <ClInclude Include="src\test\Functions\util.test.h" />
   </ItemGroup>
   <ItemGroup>
+    <Font Include="res\test\a\Amarula Personal Use.ttf" />
     <Font Include="res\test\a\arial.ttf" />
+    <Font Include="res\test\a\BASKVILL.TTF" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\main\favicon.png" />
@@ -163,7 +169,7 @@
     <ClCompile>
       <WarningLevel>Level4</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>TEST;WIN32;_DEBUG;_CONSOLE;LINEAR_ALLOCATOR;LONG_TERM_ALLOCATOR_SIZE=4096u;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>TEST;WIN32;_DEBUG;_CONSOLE;LINEAR_ALLOCATOR;LONG_TERM_ALLOCATOR_SIZE=8192u;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -225,7 +231,7 @@
     <ClCompile>
       <WarningLevel>Level4</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>TEST;_DEBUG;_CONSOLE;LINEAR_ALLOCATOR;LONG_TERM_ALLOCATOR_SIZE=4096u;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>TEST;_DEBUG;_CONSOLE;LINEAR_ALLOCATOR;LONG_TERM_ALLOCATOR_SIZE=16384u;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>

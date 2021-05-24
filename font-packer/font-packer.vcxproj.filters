@@ -81,6 +81,12 @@
     <ClCompile Include="src\test\Functions\util.test.cpp">
       <Filter>Test Source Files\Functions</Filter>
     </ClCompile>
+    <ClCompile Include="src\main\Functions\cli_ext.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\Functions\cli_ext.test.cpp">
+      <Filter>Test Source Files\Functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\main\Any\CommandLine.h">
@@ -110,9 +116,21 @@
     <ClInclude Include="src\test\Functions\util.test.h">
       <Filter>Test Header Files\Functions</Filter>
     </ClInclude>
+    <ClInclude Include="src\main\Functions\cli_ext.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\Functions\cli_ext.test.h">
+      <Filter>Test Header Files\Functions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Font Include="res\test\a\arial.ttf">
+      <Filter>Test Resource Files\a</Filter>
+    </Font>
+    <Font Include="res\test\a\Amarula Personal Use.ttf">
+      <Filter>Test Resource Files\a</Filter>
+    </Font>
+    <Font Include="res\test\a\BASKVILL.TTF">
       <Filter>Test Resource Files\a</Filter>
     </Font>
   </ItemGroup>
