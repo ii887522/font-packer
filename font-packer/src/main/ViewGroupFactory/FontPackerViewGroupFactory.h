@@ -45,6 +45,7 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   FontPackerViewGroupFactory(FontPackerViewGroupFactory&&) = delete;
   FontPackerViewGroupFactory& operator=(FontPackerViewGroupFactory&&) = delete;
 
+  SDL_Texture* atlas;
   const string fontFilePath;  // It must exist and ends with .ttf
   const int fontSize;
   const string outputDirPath;  // It ends with either '/' or '\\'

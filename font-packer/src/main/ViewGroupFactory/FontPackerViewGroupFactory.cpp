@@ -51,7 +51,7 @@ using std::to_string;
 namespace ii887522::fontPacker {
 
 FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& fontFilePath, const int fontSize, const string& outputDirPath, const Size<int>& atlasSize) : ViewGroupFactory{ },
-  fontFilePath{ fontFilePath }, fontSize{ fontSize }, outputDirPath{ outputDirPath }, font{ TTF_OpenFont(fontFilePath.c_str(), fontSize) },
+  atlas{ nullptr }, fontFilePath{ fontFilePath }, fontSize{ fontSize }, outputDirPath{ outputDirPath }, font{ TTF_OpenFont(fontFilePath.c_str(), fontSize) },
   glyphImageRects{ Rect{ Point{ 0.f, 0.f }, static_cast<Size<float>>(atlasSize) } }, currentPendingIndices{ &lPendingIndices }, nextPendingIndices{ &rPendingIndices }, gap{ 0 },
   indicesI{ 0u }, atlasIndex{ 0u } {
   emptyDir(outputDirPath);
@@ -67,7 +67,7 @@ void FontPackerViewGroupFactory::addImages() {
 }
 
 void FontPackerViewGroupFactory::addImage(const char ch, const unsigned int index) {
-  surfaces.push_back(TTF_RenderGlyph_Shaded(font, ch, SDL_Color{ 255u, 255u, 255u, 255u }, SDL_Color{ 0u, 0u, 0u, 0u }));
+  surfaces.push_back(TTF_RenderGlyph_Blended(font, ch, SDL_Color{ 255u, 255u, 255u, 255u }));
   const auto glyphMetrics{ getGlyphMetrics(font, ch) };
   glyphs.push_back(
     Glyph{
@@ -301,6 +301,8 @@ Action FontPackerViewGroupFactory::fillLShape(ViewGroup*const self, SDL_Renderer
 }
 
 ViewGroup FontPackerViewGroupFactory::make(SDL_Renderer*const renderer, const Size<int>& size) {
+  atlas = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, size.w, size.h);
+  SDL_SetRenderTarget(renderer, atlas);
   return ViewGroup{ renderer, Point{ 0, 0 }, [](ViewGroup&, SDL_Renderer*const) {
     return vector<View*>{ };
   }, [this, renderer, size](ViewGroup& self) {
@@ -328,6 +330,7 @@ FontPackerViewGroupFactory::~FontPackerViewGroupFactory() {
   write<Glyph, vector>(outputDirPath + getFileName(fontFilePath) + "_" + to_string(fontSize) + "_glyphs.dat", glyphs);
   write<Kerning, vector>(outputDirPath + getFileName(fontFilePath) + "_" + to_string(fontSize) + "_kernings.dat", kernings);
   TTF_CloseFont(font);
+  SDL_DestroyTexture(atlas);
 }
 
 }  // namespace ii887522::fontPacker
