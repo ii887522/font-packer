@@ -50,8 +50,8 @@ using std::to_string;
 
 namespace ii887522::fontPacker {
 
-FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& fontFilePath, const int fontSize, const string& outputDirPath, const Size<int>& atlasSize) : ViewGroupFactory{ },
-  atlas{ nullptr }, fontFilePath{ fontFilePath }, fontSize{ fontSize }, outputDirPath{ outputDirPath }, font{ TTF_OpenFont(fontFilePath.c_str(), fontSize) },
+FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& inputDirPath, const string& outputDirPath, const Size<int>& atlasSize, const vector<int>& fontSizes) :
+  ViewGroupFactory{ }, atlas{ nullptr }, fontFilePath{ fontFilePath }, fontSize{ fontSize }, outputDirPath{ outputDirPath }, font{ TTF_OpenFont(fontFilePath.c_str(), fontSize) },
   glyphImageRects{ Rect{ Point{ 0.f, 0.f }, static_cast<Size<float>>(atlasSize) } }, currentPendingIndices{ &lPendingIndices }, nextPendingIndices{ &rPendingIndices }, gap{ 0 },
   indicesI{ 0u }, atlasIndex{ 0u } {
   emptyDir(outputDirPath);

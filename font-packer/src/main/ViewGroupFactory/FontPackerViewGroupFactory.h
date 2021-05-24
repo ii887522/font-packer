@@ -131,11 +131,11 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
  public:
   // Atlas is an image that contains multiple glyphs.
   //
-  // Param fontFilePath: it must exist and ends with .ttf
+  // Param inputDirPath: it must exists and ends with either '/' or '\\'
   // Param outputDirPath: it must ends with either '/' or '\\'
   // See also viewify/View/ViewGroup.h for more details
   // See also ../Struct/Glyph.h for more details
-  explicit FontPackerViewGroupFactory(const string& fontFilePath, const int fontSize, const string& outputDirPath, const Size<int>& atlasSize);
+  explicit FontPackerViewGroupFactory(const string& inputDirPath, const string& outputDirPath, const Size<int>& atlasSize, const vector<int>& fontSizes);
 
   // Param renderer: it must not be assigned to nullptr or integer
   // See also viewify/View/ViewGroup.h for more details
