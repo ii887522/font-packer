@@ -32,6 +32,7 @@ enum class FontName : unsigned int {
 )"
   };
   for (const auto& entry : directory_iterator{ inputDirPath }) {
+    if (!(entry.path().string().ends_with(".ttf") || entry.path().string().ends_with(".TTF"))) continue;
     auto fontName{ getFileName(entry.path().string()) };
     toUpperCase(&fontName);
     content += "\t_" + fontName + ",\n";
