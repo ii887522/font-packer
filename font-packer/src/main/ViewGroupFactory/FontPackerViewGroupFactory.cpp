@@ -22,6 +22,8 @@
 #include <SDL_ttf.h>
 #include <string>
 #include <vector>
+#include <filesystem>
+#include <stdexcept>
 #include "../Struct/Kerning.h"
 #include "../Functions/util.h"
 #include "../Struct/GlyphRow.h"
@@ -47,41 +49,79 @@ using ii887522::nitro::write;
 using std::string;
 using std::vector;
 using std::to_string;
+using std::filesystem::directory_iterator;
+using std::invalid_argument;
 
 namespace ii887522::fontPacker {
 
-FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& fontFilePath, const int fontSize, const string& outputDirPath, const Size<int>& atlasSize) : ViewGroupFactory{ },
-  fontFilePath{ fontFilePath }, fontSize{ fontSize }, outputDirPath{ outputDirPath }, font{ TTF_OpenFont(fontFilePath.c_str(), fontSize) },
-  glyphImageRects{ Rect{ Point{ 0.f, 0.f }, static_cast<Size<float>>(atlasSize) } }, currentPendingIndices{ &lPendingIndices }, nextPendingIndices{ &rPendingIndices }, gap{ 0 },
-  indicesI{ 0u }, atlasIndex{ 0u } {
+FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& inputDirPath, const string& outputDirPath, const Size<int>& atlasSize, const vector<int>& fontSizes) :
+  ViewGroupFactory{ }, atlas{ nullptr }, outputDirPath{ outputDirPath }, glyphImageRects{ Rect{ Point{ 0.f, 0.f }, static_cast<Size<float>>(atlasSize) } },
+  currentPendingIndices{ &lPendingIndices }, nextPendingIndices{ &rPendingIndices }, gap{ 0 }, indicesI{ 0u }, atlasIndex{ 0u } {
   emptyDir(outputDirPath);
-  addImages();
+  addFonts(inputDirPath, fontSizes);
+  addHasKernings();
+  addImages(atlasSize);
+  addKernings();
+  writeFontNameEnumFile(inputDirPath, outputDirPath);
   rotateImagesToMakeThemLonger();
   sort<unsigned int, vector>(&indices, [this](const unsigned int& l, const unsigned int& r) {  // NOLINT(build/include_what_you_use)
     return glyphs[l].imageRect.size.h < glyphs[r].imageRect.size.h;
   });
 }
 
-void FontPackerViewGroupFactory::addImages() {
-  for (char ch{ 32 }; ch != 127; ++ch) addImage(ch, ch - 32);
+void FontPackerViewGroupFactory::addFonts(const string& inputDirPath, const vector<int>& fontSizes) {
+  auto i{ 0u };
+  for (const auto& entry : directory_iterator{ inputDirPath }) {
+    if (!(entry.path().string().ends_with(".ttf") || entry.path().string().ends_with(".TTF"))) continue;
+    fonts.push_back(TTF_OpenFont(entry.path().string().c_str(), fontSizes[i]));
+    ++i;
+  }
 }
 
-void FontPackerViewGroupFactory::addImage(const char ch, const unsigned int index) {
-  surfaces.push_back(TTF_RenderGlyph_Shaded(font, ch, SDL_Color{ 255u, 255u, 255u, 255u }, SDL_Color{ 0u, 0u, 0u, 0u }));
-  const auto glyphMetrics{ getGlyphMetrics(font, ch) };
+void FontPackerViewGroupFactory::addHasKernings() {
+  hasKernings.resize(fonts.size());
+  for (auto i{ 0u }; i != hasKernings.size(); ++i) hasKernings[i] = false;
+}
+
+void FontPackerViewGroupFactory::addImages(const Size<int>& atlasSize) {
+  auto i{ 0u };
+  for (auto j{ 0u }; j != fonts.size(); ++j) {
+    for (char ch{ 32 }; ch != 127; ++ch) {
+      addImage(j, ch, i, atlasSize);
+      ++i;
+    }
+  }
+}
+
+void FontPackerViewGroupFactory::addImage(const unsigned int fontsIndex, const char ch, const unsigned int index, const Size<int>& atlasSize) {
+  surfaces.push_back(TTF_RenderGlyph_Blended(fonts[fontsIndex], ch, SDL_Color{ 255u, 255u, 255u, 255u }));
+  if (atlasSize.w < surfaces.back()->w + (gap << 1u) || atlasSize.h < surfaces.back()->h + (gap << 1u)) {
+    closeFonts();
+    throw invalid_argument{ "Atlas size must be big enough to fill a glyph!" };
+  }
+  const auto glyphMetrics{ getGlyphMetrics(fonts[fontsIndex], ch) };
   glyphs.push_back(
     Glyph{
       0u, Rect{ Point{ 0, 0 }, Size{ surfaces.back()->w, surfaces.back()->h } }, Rect{
-        Point{ glyphMetrics.box.xRange.min, TTF_FontAscent(font) - glyphMetrics.box.yRange.max },
+        Point{ glyphMetrics.box.xRange.min, TTF_FontAscent(fonts[fontsIndex]) - glyphMetrics.box.yRange.max },
         Size{ glyphMetrics.box.xRange.max - glyphMetrics.box.xRange.min, glyphMetrics.box.yRange.max - glyphMetrics.box.yRange.min }
       }, glyphMetrics.advance, ch
     });
-  addKernings(ch);
   indices.push_back(index);
 }
 
-void FontPackerViewGroupFactory::addKernings(const char prevCh) {
-  for (char nextCh{ 32 }; nextCh != 127; ++nextCh) kernings.push_back(Kerning{ TTF_GetFontKerningSizeGlyphs(font, prevCh, nextCh), prevCh, nextCh });
+void FontPackerViewGroupFactory::addKernings() {
+  kernings.resize(fonts.size());
+  for (auto i{ 0u }; i != fonts.size(); ++i) {
+    if (!TTF_GetFontKerning(fonts[i])) continue;
+    for (char prevCh{ 32 }; prevCh != 127; ++prevCh) {
+      for (char nextCh{ 32 }; nextCh != 127; ++nextCh) {
+        const auto kerningSize{ TTF_GetFontKerningSizeGlyphs(fonts[i], prevCh, nextCh) };
+        if (kerningSize != 0) hasKernings[i] = true;
+        kernings[i].push_back(Kerning{ kerningSize, prevCh, nextCh });
+      }
+    }
+  }
 }
 
 void FontPackerViewGroupFactory::rotateImagesToMakeThemLonger() {
@@ -301,6 +341,8 @@ Action FontPackerViewGroupFactory::fillLShape(ViewGroup*const self, SDL_Renderer
 }
 
 ViewGroup FontPackerViewGroupFactory::make(SDL_Renderer*const renderer, const Size<int>& size) {
+  atlas = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, size.w, size.h);
+  SDL_SetRenderTarget(renderer, atlas);
   return ViewGroup{ renderer, Point{ 0, 0 }, [](ViewGroup&, SDL_Renderer*const) {
     return vector<View*>{ };
   }, [this, renderer, size](ViewGroup& self) {
@@ -315,7 +357,7 @@ ViewGroup FontPackerViewGroupFactory::make(SDL_Renderer*const renderer, const Si
     prepareForNextAtlas();
     return Action::NONE;
   }, [this, renderer, size](ViewGroup& self) {
-    snapshot(renderer, Rect{ Point{ 0, 0 }, size }, outputDirPath + getFileName(fontFilePath) + "_" + to_string(fontSize) + "_" + to_string(atlasIndex) + ".png");
+    snapshot(renderer, Rect{ Point{ 0, 0 }, size }, outputDirPath + "glyphs_" + to_string(atlasIndex) + ".png");
     self.clear();
     glyphRows.clear();
     glyphImageRects.clear();
@@ -324,10 +366,21 @@ ViewGroup FontPackerViewGroupFactory::make(SDL_Renderer*const renderer, const Si
   } };
 }
 
+void FontPackerViewGroupFactory::writeKernings() {
+  for (auto i{ 0u }; i != fonts.size(); ++i) {
+    if (hasKernings[i]) write<Kerning, vector>(outputDirPath + "kernings_" + to_string(i) + ".dat", kernings[i]);
+  }
+}
+
+void FontPackerViewGroupFactory::closeFonts() {
+  for (const auto font : fonts) TTF_CloseFont(font);
+}
+
 FontPackerViewGroupFactory::~FontPackerViewGroupFactory() {
-  write<Glyph, vector>(outputDirPath + getFileName(fontFilePath) + "_" + to_string(fontSize) + "_glyphs.dat", glyphs);
-  write<Kerning, vector>(outputDirPath + getFileName(fontFilePath) + "_" + to_string(fontSize) + "_kernings.dat", kernings);
-  TTF_CloseFont(font);
+  write<Glyph, vector>(outputDirPath + "glyphs.dat", glyphs);
+  writeKernings();
+  closeFonts();
+  SDL_DestroyTexture(atlas);
 }
 
 }  // namespace ii887522::fontPacker

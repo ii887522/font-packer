@@ -58,6 +58,27 @@
     <Filter Include="Test Resource Files\a">
       <UniqueIdentifier>{2ec48490-56ea-4f96-9d49-7e59fbe7aa8d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Test Resource Files\c">
+      <UniqueIdentifier>{a5531a65-cf7a-4eca-8f82-b01cd4da2dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Resource Files\d">
+      <UniqueIdentifier>{0ff93b9e-d16c-4b27-84bd-b4db3e019058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Resource Files\e">
+      <UniqueIdentifier>{b555be63-9939-4ab9-8f8d-f0e786d75aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Resource Files\f">
+      <UniqueIdentifier>{c5de2a2d-aa28-4e15-953b-ec9a8d188ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Resource Files\g">
+      <UniqueIdentifier>{c5a3d5f3-3f69-4f60-8f8d-ce0f70e900ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Resource Files\h">
+      <UniqueIdentifier>{d657ed56-5d39-4131-a8ab-eb01156b0d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Resource Files\i">
+      <UniqueIdentifier>{31ff753f-4426-409f-8258-dfbdd4f24228}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main\Functions\main.cpp">
@@ -79,6 +100,12 @@
       <Filter>Source Files\Functions</Filter>
     </ClCompile>
     <ClCompile Include="src\test\Functions\util.test.cpp">
+      <Filter>Test Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Functions\cli_ext.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\Functions\cli_ext.test.cpp">
       <Filter>Test Source Files\Functions</Filter>
     </ClCompile>
   </ItemGroup>
@@ -110,15 +137,71 @@
     <ClInclude Include="src\test\Functions\util.test.h">
       <Filter>Test Header Files\Functions</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Font Include="res\test\a\arial.ttf">
-      <Filter>Test Resource Files\a</Filter>
-    </Font>
+    <ClInclude Include="src\main\Functions\cli_ext.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\Functions\cli_ext.test.h">
+      <Filter>Test Header Files\Functions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\main\favicon.png">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\test\a\arial.ttf">
+      <Filter>Test Resource Files\a</Filter>
+    </Font>
+    <Font Include="res\test\a\BASKVILL.TTF">
+      <Filter>Test Resource Files\a</Filter>
+    </Font>
+    <Font Include="res\test\a\BAUHS93.TTF">
+      <Filter>Test Resource Files\a</Filter>
+    </Font>
+    <Font Include="res\test\d\arial.ttf">
+      <Filter>Test Resource Files\d</Filter>
+    </Font>
+    <Font Include="res\test\e\arial.ttf">
+      <Filter>Test Resource Files\e</Filter>
+    </Font>
+    <Font Include="res\test\g\arial.ttf">
+      <Filter>Test Resource Files\g</Filter>
+    </Font>
+    <Font Include="res\test\g\BASKVILL.TTF">
+      <Filter>Test Resource Files\g</Filter>
+    </Font>
+    <Font Include="res\test\h\arial.ttf">
+      <Filter>Test Resource Files\h</Filter>
+    </Font>
+    <Font Include="res\test\h\BASKVILL.TTF">
+      <Filter>Test Resource Files\h</Filter>
+    </Font>
+    <Font Include="res\test\i\arial.ttf">
+      <Filter>Test Resource Files\i</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\test\c\a.txt">
+      <Filter>Test Resource Files\c</Filter>
+    </Text>
+    <Text Include="res\test\e\a.txt">
+      <Filter>Test Resource Files\e</Filter>
+    </Text>
+    <Text Include="res\test\f\a.txt">
+      <Filter>Test Resource Files\f</Filter>
+    </Text>
+    <Text Include="res\test\f\b.txt">
+      <Filter>Test Resource Files\f</Filter>
+    </Text>
+    <Text Include="res\test\h\a.txt">
+      <Filter>Test Resource Files\h</Filter>
+    </Text>
+    <Text Include="res\test\i\a.txt">
+      <Filter>Test Resource Files\i</Filter>
+    </Text>
+    <Text Include="res\test\i\b.txt">
+      <Filter>Test Resource Files\i</Filter>
+    </Text>
   </ItemGroup>
 </Project>

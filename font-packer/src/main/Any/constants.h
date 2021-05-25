@@ -5,12 +5,13 @@
 
 namespace ii887522::fontPacker {
 
+constexpr auto MIN_COMMAND_LINE_ARGS_REQUIRED{ 5u };
 constexpr auto PROGRAM_NAME_INDEX{ 0u };
-constexpr auto TTF_FILE_PATH_INDEX{ 1u };
-constexpr auto FONT_SIZE_INDEX{ 2u };
-constexpr auto OUTPUT_DIRECTORY_PATH_INDEX{ 3u };
-constexpr auto ATLAS_WIDTH_INDEX{ 4u };
-constexpr auto ATLAS_HEIGHT_INDEX{ 5u };
+constexpr auto INPUT_DIRECTORY_PATH_INDEX{ 1u };
+constexpr auto OUTPUT_DIRECTORY_PATH_INDEX{ 2u };
+constexpr auto ATLAS_WIDTH_INDEX{ 3u };
+constexpr auto ATLAS_HEIGHT_INDEX{ 4u };
+constexpr auto FONT_SIZES_START_INDEX{ 5u };
 
 }  // namespace ii887522::fontPacker
 

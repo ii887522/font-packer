@@ -1,6 +1,8 @@
 # font-packer
 It is a CLI tool used to generate glyph atlases for graphics applications such as GUI, video games and so on to improve performance of these applications.
 
+<img src="docs/atlas.png" alt="Glyph Atlas" width="770" /><br /><br />
+
 ## Table of Contents
 - [For developers reading this in GitHub](https://gitlab.com/ii887522/font-packer#for-developers-reading-this-in-github)
 - [Usage](https://gitlab.com/ii887522/font-packer#usage)
@@ -19,8 +21,13 @@ Please go to https://gitlab.com/ii887522/font-packer to start contributing inste
 
 ## Usage
 ```sh
-font-packer ???
+font-packer <input-directory-path> <output-directory-path> <atlas-width> <atlas-height> <font-sizes>
 ```
+`<input-directory-path>`: it must exists, has at least 1 ttf file and ends with either '/' or '\\'<br />
+`<output-directory-path>`: it must ends with either '/' or '\\'<br />
+`<atlas-width>`: it must be equal to 2<sup>n</sup> where n is a non-negative integer, and big enough to fill glyphs<br />
+`<atlas-height>`: it must be equal to 2<sup>n</sup> where n is a non-negative integer, and big enough to fill glyphs<br />
+`<font-sizes>`: it must be an array of positive integers with array size equals to the number of font files in &lt;input-directory-path&gt;<br />
 
 ## Coding Style
 This project follows [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html). Please familiarize yourself with the rules provided

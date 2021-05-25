@@ -5,9 +5,11 @@
 
 #include <viewify/Struct/Size.h>
 #include <string>
+#include <vector>
 
 using ii887522::viewify::Size;
 using std::string;
+using std::vector;
 
 namespace ii887522::fontPacker {
 
@@ -21,20 +23,20 @@ class CommandLine final {
   CommandLine(CommandLine&&) = delete;
   CommandLine& operator=(CommandLine&&) = delete;
 
-  string fontFilePath;  // It ends with .ttf
-  int fontSize;
+  string inputDirPath;  // It ends with either '/' or '\\'
   string outputDirPath;  // It ends with either '/' or '\\'
   Size<int> atlasSize;  // Atlas is an image that contains multiple glyphs.
+  vector<int> fontSizes;
+
+  void addFontSizes(int argc, char** argv);
+  unsigned int getInputDirTTFFilesCount() const;
+  bool isAllFontSizesPositive() const;
 
  public:
   explicit CommandLine(int argc, char** argv);
 
-  // Return: it ends with .ttf
-  const string& getFontFilePath() const;
-
-  constexpr int getFontSize() const {
-    return fontSize;
-  }
+  // Return: it ends with either '/' or '\\'
+  const string& getInputDirPath() const;
 
   // Return: it ends with either '/' or '\\'
   const string& getOutputDirPath() const;
@@ -44,6 +46,7 @@ class CommandLine final {
     return atlasSize;
   }
 
+  const vector<int>& getFontSizes() const;
   void validate() const;
 };
 
