@@ -46,14 +46,13 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   FontPackerViewGroupFactory& operator=(FontPackerViewGroupFactory&&) = delete;
 
   SDL_Texture* atlas;
-  const string fontFilePath;  // It must exist and ends with .ttf
-  const int fontSize;
   const string outputDirPath;  // It ends with either '/' or '\\'
-  TTF_Font*const font;
+  vector<TTF_Font*> fonts;
+  vector<bool> hasKernings;
   vector<Glyph> glyphs;  // See also ../Struct/Glyph.h for more details
-  vector<Kerning> kernings;  // See also ../Struct/Kerning.h for more details
   vector<SDL_Surface*> surfaces;
   vector<unsigned int> indices;
+  vector<vector<Kerning>> kernings;  // See also ../Struct/Kerning.h for more details
   vector<GlyphRow> glyphRows;  // See also ../Struct/Glyph.h for more details
   QuadTree glyphImageRects;  // See also ../Struct/Glyph.h for more details
   vector<unsigned int> lPendingIndices;
@@ -67,12 +66,27 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   // See also ../Struct/Glyph.h for more details
   unsigned int atlasIndex;
 
-  void addImages();
-  void addImage(const char ch, const unsigned int index);
+  // It must only be called 1 time.
+  // Param inputDirPath: it must exists and ends with either '/' or '\\'
+  void addFonts(const string& inputDirPath, const vector<int>& fontSizes);
 
+  // It must only be called 1 time.
   // See also ../Struct/Kerning.h for more details
-  void addKernings(const char prevCh);
+  void addHasKernings();
 
+  // Atlas is an image that contains multiple glyphs. It must only be called 1 time.
+  // See also ../Struct/Glyph.h for more details
+  void addImages(const Size<int>& atlasSize);
+
+  // Atlas is an image that contains multiple glyphs.
+  // See also ../Struct/Glyph.h for more details
+  void addImage(const unsigned int fontsIndex, const char ch, const unsigned int index, const Size<int>& atlasSize);
+
+  // It must only be called 1 time.
+  // See also ../Struct/Kerning.h for more details
+  void addKernings();
+
+  // It must only be called 1 time.
   void rotateImagesToMakeThemLonger();
 
   // Param compare: it returns true if the image needs to be rotated
@@ -127,6 +141,13 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   // See also viewify/Any/View.h for more details
   // See also ../Struct/Glyph.h for more details
   Action fillLShape(ViewGroup*const self, SDL_Renderer*const renderer, const Size<int>& atlasSize);
+
+  // It must only be called 1 time.
+  // See also ../Struct/Kerning.h for more details
+  void writeKernings();
+
+  // It must only be called 1 time.
+  void closeFonts();
 
  public:
   // Atlas is an image that contains multiple glyphs.

@@ -36,10 +36,10 @@ static int main(int argc, char** argv) try {
   return EXIT_SUCCESS;
 } catch (const invalid_argument&) {
   cerr << "Command Line: font-packer <input-directory-path> <output-directory-path> <atlas-width> <atlas-height> <font-sizes>\n";
-  cerr << "Param <input-directory-path>: it must exists and ends with either '/' or '\\'\n";
+  cerr << "Param <input-directory-path>: it must exists, has at least 1 ttf file and ends with either '/' or '\\'\n";
   cerr << "Param <output-directory-path>: it must ends with either '/' or '\\'\n";
-  cerr << "Param <atlas-width>: it must be equal to 2^n where n is a non-negative integer\n";
-  cerr << "Param <atlas-height>: it must be equal to 2^n where n is a non-negative integer\n";
+  cerr << "Param <atlas-width>: it must be equal to 2^n where n is a non-negative integer, and big enough to fill glyphs\n";
+  cerr << "Param <atlas-height>: it must be equal to 2^n where n is a non-negative integer, and big enough to fill glyphs\n";
   cerr << "Param <font-sizes>: it must be an array of positive integers with array size equals to the number of font files in <input-directory-path>\n";
   return EXIT_FAILURE;
 }
