@@ -5,12 +5,14 @@
 #define ALLOCATOR_IMPLEMENTATIONS
 #include <nitro/Any/allocator.h>
 
+#include "cli_ext.test.h"  // NOLINT(build/include_subdir)
 #include "../Any/CommandLine.test.h"
 #include "util.test.h"  // NOLINT(build/include_subdir)
 
 namespace ii887522::fontPacker {
 
 static int main() {
+  testCliExt();
   testCommandLine();
   testUtil();
   return EXIT_SUCCESS;
