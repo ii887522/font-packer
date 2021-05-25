@@ -2,7 +2,7 @@
 
 #ifdef TEST
 
-#include "cli_ext.test.h"
+#include "cli_ext.test.h"  // NOLINT(build/include_subdir)
 #include <cassert>
 #include <cstring>
 #include "../../main/Any/constants.h"

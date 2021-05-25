@@ -1,8 +1,8 @@
 // Copyright ii887522
 
-#include "cli_ext.h"
-#include <string>
+#include "cli_ext.h"  // NOLINT(build/include_subdir)
 #include <nitro/Functions/math_ext.h>
+#include <string>
 #include "../Any/constants.h"
 
 using std::string;

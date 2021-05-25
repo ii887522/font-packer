@@ -3,8 +3,8 @@
 #ifndef FONT_PACKER_SRC_MAIN_FUNCTIONS_UTIL_H_
 #define FONT_PACKER_SRC_MAIN_FUNCTIONS_UTIL_H_
 
-#include "../Struct/Glyph.h"
 #include <string>
+#include "../Struct/Glyph.h"
 
 using std::string;
 
