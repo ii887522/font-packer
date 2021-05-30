@@ -13,7 +13,7 @@ using std::vector;
 
 namespace ii887522::fontPacker {
 
-// Not Thread Safe
+/// <summary>Not Thread Safe</summary>
 class CommandLine final {
   // remove copy semantics
   CommandLine(const CommandLine&) = delete;
@@ -23,9 +23,15 @@ class CommandLine final {
   CommandLine(CommandLine&&) = delete;
   CommandLine& operator=(CommandLine&&) = delete;
 
-  string inputDirPath;  // It ends with either '/' or '\\'
-  string outputDirPath;  // It ends with either '/' or '\\'
-  Size<int> atlasSize;  // Atlas is an image that contains multiple glyphs.
+  /// <summary>It ends with either '/' or '\\'</summary>
+  string inputDirPath;
+
+  /// <summary>It ends with either '/' or '\\'</summary>
+  string outputDirPath;
+
+  /// <summary>Atlas is an image that contains multiple glyphs.</summary>
+  Size<int> atlasSize;
+
   vector<int> fontSizes;
 
   void addFontSizes(int argc, char** argv);
@@ -35,13 +41,13 @@ class CommandLine final {
  public:
   explicit CommandLine(int argc, char** argv);
 
-  // Return: it ends with either '/' or '\\'
+  /// <returns>It ends with either '/' or '\\'</returns>
   const string& getInputDirPath() const;
 
-  // Return: it ends with either '/' or '\\'
+  /// <returns>It ends with either '/' or '\\'</returns>
   const string& getOutputDirPath() const;
 
-  // Atlas is an image that contains multiple glyphs.
+  /// <summary>Atlas is an image that contains multiple glyphs.</summary>
   constexpr const Size<int> getAtlasSize() const {
     return atlasSize;
   }
