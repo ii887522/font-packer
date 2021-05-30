@@ -1,4 +1,1 @@
-docker run --rm --name font-packer_bundler -w C:\font-packer\libs -v %CD%:C:\font-packer mcr.microsoft.com/windows/servercore:20H2 cmd /c "mkdir font-packer-%1 && cd font-packer-%1 && xcopy ..\..\font-packer\Release\ .\ /s /exclude:..\..\.outignore && mkdir res && cd res && mkdir main && cd main && xcopy ..\..\..\..\font-packer\res\main\ .\ /s && cd .. && cd .. && cd .. && cd .."
-docker run --rm --name font-packer_zipper -w C:\font-packer\libs -v %CD%\libs:C:\font-packer\libs kiazhi/nanoserver.7-zip:1709-18.05 7z a font-packer-%1.zip font-packer-%1\
-docker run --rm --name font-packer_publisher -v %CD%\libs:C:\font-packer\libs stefanscherer/curl-windows:7.58.0 --header "PRIVATE-TOKEN: %2" --upload-file C:\font-packer\libs\font-packer-%1.zip https://gitlab.com/api/v4/projects/26666017/packages/generic/font-packer/%1/font-packer-%1.zip
-docker run --rm --name font-packer_cleaner -w C:\font-packer\libs -v %CD%\libs:C:\font-packer\libs mcr.microsoft.com/windows/servercore:20H2 cmd /c "rmdir font-packer-%1 /s /q && del font-packer-%1.zip"
+docker run --rm --name font-packer_deployer -w C:\font-packer -v %CD%:C:\font-packer font-packer-custom-node node deploy.js %1 %2

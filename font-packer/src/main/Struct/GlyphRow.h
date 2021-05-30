@@ -9,15 +9,15 @@ using ii887522::nitro::Range;
 
 namespace ii887522::fontPacker {
 
-// See also Glyph.h for more details
+/// <summary>See also Glyph.h for more details</summary>
 struct GlyphRow final {
   Range<unsigned int> indices;
   int width;
 
-  // See also Glyph.h for more details
+  /// <summary>See also Glyph.h for more details</summary>
   explicit constexpr GlyphRow() { }
 
-  // See also Glyph.h for more details
+  /// <summary>See also Glyph.h for more details</summary>
   explicit constexpr GlyphRow(const Range<unsigned int>& indices, const int width) : indices{ indices }, width{ width } { }
 };
 

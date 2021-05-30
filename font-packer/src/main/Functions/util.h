@@ -10,15 +10,15 @@ using std::string;
 
 namespace ii887522::fontPacker {
 
-// Param inputDirPath: it must exists and ends with either '/' or '\\'
+/// <param name="inputDirPath">It must exists and ends with either '/' or '\\'</param>
 string getFontNameEnumFileContent(const string& inputDirPath);
 
-// Param inputDirPath: it must exists and ends with either '/' or '\\'
-// Param outputDirPath: it must ends with either '/' or '\\'
+/// <param name="inputDirPath">It must exists and ends with either '/' or '\\'</param>
+/// <param name="outputDirPath">It must ends with either '/' or '\\'</param>
 void writeFontNameEnumFile(const string& inputDirPath, const string& outputDirPath);
 
-// Param glyph: it must not be assigned to nullptr or integer
-// See alsp ../Struct/Glyph.h for more details
+/// <summary>See alsp ../Struct/Glyph.h for more details</summary>
+/// <param name="glyph">It must not be assigned to nullptr or integer</param>
 void rotate(Glyph*const glyph);
 
 }  // namespace ii887522::fontPacker
