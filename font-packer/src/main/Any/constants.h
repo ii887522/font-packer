@@ -12,6 +12,8 @@ constexpr auto OUTPUT_DIRECTORY_PATH_INDEX{ 2u };
 constexpr auto ATLAS_WIDTH_INDEX{ 3u };
 constexpr auto ATLAS_HEIGHT_INDEX{ 4u };
 constexpr auto FONT_SIZES_START_INDEX{ 5u };
+constexpr auto LOWER_CASE_FONT_EXTENSION_NAME{ ".ttf" };
+constexpr auto UPPER_CASE_FONT_EXTENSION_NAME{ ".TTF" };
 
 }  // namespace ii887522::fontPacker
 

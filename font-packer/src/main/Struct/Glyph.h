@@ -13,7 +13,7 @@ namespace ii887522::fontPacker {
 
 // It is a single part of a texture atlas.
 struct Glyph final {
-  unsigned int atlasIndex;
+  unsigned int atlasI;
   Rect<int> imageRect;
   Rect<int> rect;
   int advance;
@@ -21,8 +21,8 @@ struct Glyph final {
   bool isRotated;
 
   explicit constexpr Glyph() { }
-  explicit constexpr Glyph(const unsigned int atlasIndex, const Rect<int>& imageRect, const Rect<int>& rect, const int advance, const char ch, const bool isRotated = false) :
-    atlasIndex{ atlasIndex }, imageRect{ imageRect }, rect{ rect }, advance{ advance }, ch{ ch }, isRotated{ isRotated } { }
+  explicit constexpr Glyph(const unsigned int atlasI, const Rect<int>& imageRect, const Rect<int>& rect, const int advance, const char ch, const bool isRotated = false) : atlasI{ atlasI },
+    imageRect{ imageRect }, rect{ rect }, advance{ advance }, ch{ ch }, isRotated{ isRotated } { }
 };
 
 }  // namespace ii887522::fontPacker

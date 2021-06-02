@@ -47,7 +47,7 @@ bool CommandLine::isAllFontSizesPositive() const {
 unsigned int CommandLine::getInputDirTTFFilesCount() const {
   auto result{ 0u };
   for (const auto& entry : directory_iterator{ inputDirPath }) {
-    if (entry.path().string().ends_with(".ttf") || entry.path().string().ends_with(".TTF")) ++result;
+    if (entry.path().string().ends_with(LOWER_CASE_FONT_EXTENSION_NAME) || entry.path().string().ends_with(UPPER_CASE_FONT_EXTENSION_NAME)) ++result;
   }
   return result;
 }
@@ -65,8 +65,8 @@ const vector<int>& CommandLine::getFontSizes() const {
 }
 
 void CommandLine::validate() const {
-  if (!((inputDirPath.ends_with('/') || inputDirPath.ends_with('\\')) && exists(inputDirPath) && (hasFileWithExtension(inputDirPath, ".ttf") || hasFileWithExtension(inputDirPath, ".TTF"))))
-    throw invalid_argument{ "Input directory path must exist and ends with either '/' or '\\'!" };
+  if (!((inputDirPath.ends_with('/') || inputDirPath.ends_with('\\')) && exists(inputDirPath) && (hasFileWithExtension(inputDirPath, LOWER_CASE_FONT_EXTENSION_NAME) ||
+    hasFileWithExtension(inputDirPath, UPPER_CASE_FONT_EXTENSION_NAME)))) throw invalid_argument{ "Input directory path must exist and ends with either '/' or '\\'!" };
   if (!(outputDirPath.ends_with('/') || outputDirPath.ends_with('\\'))) throw invalid_argument{ "Output directory path must ends with either '/' or '\\'!" };
   if (!(isPowerOfTwo(atlasSize.w) && isPowerOfTwo(atlasSize.h))) throw invalid_argument{ "Atlas width and atlas height must be power of two!" };
   if (fontSizes.size() != getInputDirTTFFilesCount()) throw invalid_argument{ "Number of font sizes must be the same as the number of font files in the input directory!" };

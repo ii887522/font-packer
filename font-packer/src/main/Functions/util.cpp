@@ -8,6 +8,7 @@
 #include <filesystem>
 #include <vector>
 #include "../Struct/Glyph.h"
+#include "../Any/constants.h"
 
 using ii887522::nitro::swap;
 using ii887522::nitro::getFileName;
@@ -32,7 +33,7 @@ enum class FontName : unsigned int {
 )"
   };
   for (const auto& entry : directory_iterator{ inputDirPath }) {
-    if (!(entry.path().string().ends_with(".ttf") || entry.path().string().ends_with(".TTF"))) continue;
+    if (!(entry.path().string().ends_with(LOWER_CASE_FONT_EXTENSION_NAME) || entry.path().string().ends_with(UPPER_CASE_FONT_EXTENSION_NAME))) continue;
     auto fontName{ getFileName(entry.path().string()) };
     toUpperCase(&fontName);
     content += "\t_" + fontName + ",\n";
