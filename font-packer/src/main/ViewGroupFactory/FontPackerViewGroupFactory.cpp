@@ -27,6 +27,7 @@
 #include "../Struct/Kerning.h"
 #include "../Functions/util.h"
 #include "../Struct/GlyphRow.h"
+#include "../Any/constants.h"
 
 using ii887522::viewify::ViewGroup;
 using ii887522::viewify::Size;
@@ -56,7 +57,7 @@ namespace ii887522::fontPacker {
 
 FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& inputDirPath, const string& outputDirPath, const Size<int>& atlasSize, const vector<int>& fontSizes) :
   ViewGroupFactory{ }, atlas{ nullptr }, outputDirPath{ outputDirPath }, glyphImageRects{ Rect{ Point{ 0.f, 0.f }, static_cast<Size<float>>(atlasSize) } },
-  currentPendingIndices{ &lPendingIndices }, nextPendingIndices{ &rPendingIndices }, gap{ 0 }, indicesI{ 0u }, atlasIndex{ 0u } {
+  currentPendingIndices{ &lPendingIndices }, nextPendingIndices{ &rPendingIndices }, indicesI{ 0u }, atlasI{ 0u } {
   emptyDir(outputDirPath);
   addFonts(inputDirPath, fontSizes);
   addHasKernings();
@@ -72,7 +73,7 @@ FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& inputDirPat
 void FontPackerViewGroupFactory::addFonts(const string& inputDirPath, const vector<int>& fontSizes) {
   auto i{ 0u };
   for (const auto& entry : directory_iterator{ inputDirPath }) {
-    if (!(entry.path().string().ends_with(".ttf") || entry.path().string().ends_with(".TTF"))) continue;
+    if (!(entry.path().string().ends_with(LOWER_CASE_FONT_EXTENSION_NAME) || entry.path().string().ends_with(UPPER_CASE_FONT_EXTENSION_NAME))) continue;
     fonts.push_back(TTF_OpenFont(entry.path().string().c_str(), fontSizes[i]));
     ++i;
   }
@@ -86,36 +87,38 @@ void FontPackerViewGroupFactory::addHasKernings() {
 void FontPackerViewGroupFactory::addImages(const Size<int>& atlasSize) {
   auto i{ 0u };
   for (auto j{ 0u }; j != fonts.size(); ++j) {
-    for (char ch{ 32 }; ch != 127; ++ch) {
+    for (char ch{ static_cast<char>(CHAR_RANGE.min) }; ch <= static_cast<char>(CHAR_RANGE.max); ++ch) {
       addImage(j, ch, i, atlasSize);
       ++i;
     }
   }
 }
 
-void FontPackerViewGroupFactory::addImage(const unsigned int fontsIndex, const char ch, const unsigned int index, const Size<int>& atlasSize) {
-  surfaces.push_back(TTF_RenderGlyph_Blended(fonts[fontsIndex], ch, SDL_Color{ 255u, 255u, 255u, 255u }));
-  if (atlasSize.w < surfaces.back()->w + (gap << 1u) || atlasSize.h < surfaces.back()->h + (gap << 1u)) {
+void FontPackerViewGroupFactory::addImage(const unsigned int fontsI, const char ch, const unsigned int i, const Size<int>& atlasSize) {
+  surfaces.push_back(TTF_RenderGlyph_Blended(fonts[fontsI], ch, SDL_Color{ 255u, 255u, 255u, 255u }));
+  if (
+    atlasSize.w < surfaces.back()->w + (GAP << 1u)  /* which means atlasSize.w < surfaces.back()->w + GAP * 2 */ ||
+    atlasSize.h < surfaces.back()->h + (GAP << 1u)  /* which means atlasSize.h < surfaces.back()->h + GAP * 2 */) {
     closeFonts();
     throw invalid_argument{ "Atlas size must be big enough to fill a glyph!" };
   }
-  const auto glyphMetrics{ getGlyphMetrics(fonts[fontsIndex], ch) };
+  const auto glyphMetrics{ getGlyphMetrics(fonts[fontsI], ch) };
   glyphs.push_back(
     Glyph{
       0u, Rect{ Point{ 0, 0 }, Size{ surfaces.back()->w, surfaces.back()->h } }, Rect{
-        Point{ glyphMetrics.box.xRange.min, TTF_FontAscent(fonts[fontsIndex]) - glyphMetrics.box.yRange.max },
+        Point{ glyphMetrics.box.xRange.min, TTF_FontAscent(fonts[fontsI]) - glyphMetrics.box.yRange.max },
         Size{ glyphMetrics.box.xRange.max - glyphMetrics.box.xRange.min, glyphMetrics.box.yRange.max - glyphMetrics.box.yRange.min }
       }, glyphMetrics.advance, ch
     });
-  indices.push_back(index);
+  indices.push_back(i);
 }
 
 void FontPackerViewGroupFactory::addKernings() {
   kernings.resize(fonts.size());
   for (auto i{ 0u }; i != fonts.size(); ++i) {
     if (!TTF_GetFontKerning(fonts[i])) continue;
-    for (char prevCh{ 32 }; prevCh != 127; ++prevCh) {
-      for (char nextCh{ 32 }; nextCh != 127; ++nextCh) {
+    for (char prevCh{ static_cast<char>(CHAR_RANGE.min) }; prevCh <= static_cast<char>(CHAR_RANGE.max); ++prevCh) {
+      for (char nextCh{ static_cast<char>(CHAR_RANGE.min) }; nextCh <= static_cast<char>(CHAR_RANGE.max); ++nextCh) {
         const auto kerningSize{ TTF_GetFontKerningSizeGlyphs(fonts[i], prevCh, nextCh) };
         if (kerningSize != 0) hasKernings[i] = true;
         kernings[i].push_back(Kerning{ kerningSize, prevCh, nextCh });
@@ -137,15 +140,15 @@ void FontPackerViewGroupFactory::rotateSomeImages(const vector<unsigned int>& pe
 }
 
 void FontPackerViewGroupFactory::linearlyLayOutGlyphs(const Size<int>& atlasSize) {
-  Point<int> position{ gap, gap };
+  Point<int> position{ GAP, GAP };
   auto rowH{ 0 };
   auto canReadRowH{ true };
   auto rowFirstGlyphI{ indicesI };
   for (; indicesI != indices.size(); ++indicesI) {
-    if (position.x + glyphs[indices[indicesI]].imageRect.size.w + gap > atlasSize.w) {
-      position.x = gap;
-      position.y += rowH + gap;
-      if (position.y + glyphs[indices[indicesI]].imageRect.size.h + gap > atlasSize.h) break;
+    if (position.x + glyphs[indices[indicesI]].imageRect.size.w + GAP > atlasSize.w) {
+      position.x = GAP;
+      position.y += rowH + GAP;
+      if (position.y + glyphs[indices[indicesI]].imageRect.size.h + GAP > atlasSize.h) break;
       glyphRows.push_back(GlyphRow{ Range{ rowFirstGlyphI, indicesI - 1u }, glyphs[indices[indicesI - 1u]].imageRect.position.x + glyphs[indices[indicesI - 1u]].imageRect.size.w });
       rowFirstGlyphI = indicesI;
       canReadRowH = true;
@@ -154,32 +157,32 @@ void FontPackerViewGroupFactory::linearlyLayOutGlyphs(const Size<int>& atlasSize
       rowH = glyphs[indices[indicesI]].imageRect.size.h;
       canReadRowH = false;
     }
-    glyphs[indices[indicesI]].atlasIndex = atlasIndex;
+    glyphs[indices[indicesI]].atlasI = atlasI;
     glyphs[indices[indicesI]].imageRect.position.x = position.x;
-    position.x += glyphs[indices[indicesI]].imageRect.size.w + gap;
+    position.x += glyphs[indices[indicesI]].imageRect.size.w + GAP;
   }
   glyphRows.push_back(GlyphRow{ Range{ rowFirstGlyphI, indicesI - 1u }, glyphs[indices[indicesI - 1u]].imageRect.position.x + glyphs[indices[indicesI - 1u]].imageRect.size.w });
 }
 
 void FontPackerViewGroupFactory::pushUpGlyphs() {
-  auto y{ gap };
+  auto y{ GAP };
   for (auto i{ glyphRows.front().indices.min }; i <= glyphRows.front().indices.max; ++i) {
-    glyphs[indices[i]].imageRect.position.y = gap;
+    glyphs[indices[i]].imageRect.position.y = GAP;
     glyphImageRects.add(static_cast<Rect<float>>(glyphs[indices[i]].imageRect));
   }
-  y += glyphs[indices[glyphRows.front().indices.min]].imageRect.size.h + gap;
+  y += glyphs[indices[glyphRows.front().indices.min]].imageRect.size.h + GAP;
   for (auto i{ 1u }; i != glyphRows.size(); ++i) {
     auto aboveGlyphI{ glyphRows[i - 1u].indices.min };
     for (auto j{ glyphRows[i].indices.min }; j <= glyphRows[i].indices.max; ++j) {
       while (
         !isOverlapX(
           glyphs[indices[j]].imageRect.position.x,
-          Range{ glyphs[indices[aboveGlyphI]].imageRect.position.x, glyphs[indices[aboveGlyphI]].imageRect.position.x + glyphs[indices[aboveGlyphI]].imageRect.size.w + gap }))
+          Range{ glyphs[indices[aboveGlyphI]].imageRect.position.x, glyphs[indices[aboveGlyphI]].imageRect.position.x + glyphs[indices[aboveGlyphI]].imageRect.size.w + GAP }))
         ++aboveGlyphI;
-      glyphs[indices[j]].imageRect.position.y = glyphs[indices[aboveGlyphI]].imageRect.position.y + glyphs[indices[aboveGlyphI]].imageRect.size.h + gap;
+      glyphs[indices[j]].imageRect.position.y = glyphs[indices[aboveGlyphI]].imageRect.position.y + glyphs[indices[aboveGlyphI]].imageRect.size.h + GAP;
       glyphImageRects.add(static_cast<Rect<float>>(glyphs[indices[j]].imageRect));
     }
-    y += glyphs[indices[glyphRows[i].indices.min]].imageRect.size.h + gap;
+    y += glyphs[indices[glyphRows[i].indices.min]].imageRect.size.h + GAP;
   }
 }
 
@@ -189,7 +192,7 @@ void FontPackerViewGroupFactory::addImageViewsFromGlyphRows(ViewGroup*const self
       self->add(
         Image::Builder{ renderer, surfaces[indices[j]], glyphs[indices[j]].imageRect.position, Align::LEFT, glyphs[indices[j]].isRotated ? Rotation::QUARTER_CLOCKWISE : Rotation::NONE }
           .setA(255u)
-          .setDuration(1u)
+          .setDuration(1u)  // See also ii887522::viewify::Image::Builder::setDuration(const unsigned int) for more details
           .build());
     }
   }
@@ -215,7 +218,7 @@ unsigned int FontPackerViewGroupFactory::getNearestGlyphRowToAtlasBottomRightCor
 }
 
 Action FontPackerViewGroupFactory::linearlyFillAtlasBottom(ViewGroup*const self, SDL_Renderer*const renderer, const Size<int>& atlasSize, const unsigned int glyphRowsI) {
-  Point<int> position{ atlasSize.w - 1 - gap, atlasSize.h - 1 - gap };
+  Point<int> position{ atlasSize.w - 1 - GAP, atlasSize.h - 1 - GAP };
   auto rowH{ 0 };
   auto canSetRowH{ true };
   bool canGoToNextRow;
@@ -225,11 +228,11 @@ Action FontPackerViewGroupFactory::linearlyFillAtlasBottom(ViewGroup*const self,
     canGoToNextRow = false;
     for (const auto i : *currentPendingIndices) {
       if (
-        position.x - glyphs[indices[i]].imageRect.size.w - gap < -1 || glyphImageRects.isAnyRectHit(
+        position.x - glyphs[indices[i]].imageRect.size.w - GAP < -1 || glyphImageRects.isAnyRectHit(
           Rect{
-            Point{ position.x - glyphs[indices[i]].imageRect.size.w + 1.f - gap, position.y - glyphs[indices[i]].imageRect.size.h + 1.f - gap },
-            Size{ static_cast<float>(glyphs[indices[i]].imageRect.size.w + gap), static_cast<float>(glyphs[indices[i]].imageRect.size.h + gap) }
-          }) || position.y - glyphs[indices[i]].imageRect.size.h - gap <
+            Point{ position.x - glyphs[indices[i]].imageRect.size.w + 1.f - GAP, position.y - glyphs[indices[i]].imageRect.size.h + 1.f - GAP },
+            Size{ static_cast<float>(glyphs[indices[i]].imageRect.size.w + GAP), static_cast<float>(glyphs[indices[i]].imageRect.size.h + GAP) }
+          }) || position.y - glyphs[indices[i]].imageRect.size.h - GAP <
         glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.position.y + glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.size.h - 1
       ) {
         nextPendingIndices->push_back(i);
@@ -238,19 +241,19 @@ Action FontPackerViewGroupFactory::linearlyFillAtlasBottom(ViewGroup*const self,
           rowH = glyphs[indices[i]].imageRect.size.h;
           canSetRowH = false;
         }
-        glyphs[indices[i]].atlasIndex = atlasIndex;
+        glyphs[indices[i]].atlasI = atlasI;
         glyphs[indices[i]].imageRect.position = Point{ position.x - glyphs[indices[i]].imageRect.size.w + 1, position.y - glyphs[indices[i]].imageRect.size.h + 1 };
         self->add(
           Image::Builder{ renderer, surfaces[indices[i]], glyphs[indices[i]].imageRect.position, Align::LEFT, glyphs[indices[i]].isRotated ? Rotation::QUARTER_CLOCKWISE : Rotation::NONE }
             .setA(255u)
-            .setDuration(1u)
+            .setDuration(1u)  // See also ii887522::viewify::Image::Builder::setDuration(const unsigned int) for more details
             .build());
-        position.x -= glyphs[indices[i]].imageRect.size.w + gap;
+        position.x -= glyphs[indices[i]].imageRect.size.w + GAP;
         canGoToNextRow = true;
       }
     }
-    position.x = atlasSize.w - 1 - gap;
-    position.y -= rowH + gap;
+    position.x = atlasSize.w - 1 - GAP;
+    position.y -= rowH + GAP;
     canSetRowH = true;
     currentPendingIndices->clear();
     ii887522::nitro::swap(currentPendingIndices, nextPendingIndices);
@@ -264,7 +267,7 @@ Action FontPackerViewGroupFactory::linearlyFillAtlasBottom(ViewGroup*const self,
 
 Action FontPackerViewGroupFactory::linearlyFillAtlasRight(ViewGroup*const self, SDL_Renderer*const renderer, const Size<int>& atlasSize, const unsigned int glyphRowsI) {
   Point<int> position{
-    atlasSize.w - 1 - gap, glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.position.y + glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.size.h - 1
+    atlasSize.w - 1 - GAP, glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.position.y + glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.size.h - 1
   };
   auto colW{ 0 };
   auto canSetColW{ true };
@@ -273,10 +276,10 @@ Action FontPackerViewGroupFactory::linearlyFillAtlasRight(ViewGroup*const self, 
     canGoToNextCol = false;
     for (const auto i : *currentPendingIndices) {
       if (
-        position.y - glyphs[indices[i]].imageRect.size.h - gap < -1 || glyphImageRects.isAnyRectHit(
+        position.y - glyphs[indices[i]].imageRect.size.h - GAP < -1 || glyphImageRects.isAnyRectHit(
           Rect{
-            Point{ position.x - glyphs[indices[i]].imageRect.size.w + 1.f - gap, position.y - glyphs[indices[i]].imageRect.size.h + 1.f - gap },
-            Size{ static_cast<float>(glyphs[indices[i]].imageRect.size.w + gap), static_cast<float>(glyphs[indices[i]].imageRect.size.h + gap) }
+            Point{ position.x - glyphs[indices[i]].imageRect.size.w + 1.f - GAP, position.y - glyphs[indices[i]].imageRect.size.h + 1.f - GAP },
+            Size{ static_cast<float>(glyphs[indices[i]].imageRect.size.w + GAP), static_cast<float>(glyphs[indices[i]].imageRect.size.h + GAP) }
           })) {
         nextPendingIndices->push_back(i);
       } else {
@@ -284,18 +287,18 @@ Action FontPackerViewGroupFactory::linearlyFillAtlasRight(ViewGroup*const self, 
           colW = glyphs[indices[i]].imageRect.size.w;
           canSetColW = false;
         }
-        glyphs[indices[i]].atlasIndex = atlasIndex;
+        glyphs[indices[i]].atlasI = atlasI;
         glyphs[indices[i]].imageRect.position = Point{ position.x - glyphs[indices[i]].imageRect.size.w + 1, position.y - glyphs[indices[i]].imageRect.size.h + 1 };
         self->add(
           Image::Builder{ renderer, surfaces[indices[i]], glyphs[indices[i]].imageRect.position, Align::LEFT, glyphs[indices[i]].isRotated ? Rotation::QUARTER_CLOCKWISE : Rotation::NONE }
             .setA(255u)
-            .setDuration(1u)
+            .setDuration(1u)  // See also ii887522::viewify::Image::Builder::setDuration(const unsigned int) for more details
             .build());
-        position.y -= glyphs[indices[i]].imageRect.size.h + gap;
+        position.y -= glyphs[indices[i]].imageRect.size.h + GAP;
         canGoToNextCol = true;
       }
     }
-    position.x -= colW + gap;
+    position.x -= colW + GAP;
     position.y = glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.position.y + glyphs[indices[glyphRows[glyphRowsI].indices.max]].imageRect.size.h - 1;
     canSetColW = true;
     currentPendingIndices->clear();
@@ -357,18 +360,18 @@ ViewGroup FontPackerViewGroupFactory::make(SDL_Renderer*const renderer, const Si
     prepareForNextAtlas();
     return Action::NONE;
   }, [this, renderer, size](ViewGroup& self) {
-    snapshot(renderer, Rect{ Point{ 0, 0 }, size }, outputDirPath + "glyphs_" + to_string(atlasIndex) + ".png");
+    snapshot(renderer, Rect{ Point{ 0, 0 }, size }, outputDirPath + "glyphs_" + to_string(atlasI) + ".png");
     self.clear();
     glyphRows.clear();
     glyphImageRects.clear();
-    ++atlasIndex;
+    ++atlasI;
     return indicesI == indices.size() ? Action::QUIT : Action::NONE;
   } };
 }
 
 void FontPackerViewGroupFactory::writeKernings() {
   for (auto i{ 0u }; i != fonts.size(); ++i) {
-    if (hasKernings[i]) write<Kerning, vector>(outputDirPath + "kernings_" + to_string(i) + ".dat", kernings[i]);
+    if (hasKernings[i]) write<Kerning, vector>(outputDirPath + "kernings_" + to_string(i) + BINARY_FILE_EXTENSION_NAME, kernings[i]);
   }
 }
 
@@ -377,7 +380,7 @@ void FontPackerViewGroupFactory::closeFonts() {
 }
 
 FontPackerViewGroupFactory::~FontPackerViewGroupFactory() {
-  write<Glyph, vector>(outputDirPath + "glyphs.dat", glyphs);
+  write<Glyph, vector>(outputDirPath + "glyphs" + BINARY_FILE_EXTENSION_NAME, glyphs);
   writeKernings();
   closeFonts();
   SDL_DestroyTexture(atlas);
