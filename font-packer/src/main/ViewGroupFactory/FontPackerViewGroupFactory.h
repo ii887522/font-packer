@@ -10,6 +10,7 @@
 #include <viewify/Struct/Size.h>
 #include <viewify/Any/QuadTree.h>
 #include <viewify/Any/Enums.h>
+#include <nitro/Struct/Range.h>
 #include <SDL.h>
 #include <SDL_ttf.h>
 #include <string>
@@ -24,11 +25,16 @@ using ii887522::viewify::ViewGroup;
 using ii887522::viewify::Size;
 using ii887522::viewify::QuadTree;
 using ii887522::viewify::Action;
+using ii887522::nitro::Range;
 using std::string;
 using std::vector;
 using std::function;
 
 namespace ii887522::fontPacker {
+
+constexpr auto GAP{ 0 };
+constexpr Range CHAR_RANGE{ 32, 126 };
+constexpr auto BINARY_FILE_EXTENSION_NAME{ ".dat" };
 
 // Font Packer is a CLI tool used to generate glyph atlases for graphics applications such as GUI, video games and so on to improve performance of these applications.
 // Atlas is an image that contains multiple glyphs.
@@ -59,12 +65,11 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   vector<unsigned int> rPendingIndices;
   vector<unsigned int>* currentPendingIndices;
   vector<unsigned int>* nextPendingIndices;
-  const int gap;
   unsigned int indicesI;
 
   // Atlas is an image that contains multiple glyphs.
   // See also ../Struct/Glyph.h for more details
-  unsigned int atlasIndex;
+  unsigned int atlasI;
 
   // It must only be called 1 time.
   // Param inputDirPath: it must exists and ends with either '/' or '\\'
@@ -80,7 +85,7 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
 
   // Atlas is an image that contains multiple glyphs.
   // See also ../Struct/Glyph.h for more details
-  void addImage(const unsigned int fontsIndex, const char ch, const unsigned int index, const Size<int>& atlasSize);
+  void addImage(const unsigned int fontsI, const char ch, const unsigned int i, const Size<int>& atlasSize);
 
   // It must only be called 1 time.
   // See also ../Struct/Kerning.h for more details
