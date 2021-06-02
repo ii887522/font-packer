@@ -35,7 +35,7 @@ class CommandLine final {
   vector<int> fontSizes;
 
   void addFontSizes(int argc, char** argv);
-  unsigned int getInputDirTTFFilesCount() const;
+  unsigned int getInputDirTTFFileCount() const;
   bool isAllFontSizesPositive() const;
 
  public:

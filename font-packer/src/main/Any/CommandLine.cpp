@@ -44,7 +44,7 @@ bool CommandLine::isAllFontSizesPositive() const {
   return true;
 }
 
-unsigned int CommandLine::getInputDirTTFFilesCount() const {
+unsigned int CommandLine::getInputDirTTFFileCount() const {
   auto result{ 0u };
   for (const auto& entry : directory_iterator{ inputDirPath }) {
     if (entry.path().string().ends_with(LOWER_CASE_FONT_EXTENSION_NAME) || entry.path().string().ends_with(UPPER_CASE_FONT_EXTENSION_NAME)) ++result;
@@ -69,7 +69,7 @@ void CommandLine::validate() const {
     hasFileWithExtension(inputDirPath, UPPER_CASE_FONT_EXTENSION_NAME)))) throw invalid_argument{ "Input directory path must exist and ends with either '/' or '\\'!" };
   if (!(outputDirPath.ends_with('/') || outputDirPath.ends_with('\\'))) throw invalid_argument{ "Output directory path must ends with either '/' or '\\'!" };
   if (!(isPowerOfTwo(atlasSize.w) && isPowerOfTwo(atlasSize.h))) throw invalid_argument{ "Atlas width and atlas height must be power of two!" };
-  if (fontSizes.size() != getInputDirTTFFilesCount()) throw invalid_argument{ "Number of font sizes must be the same as the number of font files in the input directory!" };
+  if (fontSizes.size() != getInputDirTTFFileCount()) throw invalid_argument{ "Number of font sizes must be the same as the number of font files in the input directory!" };
   if (!isAllFontSizesPositive()) throw invalid_argument{ "All font sizes must be positive integers!" };
 }
 
