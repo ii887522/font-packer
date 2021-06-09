@@ -346,22 +346,22 @@ Action FontPackerViewGroupFactory::fillLShape(ViewGroup*const self, SDL_Renderer
 ViewGroup FontPackerViewGroupFactory::make(SDL_Renderer*const renderer, const Size<int>& size) {
   atlas = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, size.w, size.h);
   SDL_SetRenderTarget(renderer, atlas);
-  return ViewGroup{ renderer, Point{ 0, 0 }, [](ViewGroup&, SDL_Renderer*const) {
+  return ViewGroup{ renderer, Point{ 0, 0 }, [](ViewGroup*const, SDL_Renderer*const) {
     return vector<View*>{ };
-  }, [this, renderer, size](ViewGroup& self) {
+  }, [this, renderer, size](ViewGroup*const self) {
     linearlyLayOutGlyphs(size);
     sort<GlyphRow, vector>(&glyphRows, [](const GlyphRow& l, const GlyphRow& r) {  // NOLINT(build/include_what_you_use)
       return l.width < r.width;
     });
     pushUpGlyphs();
-    addImageViewsFromGlyphRows(&self, renderer);
+    addImageViewsFromGlyphRows(self, renderer);
     if (indicesI == indices.size()) return Action::NONE;
-    if (fillLShape(&self, renderer, size) == Action::RETURN_FROM_CALLER) return Action::NONE;
+    if (fillLShape(self, renderer, size) == Action::RETURN_FROM_CALLER) return Action::NONE;
     prepareForNextAtlas();
     return Action::NONE;
-  }, [this, renderer, size](ViewGroup& self) {
+  }, [this, renderer, size](ViewGroup*const self) {
     snapshot(renderer, Rect{ Point{ 0, 0 }, size }, outputDirPath + "glyphs_" + to_string(atlasI) + ".png");
-    self.clear();
+    self->clear();
     glyphRows.clear();
     glyphImageRects.clear();
     ++atlasI;
