@@ -42,9 +42,9 @@
     <ClInclude Include="src\main\Any\constants.h" />
     <ClInclude Include="src\main\Functions\cli_ext.h" />
     <ClInclude Include="src\main\Functions\util.h" />
+    <ClInclude Include="src\main\Struct\Font.h" />
     <ClInclude Include="src\main\Struct\Glyph.h" />
     <ClInclude Include="src\main\Struct\GlyphRow.h" />
-    <ClInclude Include="src\main\Struct\Kerning.h" />
     <ClInclude Include="src\main\ViewGroupFactory\FontPackerViewGroupFactory.h" />
     <ClInclude Include="src\test\Any\CommandLine.test.h" />
     <ClInclude Include="src\test\Functions\cli_ext.test.h" />

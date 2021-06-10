@@ -125,9 +125,6 @@
     <ClInclude Include="src\main\Struct\Glyph.h">
       <Filter>Header Files\Struct</Filter>
     </ClInclude>
-    <ClInclude Include="src\main\Struct\Kerning.h">
-      <Filter>Header Files\Struct</Filter>
-    </ClInclude>
     <ClInclude Include="src\main\Struct\GlyphRow.h">
       <Filter>Header Files\Struct</Filter>
     </ClInclude>
@@ -142,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="src\test\Functions\cli_ext.test.h">
       <Filter>Test Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main\Struct\Font.h">
+      <Filter>Header Files\Struct</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
