@@ -17,7 +17,7 @@ namespace ii887522::fontPacker {
 
 static void testRotate() {
   {
-    Glyph glyph{ 0u, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 0u, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 0u);
     assert(glyph.imageRect.position.x == 0);
@@ -29,11 +29,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 0);
@@ -45,11 +44,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 0 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 0 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -61,11 +59,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 1, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -77,11 +74,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 1 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -93,11 +89,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 1, 2 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 1, 2 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -109,11 +104,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 0, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -125,11 +119,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 0 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 0 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -141,11 +134,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 1, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 1, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -157,11 +149,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 1);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 1 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 1 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -173,11 +164,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 2);
     assert(glyph.rect.size.h == 1);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 1, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 1, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -189,11 +179,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 2);
     assert(glyph.rect.size.h == 2);
     assert(glyph.advance == 1);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 2, 'a', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 2, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -205,11 +194,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 2);
     assert(glyph.rect.size.h == 2);
     assert(glyph.advance == 2);
-    assert(glyph.ch == 'a');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 2, 'b', false };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 2, false };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -221,11 +209,10 @@ static void testRotate() {
     assert(glyph.rect.size.w == 2);
     assert(glyph.rect.size.h == 2);
     assert(glyph.advance == 2);
-    assert(glyph.ch == 'b');
     assert(glyph.isRotated);
   }
   {
-    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 2, 'b', true };
+    Glyph glyph{ 1u, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, Rect{ Point{ 1, 1 }, Size{ 2, 2 } }, 2, true };
     rotate(&glyph);
     assert(glyph.atlasI == 1u);
     assert(glyph.imageRect.position.x == 1);
@@ -237,7 +224,6 @@ static void testRotate() {
     assert(glyph.rect.size.w == 2);
     assert(glyph.rect.size.h == 2);
     assert(glyph.advance == 2);
-    assert(glyph.ch == 'b');
     assert(!glyph.isRotated);
   }
 }

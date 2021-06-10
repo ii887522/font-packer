@@ -17,8 +17,8 @@
 #include <vector>
 #include <functional>
 #include "../Struct/Glyph.h"
-#include "../Struct/Kerning.h"
 #include "../Struct/GlyphRow.h"
+#include "../Struct/Font.h"
 
 using ii887522::viewify::ViewGroupFactory;
 using ii887522::viewify::ViewGroup;
@@ -36,12 +36,13 @@ constexpr auto GAP{ 0 };
 constexpr Range CHAR_RANGE{ 32, 126 };
 constexpr auto BINARY_FILE_EXTENSION_NAME{ ".dat" };
 
-// Font Packer is a CLI tool used to generate glyph atlases for graphics applications such as GUI, video games and so on to improve performance of these applications.
-// Atlas is an image that contains multiple glyphs.
-//
-// Not Thread Safe: it must only be used in main thread
-// See also viewify/View/ViewGroup.h for more details
-// See also ../Struct/Glyph.h for more details
+/// <summary>
+///   <para>Font Packer is a CLI tool used to generate glyph atlases for graphics applications such as GUI, video games and so on to improve performance of these applications.</para>
+///   <para>Atlas is an image that contains multiple glyphs.</para>
+///   <para>Not Thread Safe: it must only be used in main thread</para>
+///   <para>See also viewify/View/ViewGroup.h for more details</para>
+///   <para>See also ../Struct/Glyph.h for more details</para>
+/// </summary>
 class FontPackerViewGroupFactory final : public ViewGroupFactory {
   // remove copy semantics
   FontPackerViewGroupFactory(const FontPackerViewGroupFactory&) = delete;
@@ -52,122 +53,166 @@ class FontPackerViewGroupFactory final : public ViewGroupFactory {
   FontPackerViewGroupFactory& operator=(FontPackerViewGroupFactory&&) = delete;
 
   SDL_Texture* atlas;
-  const string outputDirPath;  // It ends with either '/' or '\\'
+
+  /// <summary>It ends with either '/' or '\\'</summary>
+  const string outputDirPath;
+
   vector<TTF_Font*> fonts;
+  vector<Font> fontMetadatas;
+
+  /// <summary>Kerning is the process of adjusting the glyph position to reduce spaces between characters to produce a nice looking text.</summary>
   vector<bool> hasKernings;
-  vector<Glyph> glyphs;  // See also ../Struct/Glyph.h for more details
+
+  /// <summary>See also ../Struct/Glyph.h for more details</summary>
+  vector<Glyph> glyphs;
+
   vector<SDL_Surface*> surfaces;
   vector<unsigned int> indices;
-  vector<vector<Kerning>> kernings;  // See also ../Struct/Kerning.h for more details
-  vector<GlyphRow> glyphRows;  // See also ../Struct/Glyph.h for more details
-  QuadTree glyphImageRects;  // See also ../Struct/Glyph.h for more details
+
+  /// <summary>Kerning is the process of adjusting the glyph position to reduce spaces between characters to produce a nice looking text.</summary>
+  vector<vector<int>> kerningSizes;
+
+  /// <summary>See also ../Struct/Glyph.h for more details</summary>
+  vector<GlyphRow> glyphRows;
+
+  /// <summary>See also ../Struct/Glyph.h for more details</summary>
+  QuadTree glyphImageRects;
+
   vector<unsigned int> lPendingIndices;
   vector<unsigned int> rPendingIndices;
   vector<unsigned int>* currentPendingIndices;
   vector<unsigned int>* nextPendingIndices;
   unsigned int indicesI;
 
-  // Atlas is an image that contains multiple glyphs.
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
   unsigned int atlasI;
 
-  // It must only be called 1 time.
-  // Param inputDirPath: it must exists and ends with either '/' or '\\'
+  /// <summary>It must only be called 1 time.</summary>
+  /// <param name="inputDirPath">It must exists and ends with either '/' or '\\'</param>
   void addFonts(const string& inputDirPath, const vector<int>& fontSizes);
 
-  // It must only be called 1 time.
-  // See also ../Struct/Kerning.h for more details
+  /// <summary>It must only be called 1 time.</summary>
+  void addFontMetadatas(const vector<int>& fontSizes);
+
+  /// <summary>
+  ///   <para>Kerning is the process of adjusting the glyph position to reduce spaces between characters to produce a nice looking text.</para>
+  ///   <para>It must only be called 1 time.</para>
+  /// </summary>
   void addHasKernings();
 
-  // Atlas is an image that contains multiple glyphs. It must only be called 1 time.
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>It must only be called 1 time.</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
   void addImages(const Size<int>& atlasSize);
 
-  // Atlas is an image that contains multiple glyphs.
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
   void addImage(const unsigned int fontsI, const char ch, const unsigned int i, const Size<int>& atlasSize);
 
-  // It must only be called 1 time.
-  // See also ../Struct/Kerning.h for more details
-  void addKernings();
+  /// <summary>
+  ///   <para>Kerning is the process of adjusting the glyph position to reduce spaces between characters to produce a nice looking text.</para>
+  ///   <para>It must only be called 1 time.</para>
+  /// </summary>
+  void addKerningSizes();
 
-  // It must only be called 1 time.
+  /// <summary>It must only be called 1 time.</summary>
   void rotateImagesToMakeThemLonger();
 
-  // Param compare: it returns true if the image needs to be rotated
-  void rotateSomeImages(const vector<unsigned int>& pendingIndices, const function<bool(const unsigned int, const unsigned int)>& compare);
+  /// <param name="compare">It returns true if the image needs to be rotated</param>
+  void rotateSomeImages(const vector<unsigned int>& pendingIndices, const function<bool(const unsigned int w, const unsigned int h)>& compare);
 
-  // Atlas is an image that contains multiple glyphs.
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
   void linearlyLayOutGlyphs(const Size<int>& atlasSize);
 
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>See also ../Struct/Glyph.h for more details</summary>
   void pushUpGlyphs();
 
-  // Param self: it must not be assigned to nullptr or integer
-  // Param renderer: it must not be assigned to nullptr or integer
-  // See also viewify/View/ViewGroup.h for more details
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>See also viewify/View/ViewGroup.h for more details</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
+  /// <param name="self">It must not be assigned to nullptr or integer</param>
+  /// <param name="renderer">It must not be assigned to nullptr or integer</param>
   void addImageViewsFromGlyphRows(ViewGroup*const self, SDL_Renderer*const renderer);
 
-  // Atlas is an image that contains multiple glyphs.
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
   unsigned int getNearestGlyphRowToAtlasBottomRightCornerI(const Size<int>& atlasSize) const;
 
-  // Atlas is an image that contains multiple glyphs.
-  //
-  // Param self: it must not be assigned to nullptr or integer
-  // Param renderer: it must not be assigned to nullptr or integer
-  // Param glyphRowsI: the atlas bottom region that below the glyph row referenced by this
-  // See also viewify/Any/View.h for more details
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also viewify/Any/View.h for more details</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
+  /// <param name="self">It must not be assigned to nullptr or integer</param>
+  /// <param name="renderer">It must not be assigned to nullptr or integer</param>
+  /// <param name="glyphRowsI">The atlas bottom region that below the glyph row referenced by this</param>
   Action linearlyFillAtlasBottom(ViewGroup*const self, SDL_Renderer*const renderer, const Size<int>& atlasSize, const unsigned int glyphRowsI);
 
-  // Atlas is an image that contains multiple glyphs.
-  //
-  // Param self: it must not be assigned to nullptr or integer
-  // Param renderer: it must not be assigned to nullptr or integer
-  // Param glyphRowsI: the atlas bottom region that below the glyph row referenced by this
-  // See also viewify/Any/View.h for more details
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also viewify/Any/View.h for more details</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
+  /// <param name="self">It must not be assigned to nullptr or integer</param>
+  /// <param name="renderer">It must not be assigned to nullptr or integer</param>
+  /// <param name="glyphRowsI">The atlas bottom region that below the glyph row referenced by this</param>
   Action linearlyFillAtlasRight(ViewGroup*const self, SDL_Renderer*const renderer, const Size<int>& atlasSize, const unsigned int glyphRowsI);
 
   vector<unsigned int> getIndicesReferencedByPendingIndices() const;
 
-  // Atlas is an image that contains multiple glyphs.
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
   void prepareForNextAtlas();
 
-  // L Shape represents the atlas bottom region and right region where they are not allocated to any glyphs.
-  // Atlas is an image that contains multiple glyphs.
-  //
-  // Param self: it must not be assigned to nullptr or integer
-  // Param renderer: it must not be assigned to nullptr or integer
-  // See also viewify/Any/View.h for more details
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>L Shape represents the atlas bottom region and right region where they are not allocated to any glyphs.</para>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also viewify/Any/View.h for more details</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
+  /// <param name="self">It must not be assigned to nullptr or integer</param>
+  /// <param name="renderer">It must not be assigned to nullptr or integer</param>
   Action fillLShape(ViewGroup*const self, SDL_Renderer*const renderer, const Size<int>& atlasSize);
 
-  // It must only be called 1 time.
-  // See also ../Struct/Kerning.h for more details
-  void writeKernings();
+  /// <summary>
+  ///   <para>Kerning is the process of adjusting the glyph position to reduce spaces between characters to produce a nice looking text.</para>
+  ///   <para>It must only be called 1 time.</para>
+  /// </summary>
+  void writeKerningSizes();
 
-  // It must only be called 1 time.
+  /// <summary>It must only be called 1 time.</summary>
   void closeFonts();
 
  public:
-  // Atlas is an image that contains multiple glyphs.
-  //
-  // Param inputDirPath: it must exists and ends with either '/' or '\\'
-  // Param outputDirPath: it must ends with either '/' or '\\'
-  // See also viewify/View/ViewGroup.h for more details
-  // See also ../Struct/Glyph.h for more details
+  /// <summary>
+  ///   <para>Atlas is an image that contains multiple glyphs.</para>
+  ///   <para>See also viewify/View/ViewGroup.h for more details</para>
+  ///   <para>See also ../Struct/Glyph.h for more details</para>
+  /// </summary>
+  /// <param name="inputDirPath">It must exists and ends with either '/' or '\\'</param>
+  /// <param name="outputDirPath">It must ends with either '/' or '\\'</param>
   explicit FontPackerViewGroupFactory(const string& inputDirPath, const string& outputDirPath, const Size<int>& atlasSize, const vector<int>& fontSizes);
 
-  // Param renderer: it must not be assigned to nullptr or integer
-  // See also viewify/View/ViewGroup.h for more details
+  /// <summary>See also viewify/View/ViewGroup.h for more details.</summary>
+  /// <param name="renderer">It must not be assigned to nullptr or integer</param>
   ViewGroup make(SDL_Renderer*const renderer, const Size<int>&) override;
 
-  // See also viewify/View/ViewGroup.h for more details
+  /// <summary>See also viewify/View/ViewGroup.h for more details</summary>
   ~FontPackerViewGroupFactory();
 };
 
