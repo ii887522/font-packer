@@ -11,18 +11,17 @@ using ii887522::viewify::Point;
 
 namespace ii887522::fontPacker {
 
-// It is a single part of a texture atlas.
+/// <summary>It is a single part of a texture atlas.</summary>
 struct Glyph final {
   unsigned int atlasI;
   Rect<int> imageRect;
   Rect<int> rect;
   int advance;
-  char ch;
   bool isRotated;
 
   explicit constexpr Glyph() { }
-  explicit constexpr Glyph(const unsigned int atlasI, const Rect<int>& imageRect, const Rect<int>& rect, const int advance, const char ch, const bool isRotated = false) : atlasI{ atlasI },
-    imageRect{ imageRect }, rect{ rect }, advance{ advance }, ch{ ch }, isRotated{ isRotated } { }
+  explicit constexpr Glyph(const unsigned int atlasI, const Rect<int>& imageRect, const Rect<int>& rect, const int advance, const bool isRotated = false) : atlasI{ atlasI },
+    imageRect{ imageRect }, rect{ rect }, advance{ advance }, isRotated{ isRotated } { }
 };
 
 }  // namespace ii887522::fontPacker
