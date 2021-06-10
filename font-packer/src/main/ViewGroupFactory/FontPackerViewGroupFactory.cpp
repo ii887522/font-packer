@@ -24,10 +24,11 @@
 #include <vector>
 #include <filesystem>
 #include <stdexcept>
-#include "../Struct/Kerning.h"
+#include <functional>
 #include "../Functions/util.h"
 #include "../Struct/GlyphRow.h"
 #include "../Any/constants.h"
+#include "../Struct/Font.h"
 
 using ii887522::viewify::ViewGroup;
 using ii887522::viewify::Size;
@@ -52,6 +53,7 @@ using std::vector;
 using std::to_string;
 using std::filesystem::directory_iterator;
 using std::invalid_argument;
+using std::function;
 
 namespace ii887522::fontPacker {
 
@@ -60,9 +62,10 @@ FontPackerViewGroupFactory::FontPackerViewGroupFactory(const string& inputDirPat
   currentPendingIndices{ &lPendingIndices }, nextPendingIndices{ &rPendingIndices }, indicesI{ 0u }, atlasI{ 0u } {
   emptyDir(outputDirPath);
   addFonts(inputDirPath, fontSizes);
+  addFontMetadatas(fontSizes);
   addHasKernings();
   addImages(atlasSize);
-  addKernings();
+  addKerningSizes();
   writeFontNameEnumFile(inputDirPath, outputDirPath);
   rotateImagesToMakeThemLonger();
   sort<unsigned int, vector>(&indices, [this](const unsigned int& l, const unsigned int& r) {  // NOLINT(build/include_what_you_use)
@@ -75,6 +78,14 @@ void FontPackerViewGroupFactory::addFonts(const string& inputDirPath, const vect
   for (const auto& entry : directory_iterator{ inputDirPath }) {
     if (!(entry.path().string().ends_with(LOWER_CASE_FONT_EXTENSION_NAME) || entry.path().string().ends_with(UPPER_CASE_FONT_EXTENSION_NAME))) continue;
     fonts.push_back(TTF_OpenFont(entry.path().string().c_str(), fontSizes[i]));
+    ++i;
+  }
+}
+
+void FontPackerViewGroupFactory::addFontMetadatas(const vector<int>& fontSizes) {
+  auto i{ 0u };
+  for (const auto font : fonts) {
+    fontMetadatas.push_back(Font{ fontSizes[i], TTF_FontLineSkip(font) });
     ++i;
   }
 }
@@ -108,20 +119,19 @@ void FontPackerViewGroupFactory::addImage(const unsigned int fontsI, const char 
       0u, Rect{ Point{ 0, 0 }, Size{ surfaces.back()->w, surfaces.back()->h } }, Rect{
         Point{ glyphMetrics.box.xRange.min, TTF_FontAscent(fonts[fontsI]) - glyphMetrics.box.yRange.max },
         Size{ glyphMetrics.box.xRange.max - glyphMetrics.box.xRange.min, glyphMetrics.box.yRange.max - glyphMetrics.box.yRange.min }
-      }, glyphMetrics.advance, ch
+      }, glyphMetrics.advance
     });
   indices.push_back(i);
 }
 
-void FontPackerViewGroupFactory::addKernings() {
-  kernings.resize(fonts.size());
+void FontPackerViewGroupFactory::addKerningSizes() {
+  kerningSizes.resize(fonts.size());
   for (auto i{ 0u }; i != fonts.size(); ++i) {
-    if (!TTF_GetFontKerning(fonts[i])) continue;
     for (char prevCh{ static_cast<char>(CHAR_RANGE.min) }; prevCh <= static_cast<char>(CHAR_RANGE.max); ++prevCh) {
       for (char nextCh{ static_cast<char>(CHAR_RANGE.min) }; nextCh <= static_cast<char>(CHAR_RANGE.max); ++nextCh) {
         const auto kerningSize{ TTF_GetFontKerningSizeGlyphs(fonts[i], prevCh, nextCh) };
         if (kerningSize != 0) hasKernings[i] = true;
-        kernings[i].push_back(Kerning{ kerningSize, prevCh, nextCh });
+        kerningSizes[i].push_back(kerningSize);
       }
     }
   }
@@ -133,7 +143,7 @@ void FontPackerViewGroupFactory::rotateImagesToMakeThemLonger() {
   }
 }
 
-void FontPackerViewGroupFactory::rotateSomeImages(const vector<unsigned int>& pendingIndices, const function<bool(const unsigned int, const unsigned int)>& compare) {
+void FontPackerViewGroupFactory::rotateSomeImages(const vector<unsigned int>& pendingIndices, const function<bool(const unsigned int w, const unsigned int h)>& compare) {
   for (const auto i : pendingIndices) {
     if (compare(glyphs[indices[i]].imageRect.size.w, glyphs[indices[i]].imageRect.size.h)) rotate(&glyphs[indices[i]]);
   }
@@ -369,9 +379,9 @@ ViewGroup FontPackerViewGroupFactory::make(SDL_Renderer*const renderer, const Si
   } };
 }
 
-void FontPackerViewGroupFactory::writeKernings() {
+void FontPackerViewGroupFactory::writeKerningSizes() {
   for (auto i{ 0u }; i != fonts.size(); ++i) {
-    if (hasKernings[i]) write<Kerning, vector>(outputDirPath + "kernings_" + to_string(i) + BINARY_FILE_EXTENSION_NAME, kernings[i]);
+    if (hasKernings[i]) write<int, vector>(outputDirPath + "kernings_" + to_string(i) + BINARY_FILE_EXTENSION_NAME, kerningSizes[i]);
   }
 }
 
@@ -380,8 +390,9 @@ void FontPackerViewGroupFactory::closeFonts() {
 }
 
 FontPackerViewGroupFactory::~FontPackerViewGroupFactory() {
+  write<Font, vector>(outputDirPath + "fonts" + BINARY_FILE_EXTENSION_NAME, fontMetadatas);
   write<Glyph, vector>(outputDirPath + "glyphs" + BINARY_FILE_EXTENSION_NAME, glyphs);
-  writeKernings();
+  writeKerningSizes();
   closeFonts();
   SDL_DestroyTexture(atlas);
 }
