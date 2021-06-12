@@ -5,12 +5,8 @@
 
 #ifndef TEST
 
-#include <viewify/Factory/ViewGroupFactory.h>
-#include <viewify/View/ViewGroup.h>
-#include <viewify/Struct/Size.h>
-#include <viewify/Any/QuadTree.h>
-#include <viewify/Any/Enums.h>
-#include <nitro/Struct/Range.h>
+#include <viewify/viewify.h>
+#include <nitro/nitro.h>
 #include <SDL.h>
 #include <SDL_ttf.h>
 #include <string>
