@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Test Header Files">
-      <UniqueIdentifier>{cc8ee434-6d1c-4a55-b4ec-1f299f9c3ecd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Test Source Files">
       <UniqueIdentifier>{07d9078c-c5d9-49e9-a4dd-dfd6f0c44ccd}</UniqueIdentifier>
     </Filter>
@@ -34,9 +31,6 @@
     <Filter Include="Header Files\Any">
       <UniqueIdentifier>{c124c8b7-cf7a-47cf-9764-1d6657d7c02f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Test Header Files\Any">
-      <UniqueIdentifier>{63c1ace4-873b-4687-b693-f4499ca0ea32}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\ViewGroupFactory">
       <UniqueIdentifier>{ee049aca-2f3a-44d7-a721-52f4bec4c8a0}</UniqueIdentifier>
     </Filter>
@@ -48,9 +42,6 @@
     </Filter>
     <Filter Include="Header Files\Functions">
       <UniqueIdentifier>{72863f9d-3967-467d-960b-72be29ebd9a3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Test Header Files\Functions">
-      <UniqueIdentifier>{bd4bb389-5119-41ce-ac44-58ea2f8d90b2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Test Resource Files">
       <UniqueIdentifier>{41fb790e-e3ba-4822-844e-4edce1dd0efd}</UniqueIdentifier>
@@ -116,9 +107,6 @@
     <ClInclude Include="src\main\Any\constants.h">
       <Filter>Header Files\Any</Filter>
     </ClInclude>
-    <ClInclude Include="src\test\Any\CommandLine.test.h">
-      <Filter>Test Header Files\Any</Filter>
-    </ClInclude>
     <ClInclude Include="src\main\ViewGroupFactory\FontPackerViewGroupFactory.h">
       <Filter>Header Files\ViewGroupFactory</Filter>
     </ClInclude>
@@ -131,14 +119,8 @@
     <ClInclude Include="src\main\Functions\util.h">
       <Filter>Header Files\Functions</Filter>
     </ClInclude>
-    <ClInclude Include="src\test\Functions\util.test.h">
-      <Filter>Test Header Files\Functions</Filter>
-    </ClInclude>
     <ClInclude Include="src\main\Functions\cli_ext.h">
       <Filter>Header Files\Functions</Filter>
-    </ClInclude>
-    <ClInclude Include="src\test\Functions\cli_ext.test.h">
-      <Filter>Test Header Files\Functions</Filter>
     </ClInclude>
     <ClInclude Include="src\main\Struct\Font.h">
       <Filter>Header Files\Struct</Filter>

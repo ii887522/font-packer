@@ -3,7 +3,7 @@
 #ifndef FONT_PACKER_SRC_MAIN_ANY_COMMANDLINE_H_
 #define FONT_PACKER_SRC_MAIN_ANY_COMMANDLINE_H_
 
-#include <viewify/Struct/Size.h>
+#include <viewify/viewify.h>
 #include <string>
 #include <vector>
 

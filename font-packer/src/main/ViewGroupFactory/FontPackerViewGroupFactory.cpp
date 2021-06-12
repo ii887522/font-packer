@@ -3,21 +3,8 @@
 #ifndef TEST
 
 #include "FontPackerViewGroupFactory.h"
-#include <viewify/Factory/ViewGroupFactory.h>
-#include <viewify/View/ViewGroup.h>
-#include <viewify/Struct/Size.h>
-#include <viewify/Struct/Point.h>
-#include <viewify/Any/View.h>
-#include <viewify/Any/Enums.h>
-#include <viewify/Struct/Rect.h>
-#include <viewify/View/Image.h>
-#include <nitro/Functions/fs_ext.h>
-#include <nitro/Struct/Range.h>
-#include <viewify/Functions/math_ext.h>
-#include <nitro/Functions/util.h>
-#include <viewify/Functions/sdl_ext.h>
-#include <nitro/Functions/string_ext.h>
-#include <viewify/Functions/ttf_ext.h>
+#include <viewify/viewify.h>
+#include <nitro/nitro.h>
 #include <SDL.h>
 #include <SDL_ttf.h>
 #include <string>

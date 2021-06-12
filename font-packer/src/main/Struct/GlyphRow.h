@@ -3,7 +3,7 @@
 #ifndef FONT_PACKER_SRC_MAIN_STRUCT_GLYPHROW_H_
 #define FONT_PACKER_SRC_MAIN_STRUCT_GLYPHROW_H_
 
-#include <nitro/Struct/Range.h>
+#include <nitro/nitro.h>
 
 using ii887522::nitro::Range;
 
