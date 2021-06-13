@@ -1,9 +1,7 @@
 // Copyright ii887522
 
 #include "util.h"  // NOLINT(build/include_subdir)
-#include <nitro/Functions/util.h>
-#include <nitro/Functions/string_ext.h>
-#include <nitro/Functions/fs_ext.h>
+#include <nitro/nitro.h>
 #include <string>
 #include <filesystem>
 #include <vector>
@@ -53,7 +51,7 @@ void writeFontNameEnumFile(const string& inputDirPath, const string& outputDirPa
 }
 
 void rotate(Glyph*const glyph) {
-  swap(glyph->imageRect.size.w, glyph->imageRect.size.h);  // NOLINT(build/include_what_you_use)
+  swap(glyph->rect.size.w, glyph->rect.size.h);  // NOLINT(build/include_what_you_use)
   glyph->isRotated = !glyph->isRotated;
 }
 
