@@ -40,6 +40,7 @@
   <ItemGroup>
     <ClInclude Include="src\main\Any\CommandLine.h" />
     <ClInclude Include="src\main\Any\constants.h" />
+    <ClInclude Include="src\main\font_packer.h" />
     <ClInclude Include="src\main\Functions\cli_ext.h" />
     <ClInclude Include="src\main\Functions\util.h" />
     <ClInclude Include="src\main\Struct\Font.h" />
