@@ -51,7 +51,7 @@ void writeFontNameEnumFile(const string& inputDirPath, const string& outputDirPa
 }
 
 void rotate(Glyph*const glyph) {
-  swap(glyph->imageRect.size.w, glyph->imageRect.size.h);  // NOLINT(build/include_what_you_use)
+  swap(glyph->rect.size.w, glyph->rect.size.h);  // NOLINT(build/include_what_you_use)
   glyph->isRotated = !glyph->isRotated;
 }
 

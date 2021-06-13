@@ -125,6 +125,9 @@
     <ClInclude Include="src\main\Struct\Font.h">
       <Filter>Header Files\Struct</Filter>
     </ClInclude>
+    <ClInclude Include="src\main\font_packer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\main\favicon.png">
