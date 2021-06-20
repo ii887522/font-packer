@@ -10,3 +10,4 @@ font-packer/**/*.exe*
 font-packer/**/*.ilk
 font-packer/**/*.log
 font-packer/**/*.FileListAbsolute.txt
+font-packer/**/*.json*
