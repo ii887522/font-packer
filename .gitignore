@@ -1,12 +1,1 @@
-.vs
-node_modules
-libs
-font-packer/**/*.dll
-font-packer/**/*.tlog
-font-packer/**/*.*obj
-font-packer/**/*.idb
-font-packer/**/*.*pdb
-font-packer/**/*.exe*
-font-packer/**/*.ilk
-font-packer/**/*.log
-font-packer/**/*.FileListAbsolute.txt
+/target

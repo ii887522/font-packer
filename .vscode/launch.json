@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'font-packer'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=font-packer",
+          "--package=font-packer"
+        ],
+        "filter": {
+          "name": "font-packer",
+          "kind": "bin"
+        }
+      },
+      "args": ["tests/input/fonts", "tests/output"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'font-packer'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=font-packer",
+          "--package=font-packer"
+        ],
+        "filter": {
+          "name": "font-packer",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

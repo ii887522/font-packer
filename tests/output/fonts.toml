@@ -1,0 +1,10259 @@
+[[regions]]
+ch = '@'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 0
+w = 129
+h = 129
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 63
+miny = -15
+maxy = 47
+advance = 62
+
+[[regions]]
+ch = '@'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 129
+y = 0
+w = 73
+h = 73
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 63
+miny = -15
+maxy = 47
+advance = 62
+
+[[regions]]
+ch = '%'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 202
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 54
+miny = -2
+maxy = 47
+advance = 57
+
+[[regions]]
+ch = '%'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 330
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 54
+miny = -2
+maxy = 47
+advance = 57
+
+[[regions]]
+ch = 'Q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 402
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 49
+miny = -5
+maxy = 47
+advance = 50
+
+[[regions]]
+ch = 'Q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 474
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 49
+miny = -5
+maxy = 47
+advance = 50
+
+[[regions]]
+ch = 'W'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 602
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 61
+miny = 0
+maxy = 46
+advance = 60
+
+[[regions]]
+ch = 'W'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 730
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 61
+miny = 0
+maxy = 46
+advance = 60
+
+[[regions]]
+ch = 'A'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 802
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 46
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'A'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 930
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 46
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'O'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1002
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 48
+miny = -1
+maxy = 47
+advance = 50
+
+[[regions]]
+ch = 'O'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1130
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 48
+miny = -1
+maxy = 47
+advance = 50
+
+[[regions]]
+ch = 'M'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1202
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 49
+miny = 0
+maxy = 46
+advance = 53
+
+[[regions]]
+ch = 'M'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1274
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 49
+miny = 0
+maxy = 46
+advance = 53
+
+[[regions]]
+ch = 'V'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1402
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 43
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'Y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1530
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 43
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'V'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1602
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 43
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'Y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1674
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 43
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = '&'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1802
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 46
+miny = -1
+maxy = 47
+advance = 46
+
+[[regions]]
+ch = '&'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1874
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 46
+miny = -1
+maxy = 47
+advance = 46
+
+[[regions]]
+ch = 'X'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 43
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'K'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 72
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 47
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'G'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 200
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 46
+miny = -1
+maxy = 47
+advance = 50
+
+[[regions]]
+ch = 'X'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 328
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 43
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'K'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 456
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 47
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'G'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 528
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 46
+miny = -1
+maxy = 47
+advance = 50
+
+[[regions]]
+ch = 'R'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 600
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 46
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'R'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 728
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 46
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'B'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 800
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 44
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'D'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 928
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 44
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'C'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1056
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 43
+miny = 0
+maxy = 47
+advance = 46
+
+[[regions]]
+ch = 'D'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1184
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 44
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'C'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1256
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 43
+miny = 0
+maxy = 47
+advance = 46
+
+[[regions]]
+ch = 'B'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1328
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 44
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'Z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1400
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 38
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'S'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1528
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 40
+miny = -1
+maxy = 47
+advance = 43
+
+[[regions]]
+ch = 'H'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1600
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 42
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'Z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1672
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 38
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'U'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1744
+y = 119
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 42
+miny = -1
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'N'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1872
+y = 119
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 42
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'N'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 42
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'U'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 128
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 42
+miny = -1
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'H'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 200
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 42
+miny = 0
+maxy = 46
+advance = 46
+
+[[regions]]
+ch = 'S'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 328
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 40
+miny = -1
+maxy = 47
+advance = 43
+
+[[regions]]
+ch = 'T'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 456
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 38
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'T'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 528
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 38
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'E'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 656
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 40
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'P'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 784
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 40
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'P'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 912
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 40
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = 'E'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 984
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 40
+miny = 0
+maxy = 46
+advance = 43
+
+[[regions]]
+ch = '#'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1056
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1128
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = -14
+maxy = 34
+advance = 36
+
+[[regions]]
+ch = 'o'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1256
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 37
+miny = -1
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = 'm'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1384
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 53
+miny = 0
+maxy = 35
+advance = 57
+
+[[regions]]
+ch = 'm'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1456
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 53
+miny = 0
+maxy = 35
+advance = 57
+
+[[regions]]
+ch = '#'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1584
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'o'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1712
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 37
+miny = -1
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = 'y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1784
+y = 225
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = -14
+maxy = 34
+advance = 36
+
+[[regions]]
+ch = 'x'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1856
+y = 225
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = 0
+maxy = 34
+advance = 36
+
+[[regions]]
+ch = 'v'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = 0
+maxy = 34
+advance = 36
+
+[[regions]]
+ch = 'q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 72
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 36
+miny = -13
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = '4'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 200
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 35
+miny = 0
+maxy = 45
+advance = 36
+
+[[regions]]
+ch = 'L'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 328
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 38
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'd'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 456
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 36
+miny = -1
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = '?'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 584
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 37
+miny = 0
+maxy = 47
+advance = 39
+
+[[regions]]
+ch = '?'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 656
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 37
+miny = 0
+maxy = 47
+advance = 39
+
+[[regions]]
+ch = 'd'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 784
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 36
+miny = -1
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 856
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 36
+miny = -13
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = 'v'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 928
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = 0
+maxy = 34
+advance = 36
+
+[[regions]]
+ch = 'w'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1056
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 50
+miny = 0
+maxy = 34
+advance = 50
+
+[[regions]]
+ch = '4'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1184
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 35
+miny = 0
+maxy = 45
+advance = 36
+
+[[regions]]
+ch = 'L'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1256
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 38
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'x'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1328
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 35
+miny = 0
+maxy = 34
+advance = 36
+
+[[regions]]
+ch = 'w'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1400
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 50
+miny = 0
+maxy = 34
+advance = 50
+
+[[regions]]
+ch = '>'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1472
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 5
+maxy = 40
+advance = 37
+
+[[regions]]
+ch = '<'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1544
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 5
+maxy = 40
+advance = 37
+
+[[regions]]
+ch = '>'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1672
+y = 338
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 5
+maxy = 40
+advance = 37
+
+[[regions]]
+ch = 'F'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1800
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 37
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'p'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1872
+y = 338
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 37
+miny = -13
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = 'p'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 37
+miny = -13
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = 'F'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 128
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 37
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'b'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 256
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 37
+miny = -1
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = 'g'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 384
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = -14
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = 'g'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 456
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = -14
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = 'b'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 584
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 37
+miny = -1
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = '<'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 656
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 5
+maxy = 40
+advance = 37
+
+[[regions]]
+ch = 'e'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 728
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = 's'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 856
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 33
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = 'c'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 928
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = 'a'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1000
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = '6'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1072
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = '5'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1144
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 45
+advance = 36
+
+[[regions]]
+ch = '2'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1216
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 33
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'e'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1288
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = '+'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1360
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 7
+maxy = 39
+advance = 37
+
+[[regions]]
+ch = '+'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1488
+y = 444
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 7
+maxy = 39
+advance = 37
+
+[[regions]]
+ch = 'a'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1560
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = '2'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1688
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 33
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = '5'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1816
+y = 444
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 45
+advance = 36
+
+[[regions]]
+ch = 's'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 33
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = '6'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 128
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'c'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 256
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 34
+miny = -1
+maxy = 35
+advance = 36
+
+[[regions]]
+ch = '3'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 384
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'u'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 512
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = -1
+maxy = 34
+advance = 39
+
+[[regions]]
+ch = '$'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 640
+y = 539
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -7
+maxy = 49
+advance = 36
+
+[[regions]]
+ch = '7'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 712
+y = 539
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = 0
+maxy = 45
+advance = 36
+
+[[regions]]
+ch = '8'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 784
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'k'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 912
+y = 539
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'n'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 984
+y = 539
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = 0
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = '0'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1056
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'u'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1184
+y = 539
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = -1
+maxy = 34
+advance = 39
+
+[[regions]]
+ch = '0'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1256
+y = 539
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'k'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1328
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'n'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1456
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = 0
+maxy = 35
+advance = 39
+
+[[regions]]
+ch = '3'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1584
+y = 539
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = '9'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1656
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'h'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1784
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = '$'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1912
+y = 539
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -7
+maxy = 49
+advance = 36
+
+[[regions]]
+ch = 'h'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 35
+miny = 0
+maxy = 46
+advance = 39
+
+[[regions]]
+ch = '8'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 72
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = '9'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 144
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = '7'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 216
+y = 634
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 33
+miny = 0
+maxy = 45
+advance = 36
+
+[[regions]]
+ch = 'J'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 344
+y = 634
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 31
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 472
+y = 634
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 31
+miny = 0
+maxy = 34
+advance = 32
+
+[[regions]]
+ch = 'z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 600
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 31
+miny = 0
+maxy = 34
+advance = 32
+
+[[regions]]
+ch = 'J'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 672
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 31
+miny = -1
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = '@'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 744
+y = 634
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 32
+miny = -6
+maxy = 23
+advance = 32
+
+[[regions]]
+ch = '@'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 836
+y = 634
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 32
+miny = -6
+maxy = 23
+advance = 32
+
+[[regions]]
+ch = '^'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 872
+y = 634
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 34
+miny = 22
+maxy = 47
+advance = 37
+
+[[regions]]
+ch = '^'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1000
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 34
+miny = 22
+maxy = 47
+advance = 37
+
+[[regions]]
+ch = 'f'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1072
+y = 634
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 24
+miny = 0
+maxy = 47
+advance = 21
+
+[[regions]]
+ch = 'f'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1200
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 24
+miny = 0
+maxy = 47
+advance = 21
+
+[[regions]]
+ch = 'M'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1272
+y = 634
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 25
+miny = 0
+maxy = 23
+advance = 27
+
+[[regions]]
+ch = 'Q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1364
+y = 634
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 24
+miny = -1
+maxy = 23
+advance = 25
+
+[[regions]]
+ch = '{'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1400
+y = 634
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 24
+miny = -14
+maxy = 47
+advance = 25
+
+[[regions]]
+ch = '%'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1472
+y = 634
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 27
+miny = 0
+maxy = 23
+advance = 28
+
+[[regions]]
+ch = '{'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1508
+y = 634
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 24
+miny = -14
+maxy = 47
+advance = 25
+
+[[regions]]
+ch = 'A'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1636
+y = 634
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = '%'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1672
+y = 634
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 27
+miny = 0
+maxy = 23
+advance = 28
+
+[[regions]]
+ch = 'W'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1764
+y = 634
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 30
+miny = 0
+maxy = 23
+advance = 30
+
+[[regions]]
+ch = 'A'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1856
+y = 634
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'O'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1948
+y = 634
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 24
+miny = 0
+maxy = 23
+advance = 25
+
+[[regions]]
+ch = 'Q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 727
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 24
+miny = -1
+maxy = 23
+advance = 25
+
+[[regions]]
+ch = 'W'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 92
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 30
+miny = 0
+maxy = 23
+advance = 30
+
+[[regions]]
+ch = 'M'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 128
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 25
+miny = 0
+maxy = 23
+advance = 27
+
+[[regions]]
+ch = 'O'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 164
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 24
+miny = 0
+maxy = 23
+advance = 25
+
+[[regions]]
+ch = '*'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 200
+y = 727
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 24
+miny = 24
+maxy = 46
+advance = 25
+
+[[regions]]
+ch = 'r'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 272
+y = 727
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 26
+miny = 0
+maxy = 35
+advance = 25
+
+[[regions]]
+ch = '}'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 400
+y = 727
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 23
+miny = -14
+maxy = 47
+advance = 25
+
+[[regions]]
+ch = 'V'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 472
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'X'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 508
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'Y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 544
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = '='
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 580
+y = 727
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 12
+maxy = 34
+advance = 37
+
+[[regions]]
+ch = '*'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 652
+y = 727
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 24
+miny = 24
+maxy = 46
+advance = 25
+
+[[regions]]
+ch = 'G'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 780
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 23
+miny = 0
+maxy = 23
+advance = 25
+
+[[regions]]
+ch = 'V'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 816
+y = 727
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = '}'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 908
+y = 727
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 23
+miny = -14
+maxy = 47
+advance = 25
+
+[[regions]]
+ch = '='
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1036
+y = 727
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 35
+miny = 12
+maxy = 34
+advance = 37
+
+[[regions]]
+ch = 'r'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1164
+y = 727
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 26
+miny = 0
+maxy = 35
+advance = 25
+
+[[regions]]
+ch = 'X'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1236
+y = 727
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'G'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1328
+y = 727
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 23
+miny = 0
+maxy = 23
+advance = 25
+
+[[regions]]
+ch = 'Y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1420
+y = 727
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'C'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1512
+y = 727
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 22
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = 't'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1604
+y = 727
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 21
+miny = -1
+maxy = 45
+advance = 21
+
+[[regions]]
+ch = '1'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1676
+y = 727
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 26
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 'C'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1748
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 22
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = 'R'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1784
+y = 727
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 23
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = 'R'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1820
+y = 727
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 23
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = '1'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1912
+y = 727
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 26
+miny = 0
+maxy = 46
+advance = 36
+
+[[regions]]
+ch = 't'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 820
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 21
+miny = -1
+maxy = 45
+advance = 21
+
+[[regions]]
+ch = 'D'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 128
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 22
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = '&'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 164
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 21
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'K'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 200
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'D'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 236
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 22
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = '&'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 328
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 21
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'K'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 420
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 22
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'H'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 512
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 21
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = 'N'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 548
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 21
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = 'T'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 584
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 19
+miny = 0
+maxy = 23
+advance = 20
+
+[[regions]]
+ch = 'Z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 676
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 19
+miny = 0
+maxy = 23
+advance = 20
+
+[[regions]]
+ch = '\'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 712
+y = 820
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 18
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = 'T'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 840
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 19
+miny = 0
+maxy = 23
+advance = 20
+
+[[regions]]
+ch = 'N'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 876
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 21
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = 'U'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 968
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 21
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = '\'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1004
+y = 820
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 18
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = 'S'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1076
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'H'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1112
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 21
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = 'Z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1204
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 19
+miny = 0
+maxy = 23
+advance = 20
+
+[[regions]]
+ch = 'U'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1296
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 21
+miny = 0
+maxy = 23
+advance = 23
+
+[[regions]]
+ch = '/'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1388
+y = 820
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 18
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = '/'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1460
+y = 820
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 18
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = 'S'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1588
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'E'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1680
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = '#'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1716
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 18
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'P'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1752
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'B'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1788
+y = 820
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'B'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1824
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = 'P'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1916
+y = 820
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = '#'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 18
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'E'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 92
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 20
+miny = 0
+maxy = 23
+advance = 21
+
+[[regions]]
+ch = '2'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 184
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'm'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 276
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 25
+miny = 0
+maxy = 17
+advance = 27
+
+[[regions]]
+ch = '('
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 312
+y = 899
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 20
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = 'F'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 384
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 19
+miny = 0
+maxy = 23
+advance = 20
+
+[[regions]]
+ch = 'j'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 420
+y = 899
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = -3
+maxx = 14
+miny = -14
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = '['
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 492
+y = 899
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 21
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = '4'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 620
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '('
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 656
+y = 899
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 20
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = '2'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 784
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '['
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 820
+y = 899
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 21
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = 'w'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 892
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 23
+miny = 0
+maxy = 17
+advance = 23
+
+[[regions]]
+ch = 'j'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 984
+y = 899
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = -3
+maxx = 14
+miny = -14
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = '4'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1112
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'w'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1204
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 23
+miny = 0
+maxy = 17
+advance = 23
+
+[[regions]]
+ch = 'm'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1240
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 25
+miny = 0
+maxy = 17
+advance = 27
+
+[[regions]]
+ch = 'F'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1332
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 19
+miny = 0
+maxy = 23
+advance = 20
+
+[[regions]]
+ch = 'e'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1424
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = '?'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1460
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'x'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1496
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = '$'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1532
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = -3
+maxy = 24
+advance = 18
+
+[[regions]]
+ch = 'a'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1568
+y = 899
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'e'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1604
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'x'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1696
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = '5'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1788
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'o'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1880
+y = 899
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = 'y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 92
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = -6
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = 'y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 184
+y = 982
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = -6
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = 'v'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 220
+y = 982
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = '"'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 256
+y = 982
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 28
+miny = 30
+maxy = 46
+advance = 30
+
+[[regions]]
+ch = ']'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 328
+y = 982
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = 'z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 400
+y = 982
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = '3'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 436
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '6'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 528
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '0'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 620
+y = 982
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = ')'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 656
+y = 982
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 18
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = '?'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 728
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'a'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 820
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'v'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 912
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = ')'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1004
+y = 982
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 18
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = '0'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1132
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = ']'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1224
+y = 982
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = -13
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = '$'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1352
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = -3
+maxy = 24
+advance = 18
+
+[[regions]]
+ch = '>'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1444
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 3
+maxy = 19
+advance = 19
+
+[[regions]]
+ch = 'o'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1536
+y = 982
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = '7'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1572
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '"'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1664
+y = 982
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 28
+miny = 30
+maxy = 46
+advance = 30
+
+[[regions]]
+ch = '>'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1792
+y = 982
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 3
+maxy = 19
+advance = 19
+
+[[regions]]
+ch = '<'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1828
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 3
+maxy = 19
+advance = 19
+
+[[regions]]
+ch = '<'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1920
+y = 982
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 3
+maxy = 19
+advance = 19
+
+[[regions]]
+ch = '9'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1956
+y = 982
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '8'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '9'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 92
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '8'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 128
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '7'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 164
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '6'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 200
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '5'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 236
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '3'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 272
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 308
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = -6
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'd'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 344
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'p'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 380
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 17
+miny = -6
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'L'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 416
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'g'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 452
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = -6
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'p'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 488
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 17
+miny = -6
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 580
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = -6
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'L'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 672
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '+'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 764
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 4
+maxy = 19
+advance = 19
+
+[[regions]]
+ch = 'd'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 800
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'c'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 892
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = 'b'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 984
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '+'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1076
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 4
+maxy = 19
+advance = 19
+
+[[regions]]
+ch = 's'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1168
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 15
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = 's'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1204
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 15
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = 'b'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1296
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 17
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'c'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1332
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = 0
+maxy = 17
+advance = 16
+
+[[regions]]
+ch = 'g'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1368
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = -6
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'n'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1460
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'u'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1552
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'u'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1644
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'n'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1680
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 17
+advance = 18
+
+[[regions]]
+ch = 'k'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1716
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 23
+advance = 16
+
+[[regions]]
+ch = 'h'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1752
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'J'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1788
+y = 1068
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 14
+miny = 0
+maxy = 23
+advance = 16
+
+[[regions]]
+ch = 'h'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1824
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'J'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1916
+y = 1068
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 14
+miny = 0
+maxy = 23
+advance = 16
+
+[[regions]]
+ch = 'k'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 1143
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 16
+miny = 0
+maxy = 23
+advance = 16
+
+[[regions]]
+ch = 'Q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 92
+y = 1143
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 14
+miny = -1
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = '^'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 115
+y = 1143
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 15
+miny = 10
+maxy = 23
+advance = 15
+
+[[regions]]
+ch = '@'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 151
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 12
+miny = -2
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = '^'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 230
+y = 1143
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 15
+miny = 10
+maxy = 23
+advance = 15
+
+[[regions]]
+ch = '@'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 322
+y = 1143
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 12
+miny = -2
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'Q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 345
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 14
+miny = -1
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'K'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 424
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 14
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = '%'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 503
+y = 1143
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 12
+advance = 16
+
+[[regions]]
+ch = 'Z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 526
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = '~'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 605
+y = 1143
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 36
+miny = 16
+maxy = 28
+advance = 37
+
+[[regions]]
+ch = 'N'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 733
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'O'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 812
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'R'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 891
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'T'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 970
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'M'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1049
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 15
+miny = 0
+maxy = 12
+advance = 15
+
+[[regions]]
+ch = 'Y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1128
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'G'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1207
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'U'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1286
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'C'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1365
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'A'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1444
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'V'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1523
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'W'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1602
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 17
+miny = 0
+maxy = 12
+advance = 16
+
+[[regions]]
+ch = '&'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1681
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 14
+miny = 0
+maxy = 12
+advance = 14
+
+[[regions]]
+ch = '%'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1760
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 12
+advance = 16
+
+[[regions]]
+ch = '~'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1839
+y = 1143
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 36
+miny = 16
+maxy = 28
+advance = 37
+
+[[regions]]
+ch = 'H'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1911
+y = 1143
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = '&'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1990
+y = 1143
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 14
+miny = 0
+maxy = 12
+advance = 14
+
+[[regions]]
+ch = 'A'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 2013
+y = 1143
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'Z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 0
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'Y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 23
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'X'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 46
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'W'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 69
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 17
+miny = 0
+maxy = 12
+advance = 16
+
+[[regions]]
+ch = 'V'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 92
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'U'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 115
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'T'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 138
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'H'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 161
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'R'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 184
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'X'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 207
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'G'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 286
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'O'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 309
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'N'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 332
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 13
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = 'M'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 355
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 15
+miny = 0
+maxy = 12
+advance = 15
+
+[[regions]]
+ch = 'C'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 378
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'K'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 401
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 14
+miny = 0
+maxy = 12
+advance = 13
+
+[[regions]]
+ch = '5'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 424
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '#'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 447
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'S'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 470
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = ','
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 493
+y = 1236
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 14
+miny = -11
+maxy = 9
+advance = 18
+
+[[regions]]
+ch = '!'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 621
+y = 1236
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 16
+miny = 0
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = "'"
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 749
+y = 1236
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 13
+miny = 30
+maxy = 46
+advance = 15
+
+[[regions]]
+ch = 'b'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 877
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '#'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 956
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '0'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1035
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'D'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1114
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'B'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1137
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = '$'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1160
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = -1
+maxy = 13
+advance = 11
+
+[[regions]]
+ch = 'D'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1239
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'B'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1318
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 12
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = 'k'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1397
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'p'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1476
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = -3
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = '3'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1555
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '4'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1634
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '8'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1713
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '6'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1736
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '6'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1815
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '8'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1838
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '4'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1917
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '3'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1940
+y = 1236
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'S'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1963
+y = 1236
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = '5'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 0
+y = 1313
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '0'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 79
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'p'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 102
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = -3
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'k'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 125
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'b'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 148
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = "'"
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 171
+y = 1313
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 13
+miny = 30
+maxy = 46
+advance = 15
+
+[[regions]]
+ch = '!'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 243
+y = 1313
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 16
+miny = 0
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = ','
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 315
+y = 1313
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 14
+miny = -11
+maxy = 9
+advance = 18
+
+[[regions]]
+ch = '$'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 387
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = -1
+maxy = 13
+advance = 11
+
+[[regions]]
+ch = '{'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 410
+y = 1313
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = '9'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 446
+y = 1313
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'L'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 525
+y = 1313
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '{'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 604
+y = 1313
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = '}'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 696
+y = 1313
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = 'P'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 788
+y = 1313
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 11
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = '*'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 867
+y = 1313
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 12
+miny = 13
+maxy = 23
+advance = 12
+
+[[regions]]
+ch = ':'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 959
+y = 1313
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 6
+maxx = 16
+miny = 0
+maxy = 34
+advance = 21
+
+[[regions]]
+ch = 'f'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1087
+y = 1313
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '='
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1179
+y = 1313
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 6
+maxy = 16
+advance = 19
+
+[[regions]]
+ch = 'L'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1271
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 11
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'J'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1294
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'E'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1317
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 11
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = '?'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1340
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 10
+
+[[regions]]
+ch = 'l'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1363
+y = 1313
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = 'i'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1435
+y = 1313
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = '9'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1507
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '7'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1530
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '2'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1553
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = ';'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1576
+y = 1313
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 15
+miny = -11
+maxy = 34
+advance = 21
+
+[[regions]]
+ch = ':'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1648
+y = 1313
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 6
+maxx = 16
+miny = 0
+maxy = 34
+advance = 21
+
+[[regions]]
+ch = 'q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1720
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -3
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1743
+y = 1313
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -3
+maxy = 9
+advance = 10
+
+[[regions]]
+ch = 'r'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1766
+y = 1313
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 12
+miny = 0
+maxy = 17
+advance = 11
+
+[[regions]]
+ch = 'E'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1858
+y = 1313
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 11
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = '}'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1937
+y = 1313
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = 'J'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 0
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'I'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 79
+y = 1390
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = 'd'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 207
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'g'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 286
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -3
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'r'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 365
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 12
+miny = 0
+maxy = 17
+advance = 11
+
+[[regions]]
+ch = 'h'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 401
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '?'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 480
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 10
+
+[[regions]]
+ch = '2'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 559
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'h'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 638
+y = 1390
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'g'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 661
+y = 1390
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -3
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'l'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 684
+y = 1390
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = 'f'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 812
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = 'i'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 848
+y = 1390
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = 'd'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 976
+y = 1390
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'P'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 999
+y = 1390
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 11
+miny = 0
+maxy = 12
+advance = 12
+
+[[regions]]
+ch = ';'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1022
+y = 1390
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 15
+miny = -11
+maxy = 34
+advance = 21
+
+[[regions]]
+ch = '*'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1150
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 12
+miny = 13
+maxy = 23
+advance = 12
+
+[[regions]]
+ch = 'q'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1186
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -3
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'I'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1265
+y = 1390
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = '7'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1337
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '='
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1416
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 17
+miny = 6
+maxy = 16
+advance = 19
+
+[[regions]]
+ch = 'y'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1452
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = -3
+maxy = 9
+advance = 10
+
+[[regions]]
+ch = 'm'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1531
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 9
+advance = 16
+
+[[regions]]
+ch = '>'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1610
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 1
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = '1'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1689
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 12
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = '/'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1725
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '+'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1761
+y = 1390
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 1
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = '<'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1784
+y = 1390
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 1
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = 't'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1863
+y = 1390
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = ')'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1955
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = '('
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1991
+y = 1390
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = '\'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 1467
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = 'o'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 36
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = ')'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 115
+y = 1467
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = 'e'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 207
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 230
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 9
+advance = 9
+
+[[regions]]
+ch = '+'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 309
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 1
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = 'a'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 388
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'x'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 411
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'w'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 490
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 9
+advance = 15
+
+[[regions]]
+ch = 'v'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 569
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 10
+
+[[regions]]
+ch = 'u'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 648
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = '('
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 727
+y = 1467
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = -6
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = 'c'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 819
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 't'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 842
+y = 1467
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = 'a'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 878
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 's'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 957
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 10
+
+[[regions]]
+ch = '1'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1036
+y = 1467
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 12
+miny = 0
+maxy = 23
+advance = 18
+
+[[regions]]
+ch = 'z'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1128
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 9
+advance = 9
+
+[[regions]]
+ch = '`'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1151
+y = 1467
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = 37
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = 'x'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1279
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'w'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1302
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 9
+advance = 15
+
+[[regions]]
+ch = 'v'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1325
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 10
+
+[[regions]]
+ch = 'u'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1348
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 's'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1371
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 10
+
+[[regions]]
+ch = 'n'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1394
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'o'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1417
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = '.'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1440
+y = 1467
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 9
+advance = 18
+
+[[regions]]
+ch = 'm'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1512
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 16
+miny = 0
+maxy = 9
+advance = 16
+
+[[regions]]
+ch = 'c'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1535
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'n'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1614
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = '<'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1693
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 1
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = '>'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1716
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 1
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = '`'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1739
+y = 1467
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 16
+miny = 37
+maxy = 46
+advance = 21
+
+[[regions]]
+ch = 'F'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1811
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'F'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1890
+y = 1467
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'e'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1913
+y = 1467
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 11
+miny = 0
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = '/'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 1544
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '\'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 92
+y = 1544
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 9
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '.'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 184
+y = 1544
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 4
+maxx = 14
+miny = 0
+maxy = 9
+advance = 18
+
+[[regions]]
+ch = '|'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 312
+y = 1544
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 13
+miny = -14
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = '-'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 384
+y = 1544
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 21
+miny = 12
+maxy = 20
+advance = 21
+
+[[regions]]
+ch = '"'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 456
+y = 1544
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 15
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = '|'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 492
+y = 1544
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 5
+maxx = 13
+miny = -14
+maxy = 46
+advance = 18
+
+[[regions]]
+ch = '"'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 620
+y = 1544
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 15
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = '-'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 712
+y = 1544
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 3
+maxx = 21
+miny = 12
+maxy = 20
+advance = 21
+
+[[regions]]
+ch = '_'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 840
+y = 1544
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 36
+miny = -13
+maxy = -6
+advance = 36
+
+[[regions]]
+ch = '{'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 968
+y = 1544
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '='
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 991
+y = 1544
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 2
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 't'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1014
+y = 1544
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = 0
+maxy = 12
+advance = 7
+
+[[regions]]
+ch = '_'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 1037
+y = 1544
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 36
+miny = -13
+maxy = -6
+advance = 36
+
+[[regions]]
+ch = 'r'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1109
+y = 1544
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 0
+maxy = 9
+advance = 7
+
+[[regions]]
+ch = 'j'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1132
+y = 1544
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = -2
+maxx = 5
+miny = -6
+maxy = 23
+advance = 7
+
+[[regions]]
+ch = ']'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1168
+y = 1544
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = -6
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '['
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1204
+y = 1544
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 9
+miny = -6
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = 'f'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1240
+y = 1544
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = 0
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '1'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1319
+y = 1544
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = 'r'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1342
+y = 1544
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 0
+maxy = 9
+advance = 7
+
+[[regions]]
+ch = '['
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1421
+y = 1544
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 9
+miny = -6
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '}'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1513
+y = 1544
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '}'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1536
+y = 1544
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '{'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1615
+y = 1544
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '1'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1694
+y = 1544
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 0
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = ']'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1773
+y = 1544
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = -6
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = 't'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1865
+y = 1544
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = 0
+maxy = 12
+advance = 7
+
+[[regions]]
+ch = '='
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1944
+y = 1544
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 2
+maxy = 9
+advance = 11
+
+[[regions]]
+ch = 'f'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 2023
+y = 1544
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 7
+miny = 0
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = 'j'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 1637
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = -2
+maxx = 5
+miny = -6
+maxy = 23
+advance = 7
+
+[[regions]]
+ch = ')'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 92
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '\'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 171
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = 'j'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 250
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 5
+miny = -3
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = 'j'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 273
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 5
+miny = -3
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = ']'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 352
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '*'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 431
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 6
+maxy = 12
+advance = 9
+
+[[regions]]
+ch = '^'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 454
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 6
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = '('
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 477
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = ')'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 556
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '('
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 579
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '\'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 602
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = '*'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 625
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 6
+maxy = 12
+advance = 9
+
+[[regions]]
+ch = ']'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 704
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = '^'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 727
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 6
+maxy = 12
+advance = 11
+
+[[regions]]
+ch = ';'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 806
+y = 1637
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = -5
+maxy = 17
+advance = 9
+
+[[regions]]
+ch = ':'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 842
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 9
+advance = 5
+
+[[regions]]
+ch = '['
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 921
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = 'I'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 944
+y = 1637
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '~'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1036
+y = 1637
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 18
+miny = 9
+maxy = 14
+advance = 19
+
+[[regions]]
+ch = ';'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1072
+y = 1637
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = -5
+maxy = 17
+advance = 9
+
+[[regions]]
+ch = '!'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1164
+y = 1637
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = '['
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1200
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 6
+miny = -3
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = ';'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1279
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = -3
+maxy = 9
+advance = 5
+
+[[regions]]
+ch = ':'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1358
+y = 1637
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 17
+advance = 9
+
+[[regions]]
+ch = '!'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1450
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = '~'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1473
+y = 1637
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 18
+miny = 9
+maxy = 14
+advance = 19
+
+[[regions]]
+ch = '!'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1565
+y = 1637
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = ','
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1657
+y = 1637
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = -5
+maxy = 3
+advance = 9
+
+[[regions]]
+ch = '/'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1749
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = ','
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1828
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = -3
+maxy = 3
+advance = 5
+
+[[regions]]
+ch = ','
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1907
+y = 1637
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = -3
+maxy = 3
+advance = 5
+
+[[regions]]
+ch = '!'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1930
+y = 1637
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = 'I'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 2009
+y = 1637
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 23
+advance = 9
+
+[[regions]]
+ch = ':'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 17
+advance = 9
+
+[[regions]]
+ch = '/'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 36
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = ':'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 59
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 9
+advance = 5
+
+[[regions]]
+ch = ','
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 82
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = -5
+maxy = 3
+advance = 9
+
+[[regions]]
+ch = ';'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 118
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = -3
+maxy = 9
+advance = 5
+
+[[regions]]
+ch = '|'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 141
+y = 1712
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 6
+miny = -6
+maxy = 23
+advance = 8
+
+[[regions]]
+ch = 'i'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 233
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = '`'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 256
+y = 1712
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 19
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = 'l'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 348
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = '~'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 371
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 4
+maxy = 8
+advance = 11
+
+[[regions]]
+ch = "'"
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 394
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 4
+miny = 8
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = "'"
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 473
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 15
+maxy = 23
+advance = 6
+
+[[regions]]
+ch = '"'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 509
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 8
+miny = 8
+maxy = 12
+advance = 8
+
+[[regions]]
+ch = 'I'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 588
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = 'I'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 611
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 6
+
+[[regions]]
+ch = "'"
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 690
+y = 1712
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 15
+maxy = 23
+advance = 6
+
+[[regions]]
+ch = 'l'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 782
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = '`'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 861
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 8
+miny = 19
+maxy = 23
+advance = 11
+
+[[regions]]
+ch = '~'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 897
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 10
+miny = 4
+maxy = 8
+advance = 11
+
+[[regions]]
+ch = "'"
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 976
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 4
+miny = 8
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = 'i'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 999
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 5
+miny = 0
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = '"'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1078
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 8
+miny = 8
+maxy = 12
+advance = 8
+
+[[regions]]
+ch = '|'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1101
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 6
+miny = -6
+maxy = 23
+advance = 8
+
+[[regions]]
+ch = '_'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1137
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 19
+miny = -7
+maxy = -4
+advance = 18
+
+[[regions]]
+ch = 'i'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1173
+y = 1712
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 5
+miny = 0
+maxy = 23
+advance = 7
+
+[[regions]]
+ch = '|'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1265
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 4
+miny = -3
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = '.'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1344
+y = 1712
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 3
+advance = 9
+
+[[regions]]
+ch = 'l'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1436
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 5
+miny = 0
+maxy = 23
+advance = 7
+
+[[regions]]
+ch = '-'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1472
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 3
+maxy = 6
+advance = 5
+
+[[regions]]
+ch = '_'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1495
+y = 1712
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 19
+miny = -7
+maxy = -4
+advance = 18
+
+[[regions]]
+ch = 'i'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1587
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 5
+miny = 0
+maxy = 23
+advance = 7
+
+[[regions]]
+ch = '-'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1623
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 3
+maxy = 6
+advance = 5
+
+[[regions]]
+ch = '.'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1702
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 3
+advance = 5
+
+[[regions]]
+ch = '.'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1725
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 7
+miny = 0
+maxy = 3
+advance = 9
+
+[[regions]]
+ch = '-'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1761
+y = 1712
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 7
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = '|'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1797
+y = 1712
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 4
+miny = -3
+maxy = 12
+advance = 4
+
+[[regions]]
+ch = '.'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 1820
+y = 1712
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 5
+miny = 0
+maxy = 3
+advance = 5
+
+[[regions]]
+ch = 'l'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 1899
+y = 1712
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 2
+maxx = 5
+miny = 0
+maxy = 23
+advance = 7
+
+[[regions]]
+ch = '-'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 1788
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 1
+maxx = 10
+miny = 7
+maxy = 10
+advance = 11
+
+[[regions]]
+ch = '`'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 92
+y = 1788
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 4
+miny = 10
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = '`'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 115
+y = 1788
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 4
+miny = 10
+maxy = 12
+advance = 5
+
+[[regions]]
+ch = '_'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 194
+y = 1788
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 9
+miny = -2
+maxy = -1
+advance = 8
+
+[[regions]]
+ch = '_'
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 217
+y = 1788
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = -1
+maxx = 9
+miny = -2
+maxy = -1
+advance = 8
+
+[[regions]]
+ch = ' '
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 0
+w = 36
+h = 36
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 0
+miny = 0
+maxy = 0
+advance = 9
+
+[[regions]]
+ch = ' '
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 0
+y = 0
+w = 23
+h = 23
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 0
+miny = 0
+maxy = 0
+advance = 5
+
+[[regions]]
+ch = ' '
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 0
+w = 72
+h = 72
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 0
+miny = 0
+maxy = 0
+advance = 18
+
+[[regions]]
+ch = ' '
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 37
+x = 0
+y = 0
+w = 92
+h = 92
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 0
+miny = 0
+maxy = 0
+advance = 9
+
+[[regions]]
+ch = ' '
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 74
+x = 0
+y = 0
+w = 128
+h = 128
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 0
+miny = 0
+maxy = 0
+advance = 18
+
+[[regions]]
+ch = ' '
+atlas_width = 2048
+atlas_height = 2048
+line_spacing = 23
+x = 0
+y = 0
+w = 79
+h = 79
+is_rotated = true
+
+[regions.metrics]
+minx = 0
+maxx = 0
+miny = 0
+maxy = 0
+advance = 5
