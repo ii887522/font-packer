@@ -5,7 +5,9 @@ use std::cell::RefCell;
 
 #[derive(Clone, Debug)]
 pub(crate) struct Glyph {
-  pub ch: char,
+  pub font_name: String,
+  pub font_size: u16,
+  pub name: String,
   pub atlas_id: GLenum,
   pub atlas_size: UVec2,
   pub line_spacing: i32,
