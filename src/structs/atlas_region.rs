@@ -3,7 +3,9 @@ use serde::Serialize;
 
 #[derive(Clone, Debug, Serialize)]
 pub(crate) struct AtlasRegion {
-  pub ch: char,
+  pub font_name: String,
+  pub font_size: u16,
+  pub name: String,
   pub atlas_width: u32,
   pub atlas_height: u32,
   pub line_spacing: i32,
@@ -18,7 +20,9 @@ pub(crate) struct AtlasRegion {
 impl From<Glyph> for AtlasRegion {
   fn from(glyph: Glyph) -> Self {
     Self {
-      ch: glyph.ch,
+      font_name: glyph.font_name,
+      font_size: glyph.font_size,
+      name: glyph.name,
       atlas_width: glyph.atlas_size.get_x(),
       atlas_height: glyph.atlas_size.get_y(),
       line_spacing: glyph.line_spacing,

@@ -1,5 +1,7 @@
 [[regions]]
-ch = '@'
+font_name = 'arialbd'
+font_size = 64
+name = '@_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -17,7 +19,9 @@ maxy = 47
 advance = 62
 
 [[regions]]
-ch = '@'
+font_name = 'arialbd'
+font_size = 64
+name = '@'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -35,7 +39,9 @@ maxy = 47
 advance = 62
 
 [[regions]]
-ch = '%'
+font_name = 'arialbd'
+font_size = 64
+name = '%_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -53,7 +59,9 @@ maxy = 47
 advance = 57
 
 [[regions]]
-ch = '%'
+font_name = 'arialbd'
+font_size = 64
+name = '%'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -71,7 +79,9 @@ maxy = 47
 advance = 57
 
 [[regions]]
-ch = 'Q'
+font_name = 'arialbd'
+font_size = 64
+name = 'Q'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -89,7 +99,9 @@ maxy = 47
 advance = 50
 
 [[regions]]
-ch = 'Q'
+font_name = 'arialbd'
+font_size = 64
+name = 'Q_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -107,7 +119,9 @@ maxy = 47
 advance = 50
 
 [[regions]]
-ch = 'W'
+font_name = 'arialbd'
+font_size = 64
+name = 'W_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -125,7 +139,9 @@ maxy = 46
 advance = 60
 
 [[regions]]
-ch = 'W'
+font_name = 'arialbd'
+font_size = 64
+name = 'W'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -143,7 +159,9 @@ maxy = 46
 advance = 60
 
 [[regions]]
-ch = 'A'
+font_name = 'arialbd'
+font_size = 64
+name = 'A_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -161,7 +179,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'A'
+font_name = 'arialbd'
+font_size = 64
+name = 'A'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -179,7 +199,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'O'
+font_name = 'arialbd'
+font_size = 64
+name = 'O_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -197,7 +219,9 @@ maxy = 47
 advance = 50
 
 [[regions]]
-ch = 'O'
+font_name = 'arialbd'
+font_size = 64
+name = 'O'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -215,7 +239,9 @@ maxy = 47
 advance = 50
 
 [[regions]]
-ch = 'M'
+font_name = 'arialbd'
+font_size = 64
+name = 'M'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -233,7 +259,9 @@ maxy = 46
 advance = 53
 
 [[regions]]
-ch = 'M'
+font_name = 'arialbd'
+font_size = 64
+name = 'M_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -251,7 +279,9 @@ maxy = 46
 advance = 53
 
 [[regions]]
-ch = 'V'
+font_name = 'arialbd'
+font_size = 64
+name = 'V_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -269,7 +299,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'Y'
+font_name = 'arialbd'
+font_size = 64
+name = 'Y'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -287,7 +319,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'V'
+font_name = 'arialbd'
+font_size = 64
+name = 'V'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -305,7 +339,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'Y'
+font_name = 'arialbd'
+font_size = 64
+name = 'Y_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -323,7 +359,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = '&'
+font_name = 'arialbd'
+font_size = 64
+name = '&'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -341,7 +379,9 @@ maxy = 47
 advance = 46
 
 [[regions]]
-ch = '&'
+font_name = 'arialbd'
+font_size = 64
+name = '&_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -359,7 +399,9 @@ maxy = 47
 advance = 46
 
 [[regions]]
-ch = 'X'
+font_name = 'arialbd'
+font_size = 64
+name = 'X'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -377,7 +419,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'K'
+font_name = 'arialbd'
+font_size = 64
+name = 'K_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -395,7 +439,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'G'
+font_name = 'arialbd'
+font_size = 64
+name = 'G_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -413,7 +459,9 @@ maxy = 47
 advance = 50
 
 [[regions]]
-ch = 'X'
+font_name = 'arialbd'
+font_size = 64
+name = 'X_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -431,7 +479,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'K'
+font_name = 'arialbd'
+font_size = 64
+name = 'K'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -449,7 +499,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'G'
+font_name = 'arialbd'
+font_size = 64
+name = 'G'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -467,7 +519,9 @@ maxy = 47
 advance = 50
 
 [[regions]]
-ch = 'R'
+font_name = 'arialbd'
+font_size = 64
+name = 'R_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -485,7 +539,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'R'
+font_name = 'arialbd'
+font_size = 64
+name = 'R'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -503,7 +559,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'B'
+font_name = 'arialbd'
+font_size = 64
+name = 'B_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -521,7 +579,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'D'
+font_name = 'arialbd'
+font_size = 64
+name = 'D_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -539,7 +599,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'C'
+font_name = 'arialbd'
+font_size = 64
+name = 'C_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -557,7 +619,9 @@ maxy = 47
 advance = 46
 
 [[regions]]
-ch = 'D'
+font_name = 'arialbd'
+font_size = 64
+name = 'D'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -575,7 +639,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'C'
+font_name = 'arialbd'
+font_size = 64
+name = 'C'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -593,7 +659,9 @@ maxy = 47
 advance = 46
 
 [[regions]]
-ch = 'B'
+font_name = 'arialbd'
+font_size = 64
+name = 'B'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -611,7 +679,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'Z'
+font_name = 'arialbd'
+font_size = 64
+name = 'Z_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -629,7 +699,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'S'
+font_name = 'arialbd'
+font_size = 64
+name = 'S'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -647,7 +719,9 @@ maxy = 47
 advance = 43
 
 [[regions]]
-ch = 'H'
+font_name = 'arialbd'
+font_size = 64
+name = 'H'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -665,7 +739,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'Z'
+font_name = 'arialbd'
+font_size = 64
+name = 'Z'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -683,7 +759,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'U'
+font_name = 'arialbd'
+font_size = 64
+name = 'U_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -701,7 +779,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'N'
+font_name = 'arialbd'
+font_size = 64
+name = 'N'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -719,7 +799,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'N'
+font_name = 'arialbd'
+font_size = 64
+name = 'N_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -737,7 +819,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'U'
+font_name = 'arialbd'
+font_size = 64
+name = 'U'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -755,7 +839,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'H'
+font_name = 'arialbd'
+font_size = 64
+name = 'H_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -773,7 +859,9 @@ maxy = 46
 advance = 46
 
 [[regions]]
-ch = 'S'
+font_name = 'arialbd'
+font_size = 64
+name = 'S_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -791,7 +879,9 @@ maxy = 47
 advance = 43
 
 [[regions]]
-ch = 'T'
+font_name = 'arialbd'
+font_size = 64
+name = 'T'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -809,7 +899,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'T'
+font_name = 'arialbd'
+font_size = 64
+name = 'T_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -827,7 +919,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'E'
+font_name = 'arialbd'
+font_size = 64
+name = 'E_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -845,7 +939,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'P'
+font_name = 'arialbd'
+font_size = 64
+name = 'P_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -863,7 +959,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'P'
+font_name = 'arialbd'
+font_size = 64
+name = 'P'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -881,7 +979,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = 'E'
+font_name = 'arialbd'
+font_size = 64
+name = 'E'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -899,7 +999,9 @@ maxy = 46
 advance = 43
 
 [[regions]]
-ch = '#'
+font_name = 'arialbd'
+font_size = 64
+name = '#'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -917,7 +1019,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'y'
+font_name = 'arialbd'
+font_size = 64
+name = 'y_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -935,7 +1039,9 @@ maxy = 34
 advance = 36
 
 [[regions]]
-ch = 'o'
+font_name = 'arialbd'
+font_size = 64
+name = 'o_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -953,7 +1059,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = 'm'
+font_name = 'arialbd'
+font_size = 64
+name = 'm'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -971,7 +1079,9 @@ maxy = 35
 advance = 57
 
 [[regions]]
-ch = 'm'
+font_name = 'arialbd'
+font_size = 64
+name = 'm_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -989,7 +1099,9 @@ maxy = 35
 advance = 57
 
 [[regions]]
-ch = '#'
+font_name = 'arialbd'
+font_size = 64
+name = '#_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1007,7 +1119,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'o'
+font_name = 'arialbd'
+font_size = 64
+name = 'o'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1025,7 +1139,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = 'y'
+font_name = 'arialbd'
+font_size = 64
+name = 'y'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1043,7 +1159,9 @@ maxy = 34
 advance = 36
 
 [[regions]]
-ch = 'x'
+font_name = 'arialbd'
+font_size = 64
+name = 'x_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1061,7 +1179,9 @@ maxy = 34
 advance = 36
 
 [[regions]]
-ch = 'v'
+font_name = 'arialbd'
+font_size = 64
+name = 'v'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1079,7 +1199,9 @@ maxy = 34
 advance = 36
 
 [[regions]]
-ch = 'q'
+font_name = 'arialbd'
+font_size = 64
+name = 'q_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1097,7 +1219,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = '4'
+font_name = 'arialbd'
+font_size = 64
+name = '4_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1115,7 +1239,9 @@ maxy = 45
 advance = 36
 
 [[regions]]
-ch = 'L'
+font_name = 'arialbd'
+font_size = 64
+name = 'L_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1133,7 +1259,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'd'
+font_name = 'arialbd'
+font_size = 64
+name = 'd_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1151,7 +1279,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = '?'
+font_name = 'arialbd'
+font_size = 64
+name = '?'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1169,7 +1299,9 @@ maxy = 47
 advance = 39
 
 [[regions]]
-ch = '?'
+font_name = 'arialbd'
+font_size = 64
+name = '?_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1187,7 +1319,9 @@ maxy = 47
 advance = 39
 
 [[regions]]
-ch = 'd'
+font_name = 'arialbd'
+font_size = 64
+name = 'd'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1205,7 +1339,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'q'
+font_name = 'arialbd'
+font_size = 64
+name = 'q'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1223,7 +1359,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = 'v'
+font_name = 'arialbd'
+font_size = 64
+name = 'v_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1241,7 +1379,9 @@ maxy = 34
 advance = 36
 
 [[regions]]
-ch = 'w'
+font_name = 'arialbd'
+font_size = 64
+name = 'w_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1259,7 +1399,9 @@ maxy = 34
 advance = 50
 
 [[regions]]
-ch = '4'
+font_name = 'arialbd'
+font_size = 64
+name = '4'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1277,7 +1419,9 @@ maxy = 45
 advance = 36
 
 [[regions]]
-ch = 'L'
+font_name = 'arialbd'
+font_size = 64
+name = 'L'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1295,7 +1439,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'x'
+font_name = 'arialbd'
+font_size = 64
+name = 'x'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1313,7 +1459,9 @@ maxy = 34
 advance = 36
 
 [[regions]]
-ch = 'w'
+font_name = 'arialbd'
+font_size = 64
+name = 'w'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1331,7 +1479,9 @@ maxy = 34
 advance = 50
 
 [[regions]]
-ch = '>'
+font_name = 'arialbd'
+font_size = 64
+name = '>'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1349,7 +1499,9 @@ maxy = 40
 advance = 37
 
 [[regions]]
-ch = '<'
+font_name = 'arialbd'
+font_size = 64
+name = '<_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1367,7 +1519,9 @@ maxy = 40
 advance = 37
 
 [[regions]]
-ch = '>'
+font_name = 'arialbd'
+font_size = 64
+name = '>_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1385,7 +1539,9 @@ maxy = 40
 advance = 37
 
 [[regions]]
-ch = 'F'
+font_name = 'arialbd'
+font_size = 64
+name = 'F'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1403,7 +1559,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'p'
+font_name = 'arialbd'
+font_size = 64
+name = 'p'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1421,7 +1579,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = 'p'
+font_name = 'arialbd'
+font_size = 64
+name = 'p_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1439,7 +1599,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = 'F'
+font_name = 'arialbd'
+font_size = 64
+name = 'F_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1457,7 +1619,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'b'
+font_name = 'arialbd'
+font_size = 64
+name = 'b_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1475,7 +1639,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = 'g'
+font_name = 'arialbd'
+font_size = 64
+name = 'g'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1493,7 +1659,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = 'g'
+font_name = 'arialbd'
+font_size = 64
+name = 'g_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1511,7 +1679,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = 'b'
+font_name = 'arialbd'
+font_size = 64
+name = 'b'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1529,7 +1699,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = '<'
+font_name = 'arialbd'
+font_size = 64
+name = '<'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1547,7 +1719,9 @@ maxy = 40
 advance = 37
 
 [[regions]]
-ch = 'e'
+font_name = 'arialbd'
+font_size = 64
+name = 'e_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1565,7 +1739,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = 's'
+font_name = 'arialbd'
+font_size = 64
+name = 's'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1583,7 +1759,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = 'c'
+font_name = 'arialbd'
+font_size = 64
+name = 'c'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1601,7 +1779,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = 'a'
+font_name = 'arialbd'
+font_size = 64
+name = 'a'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1619,7 +1799,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = '6'
+font_name = 'arialbd'
+font_size = 64
+name = '6'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1637,7 +1819,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = '5'
+font_name = 'arialbd'
+font_size = 64
+name = '5'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1655,7 +1839,9 @@ maxy = 45
 advance = 36
 
 [[regions]]
-ch = '2'
+font_name = 'arialbd'
+font_size = 64
+name = '2'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1673,7 +1859,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'e'
+font_name = 'arialbd'
+font_size = 64
+name = 'e'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1691,7 +1879,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = '+'
+font_name = 'arialbd'
+font_size = 64
+name = '+_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1709,7 +1899,9 @@ maxy = 39
 advance = 37
 
 [[regions]]
-ch = '+'
+font_name = 'arialbd'
+font_size = 64
+name = '+'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1727,7 +1919,9 @@ maxy = 39
 advance = 37
 
 [[regions]]
-ch = 'a'
+font_name = 'arialbd'
+font_size = 64
+name = 'a_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1745,7 +1939,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = '2'
+font_name = 'arialbd'
+font_size = 64
+name = '2_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1763,7 +1959,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = '5'
+font_name = 'arialbd'
+font_size = 64
+name = '5_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1781,7 +1979,9 @@ maxy = 45
 advance = 36
 
 [[regions]]
-ch = 's'
+font_name = 'arialbd'
+font_size = 64
+name = 's_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1799,7 +1999,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = '6'
+font_name = 'arialbd'
+font_size = 64
+name = '6_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1817,7 +2019,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'c'
+font_name = 'arialbd'
+font_size = 64
+name = 'c_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1835,7 +2039,9 @@ maxy = 35
 advance = 36
 
 [[regions]]
-ch = '3'
+font_name = 'arialbd'
+font_size = 64
+name = '3_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1853,7 +2059,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'u'
+font_name = 'arialbd'
+font_size = 64
+name = 'u_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1871,7 +2079,9 @@ maxy = 34
 advance = 39
 
 [[regions]]
-ch = '$'
+font_name = 'arialbd'
+font_size = 64
+name = '$'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1889,7 +2099,9 @@ maxy = 49
 advance = 36
 
 [[regions]]
-ch = '7'
+font_name = 'arialbd'
+font_size = 64
+name = '7'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1907,7 +2119,9 @@ maxy = 45
 advance = 36
 
 [[regions]]
-ch = '8'
+font_name = 'arialbd'
+font_size = 64
+name = '8_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1925,7 +2139,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'k'
+font_name = 'arialbd'
+font_size = 64
+name = 'k'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1943,7 +2159,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'n'
+font_name = 'arialbd'
+font_size = 64
+name = 'n'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1961,7 +2179,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = '0'
+font_name = 'arialbd'
+font_size = 64
+name = '0_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1979,7 +2199,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'u'
+font_name = 'arialbd'
+font_size = 64
+name = 'u'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -1997,7 +2219,9 @@ maxy = 34
 advance = 39
 
 [[regions]]
-ch = '0'
+font_name = 'arialbd'
+font_size = 64
+name = '0'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2015,7 +2239,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'k'
+font_name = 'arialbd'
+font_size = 64
+name = 'k_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2033,7 +2259,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'n'
+font_name = 'arialbd'
+font_size = 64
+name = 'n_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2051,7 +2279,9 @@ maxy = 35
 advance = 39
 
 [[regions]]
-ch = '3'
+font_name = 'arialbd'
+font_size = 64
+name = '3'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2069,7 +2299,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = '9'
+font_name = 'arialbd'
+font_size = 64
+name = '9_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2087,7 +2319,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'h'
+font_name = 'arialbd'
+font_size = 64
+name = 'h_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2105,7 +2339,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = '$'
+font_name = 'arialbd'
+font_size = 64
+name = '$_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2123,7 +2359,9 @@ maxy = 49
 advance = 36
 
 [[regions]]
-ch = 'h'
+font_name = 'arialbd'
+font_size = 64
+name = 'h'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2141,7 +2379,9 @@ maxy = 46
 advance = 39
 
 [[regions]]
-ch = '8'
+font_name = 'arialbd'
+font_size = 64
+name = '8'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2159,7 +2399,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = '9'
+font_name = 'arialbd'
+font_size = 64
+name = '9'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2177,7 +2419,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = '7'
+font_name = 'arialbd'
+font_size = 64
+name = '7_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2195,7 +2439,9 @@ maxy = 45
 advance = 36
 
 [[regions]]
-ch = 'J'
+font_name = 'arialbd'
+font_size = 64
+name = 'J_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2213,7 +2459,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'z'
+font_name = 'arialbd'
+font_size = 64
+name = 'z_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2231,7 +2479,9 @@ maxy = 34
 advance = 32
 
 [[regions]]
-ch = 'z'
+font_name = 'arialbd'
+font_size = 64
+name = 'z'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2249,7 +2499,9 @@ maxy = 34
 advance = 32
 
 [[regions]]
-ch = 'J'
+font_name = 'arialbd'
+font_size = 64
+name = 'J'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2267,7 +2519,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = '@'
+font_name = 'arial'
+font_size = 32
+name = '@_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2285,7 +2539,9 @@ maxy = 23
 advance = 32
 
 [[regions]]
-ch = '@'
+font_name = 'arial'
+font_size = 32
+name = '@'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2303,7 +2559,9 @@ maxy = 23
 advance = 32
 
 [[regions]]
-ch = '^'
+font_name = 'arialbd'
+font_size = 64
+name = '^_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2321,7 +2579,9 @@ maxy = 47
 advance = 37
 
 [[regions]]
-ch = '^'
+font_name = 'arialbd'
+font_size = 64
+name = '^'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2339,7 +2599,9 @@ maxy = 47
 advance = 37
 
 [[regions]]
-ch = 'f'
+font_name = 'arialbd'
+font_size = 64
+name = 'f_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2357,7 +2619,9 @@ maxy = 47
 advance = 21
 
 [[regions]]
-ch = 'f'
+font_name = 'arialbd'
+font_size = 64
+name = 'f'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2375,7 +2639,9 @@ maxy = 47
 advance = 21
 
 [[regions]]
-ch = 'M'
+font_name = 'arial'
+font_size = 32
+name = 'M_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2393,7 +2659,9 @@ maxy = 23
 advance = 27
 
 [[regions]]
-ch = 'Q'
+font_name = 'arial'
+font_size = 32
+name = 'Q'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2411,7 +2679,9 @@ maxy = 23
 advance = 25
 
 [[regions]]
-ch = '{'
+font_name = 'arialbd'
+font_size = 64
+name = '{'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2429,7 +2699,9 @@ maxy = 47
 advance = 25
 
 [[regions]]
-ch = '%'
+font_name = 'arial'
+font_size = 32
+name = '%'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2447,7 +2719,9 @@ maxy = 23
 advance = 28
 
 [[regions]]
-ch = '{'
+font_name = 'arialbd'
+font_size = 64
+name = '{_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2465,7 +2739,9 @@ maxy = 47
 advance = 25
 
 [[regions]]
-ch = 'A'
+font_name = 'arial'
+font_size = 32
+name = 'A'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2483,7 +2759,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = '%'
+font_name = 'arial'
+font_size = 32
+name = '%_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2501,7 +2779,9 @@ maxy = 23
 advance = 28
 
 [[regions]]
-ch = 'W'
+font_name = 'arial'
+font_size = 32
+name = 'W_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2519,7 +2799,9 @@ maxy = 23
 advance = 30
 
 [[regions]]
-ch = 'A'
+font_name = 'arial'
+font_size = 32
+name = 'A_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2537,7 +2819,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'O'
+font_name = 'arial'
+font_size = 32
+name = 'O_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2555,7 +2839,9 @@ maxy = 23
 advance = 25
 
 [[regions]]
-ch = 'Q'
+font_name = 'arial'
+font_size = 32
+name = 'Q_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2573,7 +2859,9 @@ maxy = 23
 advance = 25
 
 [[regions]]
-ch = 'W'
+font_name = 'arial'
+font_size = 32
+name = 'W'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2591,7 +2879,9 @@ maxy = 23
 advance = 30
 
 [[regions]]
-ch = 'M'
+font_name = 'arial'
+font_size = 32
+name = 'M'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2609,7 +2899,9 @@ maxy = 23
 advance = 27
 
 [[regions]]
-ch = 'O'
+font_name = 'arial'
+font_size = 32
+name = 'O'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2627,7 +2919,9 @@ maxy = 23
 advance = 25
 
 [[regions]]
-ch = '*'
+font_name = 'arialbd'
+font_size = 64
+name = '*'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2645,7 +2939,9 @@ maxy = 46
 advance = 25
 
 [[regions]]
-ch = 'r'
+font_name = 'arialbd'
+font_size = 64
+name = 'r_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2663,7 +2959,9 @@ maxy = 35
 advance = 25
 
 [[regions]]
-ch = '}'
+font_name = 'arialbd'
+font_size = 64
+name = '}'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2681,7 +2979,9 @@ maxy = 47
 advance = 25
 
 [[regions]]
-ch = 'V'
+font_name = 'arial'
+font_size = 32
+name = 'V'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2699,7 +2999,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'X'
+font_name = 'arial'
+font_size = 32
+name = 'X'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2717,7 +3019,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'Y'
+font_name = 'arial'
+font_size = 32
+name = 'Y'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2735,7 +3039,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = '='
+font_name = 'arialbd'
+font_size = 64
+name = '='
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2753,7 +3059,9 @@ maxy = 34
 advance = 37
 
 [[regions]]
-ch = '*'
+font_name = 'arialbd'
+font_size = 64
+name = '*_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2771,7 +3079,9 @@ maxy = 46
 advance = 25
 
 [[regions]]
-ch = 'G'
+font_name = 'arial'
+font_size = 32
+name = 'G'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2789,7 +3099,9 @@ maxy = 23
 advance = 25
 
 [[regions]]
-ch = 'V'
+font_name = 'arial'
+font_size = 32
+name = 'V_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2807,7 +3119,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = '}'
+font_name = 'arialbd'
+font_size = 64
+name = '}_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2825,7 +3139,9 @@ maxy = 47
 advance = 25
 
 [[regions]]
-ch = '='
+font_name = 'arialbd'
+font_size = 64
+name = '=_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2843,7 +3159,9 @@ maxy = 34
 advance = 37
 
 [[regions]]
-ch = 'r'
+font_name = 'arialbd'
+font_size = 64
+name = 'r'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2861,7 +3179,9 @@ maxy = 35
 advance = 25
 
 [[regions]]
-ch = 'X'
+font_name = 'arial'
+font_size = 32
+name = 'X_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2879,7 +3199,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'G'
+font_name = 'arial'
+font_size = 32
+name = 'G_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2897,7 +3219,9 @@ maxy = 23
 advance = 25
 
 [[regions]]
-ch = 'Y'
+font_name = 'arial'
+font_size = 32
+name = 'Y_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2915,7 +3239,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'C'
+font_name = 'arial'
+font_size = 32
+name = 'C_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2933,7 +3259,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = 't'
+font_name = 'arialbd'
+font_size = 64
+name = 't'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2951,7 +3279,9 @@ maxy = 45
 advance = 21
 
 [[regions]]
-ch = '1'
+font_name = 'arialbd'
+font_size = 64
+name = '1'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -2969,7 +3299,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 'C'
+font_name = 'arial'
+font_size = 32
+name = 'C'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -2987,7 +3319,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = 'R'
+font_name = 'arial'
+font_size = 32
+name = 'R'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3005,7 +3339,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = 'R'
+font_name = 'arial'
+font_size = 32
+name = 'R_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3023,7 +3359,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = '1'
+font_name = 'arialbd'
+font_size = 64
+name = '1_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3041,7 +3379,9 @@ maxy = 46
 advance = 36
 
 [[regions]]
-ch = 't'
+font_name = 'arialbd'
+font_size = 64
+name = 't_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3059,7 +3399,9 @@ maxy = 45
 advance = 21
 
 [[regions]]
-ch = 'D'
+font_name = 'arial'
+font_size = 32
+name = 'D'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3077,7 +3419,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = '&'
+font_name = 'arial'
+font_size = 32
+name = '&'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3095,7 +3439,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'K'
+font_name = 'arial'
+font_size = 32
+name = 'K'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3113,7 +3459,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'D'
+font_name = 'arial'
+font_size = 32
+name = 'D_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3131,7 +3479,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = '&'
+font_name = 'arial'
+font_size = 32
+name = '&_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3149,7 +3499,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'K'
+font_name = 'arial'
+font_size = 32
+name = 'K_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3167,7 +3519,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'H'
+font_name = 'arial'
+font_size = 32
+name = 'H'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3185,7 +3539,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = 'N'
+font_name = 'arial'
+font_size = 32
+name = 'N'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3203,7 +3559,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = 'T'
+font_name = 'arial'
+font_size = 32
+name = 'T_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3221,7 +3579,9 @@ maxy = 23
 advance = 20
 
 [[regions]]
-ch = 'Z'
+font_name = 'arial'
+font_size = 32
+name = 'Z'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3239,7 +3599,9 @@ maxy = 23
 advance = 20
 
 [[regions]]
-ch = '\'
+font_name = 'arialbd'
+font_size = 64
+name = '\_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3257,7 +3619,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = 'T'
+font_name = 'arial'
+font_size = 32
+name = 'T'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3275,7 +3639,9 @@ maxy = 23
 advance = 20
 
 [[regions]]
-ch = 'N'
+font_name = 'arial'
+font_size = 32
+name = 'N_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3293,7 +3659,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = 'U'
+font_name = 'arial'
+font_size = 32
+name = 'U'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3311,7 +3679,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = '\'
+font_name = 'arialbd'
+font_size = 64
+name = '\'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3329,7 +3699,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = 'S'
+font_name = 'arial'
+font_size = 32
+name = 'S'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3347,7 +3719,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'H'
+font_name = 'arial'
+font_size = 32
+name = 'H_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3365,7 +3739,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = 'Z'
+font_name = 'arial'
+font_size = 32
+name = 'Z_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3383,7 +3759,9 @@ maxy = 23
 advance = 20
 
 [[regions]]
-ch = 'U'
+font_name = 'arial'
+font_size = 32
+name = 'U_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3401,7 +3779,9 @@ maxy = 23
 advance = 23
 
 [[regions]]
-ch = '/'
+font_name = 'arialbd'
+font_size = 64
+name = '/'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3419,7 +3799,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = '/'
+font_name = 'arialbd'
+font_size = 64
+name = '/_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3437,7 +3819,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = 'S'
+font_name = 'arial'
+font_size = 32
+name = 'S_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3455,7 +3839,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'E'
+font_name = 'arial'
+font_size = 32
+name = 'E'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3473,7 +3859,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = '#'
+font_name = 'arial'
+font_size = 32
+name = '#'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3491,7 +3879,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'P'
+font_name = 'arial'
+font_size = 32
+name = 'P'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3509,7 +3899,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'B'
+font_name = 'arial'
+font_size = 32
+name = 'B'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3527,7 +3919,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'B'
+font_name = 'arial'
+font_size = 32
+name = 'B_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3545,7 +3939,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = 'P'
+font_name = 'arial'
+font_size = 32
+name = 'P_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3563,7 +3959,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = '#'
+font_name = 'arial'
+font_size = 32
+name = '#_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3581,7 +3979,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'E'
+font_name = 'arial'
+font_size = 32
+name = 'E_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3599,7 +3999,9 @@ maxy = 23
 advance = 21
 
 [[regions]]
-ch = '2'
+font_name = 'arial'
+font_size = 32
+name = '2_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3617,7 +4019,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'm'
+font_name = 'arial'
+font_size = 32
+name = 'm'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3635,7 +4039,9 @@ maxy = 17
 advance = 27
 
 [[regions]]
-ch = '('
+font_name = 'arialbd'
+font_size = 64
+name = '('
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3653,7 +4059,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = 'F'
+font_name = 'arial'
+font_size = 32
+name = 'F'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3671,7 +4079,9 @@ maxy = 23
 advance = 20
 
 [[regions]]
-ch = 'j'
+font_name = 'arialbd'
+font_size = 64
+name = 'j'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3689,7 +4099,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = '['
+font_name = 'arialbd'
+font_size = 64
+name = '[_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3707,7 +4119,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = '4'
+font_name = 'arial'
+font_size = 32
+name = '4'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3725,7 +4139,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '('
+font_name = 'arialbd'
+font_size = 64
+name = '(_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3743,7 +4159,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = '2'
+font_name = 'arial'
+font_size = 32
+name = '2'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3761,7 +4179,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '['
+font_name = 'arialbd'
+font_size = 64
+name = '['
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3779,7 +4199,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = 'w'
+font_name = 'arial'
+font_size = 32
+name = 'w_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3797,7 +4219,9 @@ maxy = 17
 advance = 23
 
 [[regions]]
-ch = 'j'
+font_name = 'arialbd'
+font_size = 64
+name = 'j_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -3815,7 +4239,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = '4'
+font_name = 'arial'
+font_size = 32
+name = '4_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3833,7 +4259,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'w'
+font_name = 'arial'
+font_size = 32
+name = 'w'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3851,7 +4279,9 @@ maxy = 17
 advance = 23
 
 [[regions]]
-ch = 'm'
+font_name = 'arial'
+font_size = 32
+name = 'm_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3869,7 +4299,9 @@ maxy = 17
 advance = 27
 
 [[regions]]
-ch = 'F'
+font_name = 'arial'
+font_size = 32
+name = 'F_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3887,7 +4319,9 @@ maxy = 23
 advance = 20
 
 [[regions]]
-ch = 'e'
+font_name = 'arial'
+font_size = 32
+name = 'e'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3905,7 +4339,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = '?'
+font_name = 'arial'
+font_size = 32
+name = '?'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3923,7 +4359,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'x'
+font_name = 'arial'
+font_size = 32
+name = 'x'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3941,7 +4379,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = '$'
+font_name = 'arial'
+font_size = 32
+name = '$'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3959,7 +4399,9 @@ maxy = 24
 advance = 18
 
 [[regions]]
-ch = 'a'
+font_name = 'arial'
+font_size = 32
+name = 'a'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3977,7 +4419,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'e'
+font_name = 'arial'
+font_size = 32
+name = 'e_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -3995,7 +4439,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'x'
+font_name = 'arial'
+font_size = 32
+name = 'x_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4013,7 +4459,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = '5'
+font_name = 'arial'
+font_size = 32
+name = '5_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4031,7 +4479,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'o'
+font_name = 'arial'
+font_size = 32
+name = 'o_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4049,7 +4499,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'z'
+font_name = 'arial'
+font_size = 32
+name = 'z_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4067,7 +4519,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = 'y'
+font_name = 'arial'
+font_size = 32
+name = 'y_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4085,7 +4539,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = 'y'
+font_name = 'arial'
+font_size = 32
+name = 'y'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4103,7 +4559,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = 'v'
+font_name = 'arial'
+font_size = 32
+name = 'v'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4121,7 +4579,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = '"'
+font_name = 'arialbd'
+font_size = 64
+name = '"'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -4139,7 +4599,9 @@ maxy = 46
 advance = 30
 
 [[regions]]
-ch = ']'
+font_name = 'arialbd'
+font_size = 64
+name = ']'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -4157,7 +4619,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = 'z'
+font_name = 'arial'
+font_size = 32
+name = 'z'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4175,7 +4639,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = '3'
+font_name = 'arial'
+font_size = 32
+name = '3_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4193,7 +4659,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '6'
+font_name = 'arial'
+font_size = 32
+name = '6_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4211,7 +4679,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '0'
+font_name = 'arial'
+font_size = 32
+name = '0'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4229,7 +4699,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = ')'
+font_name = 'arialbd'
+font_size = 64
+name = ')'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -4247,7 +4719,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = '?'
+font_name = 'arial'
+font_size = 32
+name = '?_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4265,7 +4739,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'a'
+font_name = 'arial'
+font_size = 32
+name = 'a_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4283,7 +4759,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'v'
+font_name = 'arial'
+font_size = 32
+name = 'v_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4301,7 +4779,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = ')'
+font_name = 'arialbd'
+font_size = 64
+name = ')_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -4319,7 +4799,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = '0'
+font_name = 'arial'
+font_size = 32
+name = '0_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4337,7 +4819,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = ']'
+font_name = 'arialbd'
+font_size = 64
+name = ']_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -4355,7 +4839,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = '$'
+font_name = 'arial'
+font_size = 32
+name = '$_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4373,7 +4859,9 @@ maxy = 24
 advance = 18
 
 [[regions]]
-ch = '>'
+font_name = 'arial'
+font_size = 32
+name = '>_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4391,7 +4879,9 @@ maxy = 19
 advance = 19
 
 [[regions]]
-ch = 'o'
+font_name = 'arial'
+font_size = 32
+name = 'o'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4409,7 +4899,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = '7'
+font_name = 'arial'
+font_size = 32
+name = '7_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4427,7 +4919,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '"'
+font_name = 'arialbd'
+font_size = 64
+name = '"_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -4445,7 +4939,9 @@ maxy = 46
 advance = 30
 
 [[regions]]
-ch = '>'
+font_name = 'arial'
+font_size = 32
+name = '>'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4463,7 +4959,9 @@ maxy = 19
 advance = 19
 
 [[regions]]
-ch = '<'
+font_name = 'arial'
+font_size = 32
+name = '<_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4481,7 +4979,9 @@ maxy = 19
 advance = 19
 
 [[regions]]
-ch = '<'
+font_name = 'arial'
+font_size = 32
+name = '<'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4499,7 +4999,9 @@ maxy = 19
 advance = 19
 
 [[regions]]
-ch = '9'
+font_name = 'arial'
+font_size = 32
+name = '9_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4517,7 +5019,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '8'
+font_name = 'arial'
+font_size = 32
+name = '8_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4535,7 +5039,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '9'
+font_name = 'arial'
+font_size = 32
+name = '9'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4553,7 +5059,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '8'
+font_name = 'arial'
+font_size = 32
+name = '8'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4571,7 +5079,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '7'
+font_name = 'arial'
+font_size = 32
+name = '7'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4589,7 +5099,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '6'
+font_name = 'arial'
+font_size = 32
+name = '6'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4607,7 +5119,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '5'
+font_name = 'arial'
+font_size = 32
+name = '5'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4625,7 +5139,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '3'
+font_name = 'arial'
+font_size = 32
+name = '3'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4643,7 +5159,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'q'
+font_name = 'arial'
+font_size = 32
+name = 'q'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4661,7 +5179,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'd'
+font_name = 'arial'
+font_size = 32
+name = 'd'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4679,7 +5199,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'p'
+font_name = 'arial'
+font_size = 32
+name = 'p'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4697,7 +5219,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'L'
+font_name = 'arial'
+font_size = 32
+name = 'L'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4715,7 +5239,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'g'
+font_name = 'arial'
+font_size = 32
+name = 'g'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4733,7 +5259,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'p'
+font_name = 'arial'
+font_size = 32
+name = 'p_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4751,7 +5279,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'q'
+font_name = 'arial'
+font_size = 32
+name = 'q_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4769,7 +5299,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'L'
+font_name = 'arial'
+font_size = 32
+name = 'L_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4787,7 +5319,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '+'
+font_name = 'arial'
+font_size = 32
+name = '+'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4805,7 +5339,9 @@ maxy = 19
 advance = 19
 
 [[regions]]
-ch = 'd'
+font_name = 'arial'
+font_size = 32
+name = 'd_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4823,7 +5359,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'c'
+font_name = 'arial'
+font_size = 32
+name = 'c_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4841,7 +5379,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = 'b'
+font_name = 'arial'
+font_size = 32
+name = 'b_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4859,7 +5399,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '+'
+font_name = 'arial'
+font_size = 32
+name = '+_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4877,7 +5419,9 @@ maxy = 19
 advance = 19
 
 [[regions]]
-ch = 's'
+font_name = 'arial'
+font_size = 32
+name = 's'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4895,7 +5439,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = 's'
+font_name = 'arial'
+font_size = 32
+name = 's_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4913,7 +5459,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = 'b'
+font_name = 'arial'
+font_size = 32
+name = 'b'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4931,7 +5479,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'c'
+font_name = 'arial'
+font_size = 32
+name = 'c'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4949,7 +5499,9 @@ maxy = 17
 advance = 16
 
 [[regions]]
-ch = 'g'
+font_name = 'arial'
+font_size = 32
+name = 'g_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4967,7 +5519,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'n'
+font_name = 'arial'
+font_size = 32
+name = 'n_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -4985,7 +5539,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'u'
+font_name = 'arial'
+font_size = 32
+name = 'u_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5003,7 +5559,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'u'
+font_name = 'arial'
+font_size = 32
+name = 'u'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5021,7 +5579,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'n'
+font_name = 'arial'
+font_size = 32
+name = 'n'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5039,7 +5599,9 @@ maxy = 17
 advance = 18
 
 [[regions]]
-ch = 'k'
+font_name = 'arial'
+font_size = 32
+name = 'k'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5057,7 +5619,9 @@ maxy = 23
 advance = 16
 
 [[regions]]
-ch = 'h'
+font_name = 'arial'
+font_size = 32
+name = 'h'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5075,7 +5639,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'J'
+font_name = 'arial'
+font_size = 32
+name = 'J'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5093,7 +5659,9 @@ maxy = 23
 advance = 16
 
 [[regions]]
-ch = 'h'
+font_name = 'arial'
+font_size = 32
+name = 'h_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5111,7 +5679,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'J'
+font_name = 'arial'
+font_size = 32
+name = 'J_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5129,7 +5699,9 @@ maxy = 23
 advance = 16
 
 [[regions]]
-ch = 'k'
+font_name = 'arial'
+font_size = 32
+name = 'k_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5147,7 +5719,9 @@ maxy = 23
 advance = 16
 
 [[regions]]
-ch = 'Q'
+font_name = 'ariblk'
+font_size = 16
+name = 'Q'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5165,7 +5739,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = '^'
+font_name = 'arial'
+font_size = 32
+name = '^'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5183,7 +5759,9 @@ maxy = 23
 advance = 15
 
 [[regions]]
-ch = '@'
+font_name = 'ariblk'
+font_size = 16
+name = '@_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5201,7 +5779,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = '^'
+font_name = 'arial'
+font_size = 32
+name = '^_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -5219,7 +5799,9 @@ maxy = 23
 advance = 15
 
 [[regions]]
-ch = '@'
+font_name = 'ariblk'
+font_size = 16
+name = '@'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5237,7 +5819,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'Q'
+font_name = 'ariblk'
+font_size = 16
+name = 'Q_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5255,7 +5839,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'K'
+font_name = 'ariblk'
+font_size = 16
+name = 'K_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5273,7 +5859,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = '%'
+font_name = 'ariblk'
+font_size = 16
+name = '%'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5291,7 +5879,9 @@ maxy = 12
 advance = 16
 
 [[regions]]
-ch = 'Z'
+font_name = 'ariblk'
+font_size = 16
+name = 'Z_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5309,7 +5899,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = '~'
+font_name = 'arialbd'
+font_size = 64
+name = '~_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -5327,7 +5919,9 @@ maxy = 28
 advance = 37
 
 [[regions]]
-ch = 'N'
+font_name = 'ariblk'
+font_size = 16
+name = 'N_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5345,7 +5939,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'O'
+font_name = 'ariblk'
+font_size = 16
+name = 'O_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5363,7 +5959,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'R'
+font_name = 'ariblk'
+font_size = 16
+name = 'R_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5381,7 +5979,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'T'
+font_name = 'ariblk'
+font_size = 16
+name = 'T_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5399,7 +5999,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'M'
+font_name = 'ariblk'
+font_size = 16
+name = 'M_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5417,7 +6019,9 @@ maxy = 12
 advance = 15
 
 [[regions]]
-ch = 'Y'
+font_name = 'ariblk'
+font_size = 16
+name = 'Y_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5435,7 +6039,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'G'
+font_name = 'ariblk'
+font_size = 16
+name = 'G_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5453,7 +6059,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'U'
+font_name = 'ariblk'
+font_size = 16
+name = 'U_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5471,7 +6079,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'C'
+font_name = 'ariblk'
+font_size = 16
+name = 'C_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5489,7 +6099,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'A'
+font_name = 'ariblk'
+font_size = 16
+name = 'A_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5507,7 +6119,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'V'
+font_name = 'ariblk'
+font_size = 16
+name = 'V_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5525,7 +6139,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'W'
+font_name = 'ariblk'
+font_size = 16
+name = 'W_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5543,7 +6159,9 @@ maxy = 12
 advance = 16
 
 [[regions]]
-ch = '&'
+font_name = 'ariblk'
+font_size = 16
+name = '&_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5561,7 +6179,9 @@ maxy = 12
 advance = 14
 
 [[regions]]
-ch = '%'
+font_name = 'ariblk'
+font_size = 16
+name = '%_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5579,7 +6199,9 @@ maxy = 12
 advance = 16
 
 [[regions]]
-ch = '~'
+font_name = 'arialbd'
+font_size = 64
+name = '~'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -5597,7 +6219,9 @@ maxy = 28
 advance = 37
 
 [[regions]]
-ch = 'H'
+font_name = 'ariblk'
+font_size = 16
+name = 'H_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5615,7 +6239,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = '&'
+font_name = 'ariblk'
+font_size = 16
+name = '&'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5633,7 +6259,9 @@ maxy = 12
 advance = 14
 
 [[regions]]
-ch = 'A'
+font_name = 'ariblk'
+font_size = 16
+name = 'A'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5651,7 +6279,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'Z'
+font_name = 'ariblk'
+font_size = 16
+name = 'Z'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5669,7 +6299,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'Y'
+font_name = 'ariblk'
+font_size = 16
+name = 'Y'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5687,7 +6319,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'X'
+font_name = 'ariblk'
+font_size = 16
+name = 'X'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5705,7 +6339,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'W'
+font_name = 'ariblk'
+font_size = 16
+name = 'W'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5723,7 +6359,9 @@ maxy = 12
 advance = 16
 
 [[regions]]
-ch = 'V'
+font_name = 'ariblk'
+font_size = 16
+name = 'V'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5741,7 +6379,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'U'
+font_name = 'ariblk'
+font_size = 16
+name = 'U'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5759,7 +6399,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'T'
+font_name = 'ariblk'
+font_size = 16
+name = 'T'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5777,7 +6419,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'H'
+font_name = 'ariblk'
+font_size = 16
+name = 'H'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5795,7 +6439,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'R'
+font_name = 'ariblk'
+font_size = 16
+name = 'R'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5813,7 +6459,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'X'
+font_name = 'ariblk'
+font_size = 16
+name = 'X_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5831,7 +6479,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'G'
+font_name = 'ariblk'
+font_size = 16
+name = 'G'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5849,7 +6499,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'O'
+font_name = 'ariblk'
+font_size = 16
+name = 'O'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5867,7 +6519,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'N'
+font_name = 'ariblk'
+font_size = 16
+name = 'N'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5885,7 +6539,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = 'M'
+font_name = 'ariblk'
+font_size = 16
+name = 'M'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5903,7 +6559,9 @@ maxy = 12
 advance = 15
 
 [[regions]]
-ch = 'C'
+font_name = 'ariblk'
+font_size = 16
+name = 'C'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5921,7 +6579,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'K'
+font_name = 'ariblk'
+font_size = 16
+name = 'K'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5939,7 +6599,9 @@ maxy = 12
 advance = 13
 
 [[regions]]
-ch = '5'
+font_name = 'ariblk'
+font_size = 16
+name = '5'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5957,7 +6619,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '#'
+font_name = 'ariblk'
+font_size = 16
+name = '#'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5975,7 +6639,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'S'
+font_name = 'ariblk'
+font_size = 16
+name = 'S'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -5993,7 +6659,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = ','
+font_name = 'arialbd'
+font_size = 64
+name = ',_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6011,7 +6679,9 @@ maxy = 9
 advance = 18
 
 [[regions]]
-ch = '!'
+font_name = 'arialbd'
+font_size = 64
+name = '!_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6029,7 +6699,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = "'"
+font_name = 'arialbd'
+font_size = 64
+name = ''''_blur'''
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6047,7 +6719,9 @@ maxy = 46
 advance = 15
 
 [[regions]]
-ch = 'b'
+font_name = 'ariblk'
+font_size = 16
+name = 'b_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6065,7 +6739,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '#'
+font_name = 'ariblk'
+font_size = 16
+name = '#_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6083,7 +6759,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '0'
+font_name = 'ariblk'
+font_size = 16
+name = '0_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6101,7 +6779,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'D'
+font_name = 'ariblk'
+font_size = 16
+name = 'D'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6119,7 +6799,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'B'
+font_name = 'ariblk'
+font_size = 16
+name = 'B'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6137,7 +6819,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = '$'
+font_name = 'ariblk'
+font_size = 16
+name = '$_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6155,7 +6839,9 @@ maxy = 13
 advance = 11
 
 [[regions]]
-ch = 'D'
+font_name = 'ariblk'
+font_size = 16
+name = 'D_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6173,7 +6859,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'B'
+font_name = 'ariblk'
+font_size = 16
+name = 'B_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6191,7 +6879,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = 'k'
+font_name = 'ariblk'
+font_size = 16
+name = 'k_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6209,7 +6899,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'p'
+font_name = 'ariblk'
+font_size = 16
+name = 'p_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6227,7 +6919,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = '3'
+font_name = 'ariblk'
+font_size = 16
+name = '3_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6245,7 +6939,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '4'
+font_name = 'ariblk'
+font_size = 16
+name = '4_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6263,7 +6959,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '8'
+font_name = 'ariblk'
+font_size = 16
+name = '8'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6281,7 +6979,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '6'
+font_name = 'ariblk'
+font_size = 16
+name = '6_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6299,7 +6999,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '6'
+font_name = 'ariblk'
+font_size = 16
+name = '6'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6317,7 +7019,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '8'
+font_name = 'ariblk'
+font_size = 16
+name = '8_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6335,7 +7039,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '4'
+font_name = 'ariblk'
+font_size = 16
+name = '4'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6353,7 +7059,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '3'
+font_name = 'ariblk'
+font_size = 16
+name = '3'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6371,7 +7079,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'S'
+font_name = 'ariblk'
+font_size = 16
+name = 'S_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6389,7 +7099,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = '5'
+font_name = 'ariblk'
+font_size = 16
+name = '5_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6407,7 +7119,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '0'
+font_name = 'ariblk'
+font_size = 16
+name = '0'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6425,7 +7139,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'p'
+font_name = 'ariblk'
+font_size = 16
+name = 'p'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6443,7 +7159,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'k'
+font_name = 'ariblk'
+font_size = 16
+name = 'k'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6461,7 +7179,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'b'
+font_name = 'ariblk'
+font_size = 16
+name = 'b'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6479,7 +7199,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = "'"
+font_name = 'arialbd'
+font_size = 64
+name = "'"
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6497,7 +7219,9 @@ maxy = 46
 advance = 15
 
 [[regions]]
-ch = '!'
+font_name = 'arialbd'
+font_size = 64
+name = '!'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6515,7 +7239,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = ','
+font_name = 'arialbd'
+font_size = 64
+name = ','
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6533,7 +7259,9 @@ maxy = 9
 advance = 18
 
 [[regions]]
-ch = '$'
+font_name = 'ariblk'
+font_size = 16
+name = '$'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6551,7 +7279,9 @@ maxy = 13
 advance = 11
 
 [[regions]]
-ch = '{'
+font_name = 'arial'
+font_size = 32
+name = '{'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -6569,7 +7299,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = '9'
+font_name = 'ariblk'
+font_size = 16
+name = '9_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6587,7 +7319,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'L'
+font_name = 'ariblk'
+font_size = 16
+name = 'L_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6605,7 +7339,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '{'
+font_name = 'arial'
+font_size = 32
+name = '{_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -6623,7 +7359,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = '}'
+font_name = 'arial'
+font_size = 32
+name = '}_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -6641,7 +7379,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = 'P'
+font_name = 'ariblk'
+font_size = 16
+name = 'P_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6659,7 +7399,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = '*'
+font_name = 'arial'
+font_size = 32
+name = '*_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -6677,7 +7419,9 @@ maxy = 23
 advance = 12
 
 [[regions]]
-ch = ':'
+font_name = 'arialbd'
+font_size = 64
+name = ':_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6695,7 +7439,9 @@ maxy = 34
 advance = 21
 
 [[regions]]
-ch = 'f'
+font_name = 'arial'
+font_size = 32
+name = 'f_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -6713,7 +7459,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '='
+font_name = 'arial'
+font_size = 32
+name = '=_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -6731,7 +7479,9 @@ maxy = 16
 advance = 19
 
 [[regions]]
-ch = 'L'
+font_name = 'ariblk'
+font_size = 16
+name = 'L'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6749,7 +7499,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'J'
+font_name = 'ariblk'
+font_size = 16
+name = 'J'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6767,7 +7519,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'E'
+font_name = 'ariblk'
+font_size = 16
+name = 'E'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6785,7 +7539,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = '?'
+font_name = 'ariblk'
+font_size = 16
+name = '?'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6803,7 +7559,9 @@ maxy = 12
 advance = 10
 
 [[regions]]
-ch = 'l'
+font_name = 'arialbd'
+font_size = 64
+name = 'l'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6821,7 +7579,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = 'i'
+font_name = 'arialbd'
+font_size = 64
+name = 'i'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6839,7 +7599,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = '9'
+font_name = 'ariblk'
+font_size = 16
+name = '9'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6857,7 +7619,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '7'
+font_name = 'ariblk'
+font_size = 16
+name = '7'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6875,7 +7639,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '2'
+font_name = 'ariblk'
+font_size = 16
+name = '2'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6893,7 +7659,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = ';'
+font_name = 'arialbd'
+font_size = 64
+name = ';'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6911,7 +7679,9 @@ maxy = 34
 advance = 21
 
 [[regions]]
-ch = ':'
+font_name = 'arialbd'
+font_size = 64
+name = ':'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -6929,7 +7699,9 @@ maxy = 34
 advance = 21
 
 [[regions]]
-ch = 'q'
+font_name = 'ariblk'
+font_size = 16
+name = 'q'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6947,7 +7719,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'y'
+font_name = 'ariblk'
+font_size = 16
+name = 'y'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -6965,7 +7739,9 @@ maxy = 9
 advance = 10
 
 [[regions]]
-ch = 'r'
+font_name = 'arial'
+font_size = 32
+name = 'r_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -6983,7 +7759,9 @@ maxy = 17
 advance = 11
 
 [[regions]]
-ch = 'E'
+font_name = 'ariblk'
+font_size = 16
+name = 'E_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7001,7 +7779,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = '}'
+font_name = 'arial'
+font_size = 32
+name = '}'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7019,7 +7799,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = 'J'
+font_name = 'ariblk'
+font_size = 16
+name = 'J_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7037,7 +7819,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'I'
+font_name = 'arialbd'
+font_size = 64
+name = 'I_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -7055,7 +7839,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = 'd'
+font_name = 'ariblk'
+font_size = 16
+name = 'd_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7073,7 +7859,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'g'
+font_name = 'ariblk'
+font_size = 16
+name = 'g_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7091,7 +7879,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'r'
+font_name = 'arial'
+font_size = 32
+name = 'r'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7109,7 +7899,9 @@ maxy = 17
 advance = 11
 
 [[regions]]
-ch = 'h'
+font_name = 'ariblk'
+font_size = 16
+name = 'h_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7127,7 +7919,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '?'
+font_name = 'ariblk'
+font_size = 16
+name = '?_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7145,7 +7939,9 @@ maxy = 12
 advance = 10
 
 [[regions]]
-ch = '2'
+font_name = 'ariblk'
+font_size = 16
+name = '2_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7163,7 +7959,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'h'
+font_name = 'ariblk'
+font_size = 16
+name = 'h'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7181,7 +7979,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'g'
+font_name = 'ariblk'
+font_size = 16
+name = 'g'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7199,7 +7999,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'l'
+font_name = 'arialbd'
+font_size = 64
+name = 'l_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -7217,7 +8019,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = 'f'
+font_name = 'arial'
+font_size = 32
+name = 'f'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7235,7 +8039,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = 'i'
+font_name = 'arialbd'
+font_size = 64
+name = 'i_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -7253,7 +8059,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = 'd'
+font_name = 'ariblk'
+font_size = 16
+name = 'd'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7271,7 +8079,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'P'
+font_name = 'ariblk'
+font_size = 16
+name = 'P'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7289,7 +8099,9 @@ maxy = 12
 advance = 12
 
 [[regions]]
-ch = ';'
+font_name = 'arialbd'
+font_size = 64
+name = ';_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -7307,7 +8119,9 @@ maxy = 34
 advance = 21
 
 [[regions]]
-ch = '*'
+font_name = 'arial'
+font_size = 32
+name = '*'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7325,7 +8139,9 @@ maxy = 23
 advance = 12
 
 [[regions]]
-ch = 'q'
+font_name = 'ariblk'
+font_size = 16
+name = 'q_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7343,7 +8159,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'I'
+font_name = 'arialbd'
+font_size = 64
+name = 'I'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -7361,7 +8179,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = '7'
+font_name = 'ariblk'
+font_size = 16
+name = '7_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7379,7 +8199,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '='
+font_name = 'arial'
+font_size = 32
+name = '='
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7397,7 +8219,9 @@ maxy = 16
 advance = 19
 
 [[regions]]
-ch = 'y'
+font_name = 'ariblk'
+font_size = 16
+name = 'y_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7415,7 +8239,9 @@ maxy = 9
 advance = 10
 
 [[regions]]
-ch = 'm'
+font_name = 'ariblk'
+font_size = 16
+name = 'm_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7433,7 +8259,9 @@ maxy = 9
 advance = 16
 
 [[regions]]
-ch = '>'
+font_name = 'ariblk'
+font_size = 16
+name = '>_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7451,7 +8279,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = '1'
+font_name = 'arial'
+font_size = 32
+name = '1'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7469,7 +8299,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = '/'
+font_name = 'arial'
+font_size = 32
+name = '/'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7487,7 +8319,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '+'
+font_name = 'ariblk'
+font_size = 16
+name = '+'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7505,7 +8339,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = '<'
+font_name = 'ariblk'
+font_size = 16
+name = '<_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7523,7 +8359,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = 't'
+font_name = 'arial'
+font_size = 32
+name = 't_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7541,7 +8379,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = ')'
+font_name = 'arial'
+font_size = 32
+name = ')'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7559,7 +8399,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = '('
+font_name = 'arial'
+font_size = 32
+name = '('
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7577,7 +8419,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = '\'
+font_name = 'arial'
+font_size = 32
+name = '\'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7595,7 +8439,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = 'o'
+font_name = 'ariblk'
+font_size = 16
+name = 'o_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7613,7 +8459,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = ')'
+font_name = 'arial'
+font_size = 32
+name = ')_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7631,7 +8479,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = 'e'
+font_name = 'ariblk'
+font_size = 16
+name = 'e'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7649,7 +8499,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'z'
+font_name = 'ariblk'
+font_size = 16
+name = 'z_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7667,7 +8519,9 @@ maxy = 9
 advance = 9
 
 [[regions]]
-ch = '+'
+font_name = 'ariblk'
+font_size = 16
+name = '+_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7685,7 +8539,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = 'a'
+font_name = 'ariblk'
+font_size = 16
+name = 'a'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7703,7 +8559,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'x'
+font_name = 'ariblk'
+font_size = 16
+name = 'x_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7721,7 +8579,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'w'
+font_name = 'ariblk'
+font_size = 16
+name = 'w_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7739,7 +8599,9 @@ maxy = 9
 advance = 15
 
 [[regions]]
-ch = 'v'
+font_name = 'ariblk'
+font_size = 16
+name = 'v_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7757,7 +8619,9 @@ maxy = 9
 advance = 10
 
 [[regions]]
-ch = 'u'
+font_name = 'ariblk'
+font_size = 16
+name = 'u_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7775,7 +8639,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = '('
+font_name = 'arial'
+font_size = 32
+name = '(_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7793,7 +8659,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = 'c'
+font_name = 'ariblk'
+font_size = 16
+name = 'c'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7811,7 +8679,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 't'
+font_name = 'arial'
+font_size = 32
+name = 't'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7829,7 +8699,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = 'a'
+font_name = 'ariblk'
+font_size = 16
+name = 'a_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7847,7 +8719,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 's'
+font_name = 'ariblk'
+font_size = 16
+name = 's_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7865,7 +8739,9 @@ maxy = 9
 advance = 10
 
 [[regions]]
-ch = '1'
+font_name = 'arial'
+font_size = 32
+name = '1_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -7883,7 +8759,9 @@ maxy = 23
 advance = 18
 
 [[regions]]
-ch = 'z'
+font_name = 'ariblk'
+font_size = 16
+name = 'z'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7901,7 +8779,9 @@ maxy = 9
 advance = 9
 
 [[regions]]
-ch = '`'
+font_name = 'arialbd'
+font_size = 64
+name = '`_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -7919,7 +8799,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = 'x'
+font_name = 'ariblk'
+font_size = 16
+name = 'x'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7937,7 +8819,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'w'
+font_name = 'ariblk'
+font_size = 16
+name = 'w'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7955,7 +8839,9 @@ maxy = 9
 advance = 15
 
 [[regions]]
-ch = 'v'
+font_name = 'ariblk'
+font_size = 16
+name = 'v'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7973,7 +8859,9 @@ maxy = 9
 advance = 10
 
 [[regions]]
-ch = 'u'
+font_name = 'ariblk'
+font_size = 16
+name = 'u'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -7991,7 +8879,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 's'
+font_name = 'ariblk'
+font_size = 16
+name = 's'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8009,7 +8899,9 @@ maxy = 9
 advance = 10
 
 [[regions]]
-ch = 'n'
+font_name = 'ariblk'
+font_size = 16
+name = 'n'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8027,7 +8919,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'o'
+font_name = 'ariblk'
+font_size = 16
+name = 'o'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8045,7 +8939,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = '.'
+font_name = 'arialbd'
+font_size = 64
+name = '.'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8063,7 +8959,9 @@ maxy = 9
 advance = 18
 
 [[regions]]
-ch = 'm'
+font_name = 'ariblk'
+font_size = 16
+name = 'm'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8081,7 +8979,9 @@ maxy = 9
 advance = 16
 
 [[regions]]
-ch = 'c'
+font_name = 'ariblk'
+font_size = 16
+name = 'c_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8099,7 +8999,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'n'
+font_name = 'ariblk'
+font_size = 16
+name = 'n_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8117,7 +9019,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = '<'
+font_name = 'ariblk'
+font_size = 16
+name = '<'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8135,7 +9039,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = '>'
+font_name = 'ariblk'
+font_size = 16
+name = '>'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8153,7 +9059,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = '`'
+font_name = 'arialbd'
+font_size = 64
+name = '`'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8171,7 +9079,9 @@ maxy = 46
 advance = 21
 
 [[regions]]
-ch = 'F'
+font_name = 'ariblk'
+font_size = 16
+name = 'F_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8189,7 +9099,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'F'
+font_name = 'ariblk'
+font_size = 16
+name = 'F'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8207,7 +9119,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'e'
+font_name = 'ariblk'
+font_size = 16
+name = 'e_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8225,7 +9139,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = '/'
+font_name = 'arial'
+font_size = 32
+name = '/_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8243,7 +9159,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '\'
+font_name = 'arial'
+font_size = 32
+name = '\_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8261,7 +9179,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '.'
+font_name = 'arialbd'
+font_size = 64
+name = '._blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8279,7 +9199,9 @@ maxy = 9
 advance = 18
 
 [[regions]]
-ch = '|'
+font_name = 'arialbd'
+font_size = 64
+name = '|'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8297,7 +9219,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = '-'
+font_name = 'arialbd'
+font_size = 64
+name = '-'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8315,7 +9239,9 @@ maxy = 20
 advance = 21
 
 [[regions]]
-ch = '"'
+font_name = 'arial'
+font_size = 32
+name = '"'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8333,7 +9259,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = '|'
+font_name = 'arialbd'
+font_size = 64
+name = '|_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8351,7 +9279,9 @@ maxy = 46
 advance = 18
 
 [[regions]]
-ch = '"'
+font_name = 'arial'
+font_size = 32
+name = '"_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8369,7 +9299,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = '-'
+font_name = 'arialbd'
+font_size = 64
+name = '-_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8387,7 +9319,9 @@ maxy = 20
 advance = 21
 
 [[regions]]
-ch = '_'
+font_name = 'arialbd'
+font_size = 64
+name = '__blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8405,7 +9339,9 @@ maxy = -6
 advance = 36
 
 [[regions]]
-ch = '{'
+font_name = 'ariblk'
+font_size = 16
+name = '{'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8423,7 +9359,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '='
+font_name = 'ariblk'
+font_size = 16
+name = '='
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8441,7 +9379,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 't'
+font_name = 'ariblk'
+font_size = 16
+name = 't'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8459,7 +9399,9 @@ maxy = 12
 advance = 7
 
 [[regions]]
-ch = '_'
+font_name = 'arialbd'
+font_size = 64
+name = '_'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -8477,7 +9419,9 @@ maxy = -6
 advance = 36
 
 [[regions]]
-ch = 'r'
+font_name = 'ariblk'
+font_size = 16
+name = 'r'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8495,7 +9439,9 @@ maxy = 9
 advance = 7
 
 [[regions]]
-ch = 'j'
+font_name = 'arial'
+font_size = 32
+name = 'j'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8513,7 +9459,9 @@ maxy = 23
 advance = 7
 
 [[regions]]
-ch = ']'
+font_name = 'arial'
+font_size = 32
+name = ']'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8531,7 +9479,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '['
+font_name = 'arial'
+font_size = 32
+name = '['
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8549,7 +9499,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = 'f'
+font_name = 'ariblk'
+font_size = 16
+name = 'f_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8567,7 +9519,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '1'
+font_name = 'ariblk'
+font_size = 16
+name = '1'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8585,7 +9539,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = 'r'
+font_name = 'ariblk'
+font_size = 16
+name = 'r_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8603,7 +9559,9 @@ maxy = 9
 advance = 7
 
 [[regions]]
-ch = '['
+font_name = 'arial'
+font_size = 32
+name = '[_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8621,7 +9579,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '}'
+font_name = 'ariblk'
+font_size = 16
+name = '}'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8639,7 +9599,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '}'
+font_name = 'ariblk'
+font_size = 16
+name = '}_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8657,7 +9619,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '{'
+font_name = 'ariblk'
+font_size = 16
+name = '{_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8675,7 +9639,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '1'
+font_name = 'ariblk'
+font_size = 16
+name = '1_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8693,7 +9659,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = ']'
+font_name = 'arial'
+font_size = 32
+name = ']_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8711,7 +9679,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = 't'
+font_name = 'ariblk'
+font_size = 16
+name = 't_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8729,7 +9699,9 @@ maxy = 12
 advance = 7
 
 [[regions]]
-ch = '='
+font_name = 'ariblk'
+font_size = 16
+name = '=_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8747,7 +9719,9 @@ maxy = 9
 advance = 11
 
 [[regions]]
-ch = 'f'
+font_name = 'ariblk'
+font_size = 16
+name = 'f'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8765,7 +9739,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = 'j'
+font_name = 'arial'
+font_size = 32
+name = 'j_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -8783,7 +9759,9 @@ maxy = 23
 advance = 7
 
 [[regions]]
-ch = ')'
+font_name = 'ariblk'
+font_size = 16
+name = ')_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8801,7 +9779,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '\'
+font_name = 'ariblk'
+font_size = 16
+name = '\_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8819,7 +9799,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = 'j'
+font_name = 'ariblk'
+font_size = 16
+name = 'j'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8837,7 +9819,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = 'j'
+font_name = 'ariblk'
+font_size = 16
+name = 'j_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8855,7 +9839,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = ']'
+font_name = 'ariblk'
+font_size = 16
+name = ']_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8873,7 +9859,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '*'
+font_name = 'ariblk'
+font_size = 16
+name = '*'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8891,7 +9879,9 @@ maxy = 12
 advance = 9
 
 [[regions]]
-ch = '^'
+font_name = 'ariblk'
+font_size = 16
+name = '^'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8909,7 +9899,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = '('
+font_name = 'ariblk'
+font_size = 16
+name = '(_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8927,7 +9919,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = ')'
+font_name = 'ariblk'
+font_size = 16
+name = ')'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8945,7 +9939,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '('
+font_name = 'ariblk'
+font_size = 16
+name = '('
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8963,7 +9959,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '\'
+font_name = 'ariblk'
+font_size = 16
+name = '\'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8981,7 +9979,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = '*'
+font_name = 'ariblk'
+font_size = 16
+name = '*_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -8999,7 +9999,9 @@ maxy = 12
 advance = 9
 
 [[regions]]
-ch = ']'
+font_name = 'ariblk'
+font_size = 16
+name = ']'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9017,7 +10019,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = '^'
+font_name = 'ariblk'
+font_size = 16
+name = '^_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9035,7 +10039,9 @@ maxy = 12
 advance = 11
 
 [[regions]]
-ch = ';'
+font_name = 'arial'
+font_size = 32
+name = ';'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9053,7 +10059,9 @@ maxy = 17
 advance = 9
 
 [[regions]]
-ch = ':'
+font_name = 'ariblk'
+font_size = 16
+name = ':_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9071,7 +10079,9 @@ maxy = 9
 advance = 5
 
 [[regions]]
-ch = '['
+font_name = 'ariblk'
+font_size = 16
+name = '['
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9089,7 +10099,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = 'I'
+font_name = 'arial'
+font_size = 32
+name = 'I_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9107,7 +10119,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '~'
+font_name = 'arial'
+font_size = 32
+name = '~'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9125,7 +10139,9 @@ maxy = 14
 advance = 19
 
 [[regions]]
-ch = ';'
+font_name = 'arial'
+font_size = 32
+name = ';_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9143,7 +10159,9 @@ maxy = 17
 advance = 9
 
 [[regions]]
-ch = '!'
+font_name = 'arial'
+font_size = 32
+name = '!'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9161,7 +10179,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = '['
+font_name = 'ariblk'
+font_size = 16
+name = '[_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9179,7 +10199,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = ';'
+font_name = 'ariblk'
+font_size = 16
+name = ';_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9197,7 +10219,9 @@ maxy = 9
 advance = 5
 
 [[regions]]
-ch = ':'
+font_name = 'arial'
+font_size = 32
+name = ':_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9215,7 +10239,9 @@ maxy = 17
 advance = 9
 
 [[regions]]
-ch = '!'
+font_name = 'ariblk'
+font_size = 16
+name = '!'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9233,7 +10259,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = '~'
+font_name = 'arial'
+font_size = 32
+name = '~_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9251,7 +10279,9 @@ maxy = 14
 advance = 19
 
 [[regions]]
-ch = '!'
+font_name = 'arial'
+font_size = 32
+name = '!_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9269,7 +10299,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = ','
+font_name = 'arial'
+font_size = 32
+name = ',_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9287,7 +10319,9 @@ maxy = 3
 advance = 9
 
 [[regions]]
-ch = '/'
+font_name = 'ariblk'
+font_size = 16
+name = '/_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9305,7 +10339,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = ','
+font_name = 'ariblk'
+font_size = 16
+name = ',_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9323,7 +10359,9 @@ maxy = 3
 advance = 5
 
 [[regions]]
-ch = ','
+font_name = 'ariblk'
+font_size = 16
+name = ','
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9341,7 +10379,9 @@ maxy = 3
 advance = 5
 
 [[regions]]
-ch = '!'
+font_name = 'ariblk'
+font_size = 16
+name = '!_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9359,7 +10399,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = 'I'
+font_name = 'arial'
+font_size = 32
+name = 'I'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9377,7 +10419,9 @@ maxy = 23
 advance = 9
 
 [[regions]]
-ch = ':'
+font_name = 'arial'
+font_size = 32
+name = ':'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9395,7 +10439,9 @@ maxy = 17
 advance = 9
 
 [[regions]]
-ch = '/'
+font_name = 'ariblk'
+font_size = 16
+name = '/'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9413,7 +10459,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = ':'
+font_name = 'ariblk'
+font_size = 16
+name = ':'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9431,7 +10479,9 @@ maxy = 9
 advance = 5
 
 [[regions]]
-ch = ','
+font_name = 'arial'
+font_size = 32
+name = ','
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9449,7 +10499,9 @@ maxy = 3
 advance = 9
 
 [[regions]]
-ch = ';'
+font_name = 'ariblk'
+font_size = 16
+name = ';'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9467,7 +10519,9 @@ maxy = 9
 advance = 5
 
 [[regions]]
-ch = '|'
+font_name = 'arial'
+font_size = 32
+name = '|_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9485,7 +10539,9 @@ maxy = 23
 advance = 8
 
 [[regions]]
-ch = 'i'
+font_name = 'ariblk'
+font_size = 16
+name = 'i'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9503,7 +10559,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = '`'
+font_name = 'arial'
+font_size = 32
+name = '`_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9521,7 +10579,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = 'l'
+font_name = 'ariblk'
+font_size = 16
+name = 'l'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9539,7 +10599,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = '~'
+font_name = 'ariblk'
+font_size = 16
+name = '~'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9557,7 +10619,9 @@ maxy = 8
 advance = 11
 
 [[regions]]
-ch = "'"
+font_name = 'ariblk'
+font_size = 16
+name = ''''_blur'''
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9575,7 +10639,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = "'"
+font_name = 'arial'
+font_size = 32
+name = "'"
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9593,7 +10659,9 @@ maxy = 23
 advance = 6
 
 [[regions]]
-ch = '"'
+font_name = 'ariblk'
+font_size = 16
+name = '"_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9611,7 +10679,9 @@ maxy = 12
 advance = 8
 
 [[regions]]
-ch = 'I'
+font_name = 'ariblk'
+font_size = 16
+name = 'I'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9629,7 +10699,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = 'I'
+font_name = 'ariblk'
+font_size = 16
+name = 'I_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9647,7 +10719,9 @@ maxy = 12
 advance = 6
 
 [[regions]]
-ch = "'"
+font_name = 'arial'
+font_size = 32
+name = ''''_blur'''
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9665,7 +10739,9 @@ maxy = 23
 advance = 6
 
 [[regions]]
-ch = 'l'
+font_name = 'ariblk'
+font_size = 16
+name = 'l_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9683,7 +10759,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = '`'
+font_name = 'arial'
+font_size = 32
+name = '`'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9701,7 +10779,9 @@ maxy = 23
 advance = 11
 
 [[regions]]
-ch = '~'
+font_name = 'ariblk'
+font_size = 16
+name = '~_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9719,7 +10799,9 @@ maxy = 8
 advance = 11
 
 [[regions]]
-ch = "'"
+font_name = 'ariblk'
+font_size = 16
+name = "'"
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9737,7 +10819,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = 'i'
+font_name = 'ariblk'
+font_size = 16
+name = 'i_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9755,7 +10839,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = '"'
+font_name = 'ariblk'
+font_size = 16
+name = '"'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9773,7 +10859,9 @@ maxy = 12
 advance = 8
 
 [[regions]]
-ch = '|'
+font_name = 'arial'
+font_size = 32
+name = '|'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9791,7 +10879,9 @@ maxy = 23
 advance = 8
 
 [[regions]]
-ch = '_'
+font_name = 'arial'
+font_size = 32
+name = '_'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9809,7 +10899,9 @@ maxy = -4
 advance = 18
 
 [[regions]]
-ch = 'i'
+font_name = 'arial'
+font_size = 32
+name = 'i_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9827,7 +10919,9 @@ maxy = 23
 advance = 7
 
 [[regions]]
-ch = '|'
+font_name = 'ariblk'
+font_size = 16
+name = '|_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9845,7 +10939,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = '.'
+font_name = 'arial'
+font_size = 32
+name = '._blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9863,7 +10959,9 @@ maxy = 3
 advance = 9
 
 [[regions]]
-ch = 'l'
+font_name = 'arial'
+font_size = 32
+name = 'l'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9881,7 +10979,9 @@ maxy = 23
 advance = 7
 
 [[regions]]
-ch = '-'
+font_name = 'ariblk'
+font_size = 16
+name = '-'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9899,7 +10999,9 @@ maxy = 6
 advance = 5
 
 [[regions]]
-ch = '_'
+font_name = 'arial'
+font_size = 32
+name = '__blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9917,7 +11019,9 @@ maxy = -4
 advance = 18
 
 [[regions]]
-ch = 'i'
+font_name = 'arial'
+font_size = 32
+name = 'i'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9935,7 +11039,9 @@ maxy = 23
 advance = 7
 
 [[regions]]
-ch = '-'
+font_name = 'ariblk'
+font_size = 16
+name = '-_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9953,7 +11059,9 @@ maxy = 6
 advance = 5
 
 [[regions]]
-ch = '.'
+font_name = 'ariblk'
+font_size = 16
+name = '.'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -9971,7 +11079,9 @@ maxy = 3
 advance = 5
 
 [[regions]]
-ch = '.'
+font_name = 'arial'
+font_size = 32
+name = '.'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -9989,7 +11099,9 @@ maxy = 3
 advance = 9
 
 [[regions]]
-ch = '-'
+font_name = 'arial'
+font_size = 32
+name = '-'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -10007,7 +11119,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = '|'
+font_name = 'ariblk'
+font_size = 16
+name = '|'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -10025,7 +11139,9 @@ maxy = 12
 advance = 4
 
 [[regions]]
-ch = '.'
+font_name = 'ariblk'
+font_size = 16
+name = '._blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -10043,7 +11159,9 @@ maxy = 3
 advance = 5
 
 [[regions]]
-ch = 'l'
+font_name = 'arial'
+font_size = 32
+name = 'l_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -10061,7 +11179,9 @@ maxy = 23
 advance = 7
 
 [[regions]]
-ch = '-'
+font_name = 'arial'
+font_size = 32
+name = '-_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -10079,7 +11199,9 @@ maxy = 10
 advance = 11
 
 [[regions]]
-ch = '`'
+font_name = 'ariblk'
+font_size = 16
+name = '`'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -10097,7 +11219,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = '`'
+font_name = 'ariblk'
+font_size = 16
+name = '`_blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -10115,7 +11239,9 @@ maxy = 12
 advance = 5
 
 [[regions]]
-ch = '_'
+font_name = 'ariblk'
+font_size = 16
+name = '_'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -10133,7 +11259,9 @@ maxy = -1
 advance = 8
 
 [[regions]]
-ch = '_'
+font_name = 'ariblk'
+font_size = 16
+name = '__blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -10151,7 +11279,9 @@ maxy = -1
 advance = 8
 
 [[regions]]
-ch = ' '
+font_name = 'arial'
+font_size = 32
+name = ' '
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -10169,7 +11299,9 @@ maxy = 0
 advance = 9
 
 [[regions]]
-ch = ' '
+font_name = 'ariblk'
+font_size = 16
+name = ' '
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
@@ -10187,7 +11319,9 @@ maxy = 0
 advance = 5
 
 [[regions]]
-ch = ' '
+font_name = 'arialbd'
+font_size = 64
+name = ' '
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -10205,7 +11339,9 @@ maxy = 0
 advance = 18
 
 [[regions]]
-ch = ' '
+font_name = 'arial'
+font_size = 32
+name = ' _blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 37
@@ -10223,7 +11359,9 @@ maxy = 0
 advance = 9
 
 [[regions]]
-ch = ' '
+font_name = 'arialbd'
+font_size = 64
+name = ' _blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 74
@@ -10241,7 +11379,9 @@ maxy = 0
 advance = 18
 
 [[regions]]
-ch = ' '
+font_name = 'ariblk'
+font_size = 16
+name = ' _blur'
 atlas_width = 2048
 atlas_height = 2048
 line_spacing = 23
