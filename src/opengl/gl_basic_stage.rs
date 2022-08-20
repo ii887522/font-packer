@@ -110,7 +110,9 @@ impl GLBasicStage {
             });
             tex.init();
             let glyph = Glyph {
-              ch,
+              font_name: font.file_name[..font.file_name.find('.').unwrap()].to_owned(),
+              font_size: font.size,
+              name: ch.to_string(),
               atlas_id: tex.get_id(),
               atlas_size: tex.get_size(),
               line_spacing: ttf_font.recommended_line_spacing(),
@@ -122,7 +124,10 @@ impl GLBasicStage {
             };
             (
               if font.generate_blur.is_some() && font.generate_blur.unwrap() {
-                Some(glyph.clone())
+                Some(Glyph {
+                  name: ch.to_string() + "_blur",
+                  ..glyph.clone()
+                })
               } else {
                 None
               },
