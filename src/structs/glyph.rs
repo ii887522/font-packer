@@ -1,6 +1,5 @@
 use gl::types::*;
 use iron_ingot::UVec2;
-use sdl2::ttf::GlyphMetrics;
 use std::cell::RefCell;
 
 #[derive(Clone, Debug)]
@@ -11,7 +10,7 @@ pub(crate) struct Glyph {
   pub atlas_id: GLenum,
   pub atlas_size: UVec2,
   pub line_spacing: i32,
-  pub metrics: GlyphMetrics,
+  pub advance: i32,
   pub prev_position: UVec2,
   pub position: UVec2,
   pub size: UVec2,

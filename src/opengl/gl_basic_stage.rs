@@ -88,15 +88,16 @@ impl GLBasicStage {
     let (blur_input_glyphs, glyphs, glyph_texs) = input
       .fonts
       .iter()
-      .map(|font| {
+      .map(|(font_file_name, font)| {
         (
+          font_file_name,
           font,
           ttf
-            .load_font(format!("{input_dir_path}/{}", font.file_name), font.size)
+            .load_font(format!("{input_dir_path}/{}", font_file_name), font.size)
             .unwrap(),
         )
       })
-      .flat_map(|(font, ttf_font)| {
+      .flat_map(|(font_file_name, font, ttf_font)| {
         (' '..='~')
           .map(|ch| {
             let mut tex = GLTexture::new(gl_texture::Arg {
@@ -110,13 +111,13 @@ impl GLBasicStage {
             });
             tex.init();
             let glyph = Glyph {
-              font_name: font.file_name[..font.file_name.find('.').unwrap()].to_owned(),
+              font_name: font_file_name[..font_file_name.find('.').unwrap()].to_owned(),
               font_size: font.size,
               name: ch.to_string(),
               atlas_id: tex.get_id(),
               atlas_size: tex.get_size(),
               line_spacing: ttf_font.recommended_line_spacing(),
-              metrics: ttf_font.find_glyph_metrics(ch).unwrap(),
+              advance: ttf_font.find_glyph_metrics(ch).unwrap().advance,
               prev_position: UVec2::new(()),
               position: UVec2::new(()),
               size: tex.get_size(),
@@ -141,7 +142,7 @@ impl GLBasicStage {
     let can_generate_blur = input
       .fonts
       .par_iter()
-      .any(|font| font.generate_blur.is_some());
+      .any(|(_, font)| font.generate_blur.is_some());
     Self {
       env_args: EnvArgs {
         input_dir_path,
@@ -157,9 +158,10 @@ impl GLBasicStage {
         blur_input_glyphs.par_sort_unstable_by(|a, b| {
           let a = a.borrow();
           let b = b.borrow();
-          (b.metrics.maxx - b.metrics.minx)
-            .min(b.metrics.maxy - b.metrics.miny)
-            .cmp(&(a.metrics.maxx - a.metrics.minx).min(a.metrics.maxy - a.metrics.miny))
+          b.size
+            .get_x()
+            .min(b.size.get_y())
+            .cmp(&a.size.get_x().min(a.size.get_y()))
         });
         Some(blur_input_glyphs)
       } else {
@@ -242,7 +244,7 @@ impl GLBasicStage {
     }
     for (i, glyph) in glyphs.iter().enumerate().filter(|(_, glyph)| {
       let glyph = glyph.borrow();
-      glyph.metrics.minx != glyph.metrics.maxx || glyph.metrics.miny != glyph.metrics.maxy
+      glyph.size.get_x() != 0 || glyph.size.get_y() != 0
     }) {
       if self.show_glyph(basic_scene, glyph, gap).is_err() {
         Glyph::reset_positions(&glyphs[..i]);
@@ -429,9 +431,10 @@ impl GLStage for GLBasicStage {
     self.glyphs.par_sort_unstable_by(|a, b| {
       let a = a.borrow();
       let b = b.borrow();
-      (b.metrics.maxx - b.metrics.minx)
-        .min(b.metrics.maxy - b.metrics.miny)
-        .cmp(&(a.metrics.maxx - a.metrics.minx).min(a.metrics.maxy - a.metrics.miny))
+      b.size
+        .get_x()
+        .min(b.size.get_y())
+        .cmp(&a.size.get_x().min(a.size.get_y()))
     });
     while self
       .show_atlas(&self.basic_scene, &self.glyphs, BASIC_ATLAS_GAP)
