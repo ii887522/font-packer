@@ -403,7 +403,7 @@ impl GLBasicStage {
     glyph.prev_position = glyph.position;
     glyph.size = UVec2::new((
       glyph.size.get_x().max(glyph.size.get_y()),
-      glyph.size.get_x().max(glyph.size.get_y()),
+      glyph.size.get_x().min(glyph.size.get_y()),
     ));
   }
 }
