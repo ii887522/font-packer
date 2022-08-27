@@ -1,14 +1,11 @@
-[[fonts]]
-file_name = "arial.ttf"
+[fonts.'arial.ttf']
 size = 32
 generate_blur = true
 
-[[fonts]]
-file_name = "arialbd.ttf"
+[fonts.'arialbd.ttf']
 size = 64
 generate_blur = true
 
-[[fonts]]
-file_name = "ariblk.ttf"
+[fonts.'ariblk.ttf']
 size = 16
 generate_blur = true
