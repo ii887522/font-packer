@@ -1,4 +1,4 @@
-use super::{AtlasRegionMetrics, Glyph};
+use super::Glyph;
 use serde::Serialize;
 
 #[derive(Clone, Debug, Serialize)]
@@ -14,7 +14,7 @@ pub(crate) struct AtlasRegion {
   pub w: u32,
   pub h: u32,
   pub is_rotated: bool,
-  pub metrics: AtlasRegionMetrics,
+  pub advance: i32,
 }
 
 impl From<Glyph> for AtlasRegion {
@@ -31,7 +31,7 @@ impl From<Glyph> for AtlasRegion {
       w: glyph.size.get_x(),
       h: glyph.size.get_y(),
       is_rotated: glyph.is_rotated,
-      metrics: glyph.metrics.into(),
+      advance: glyph.advance,
     }
   }
 }
